@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@330&family=Roboto:wght@100&display=swap");
 body {
   padding: 0;
-  background-color: #fcfcfc;
+  background-color: white;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-weight: normal;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #02182B;
 }
 
 #menu {
@@ -39,84 +41,152 @@ header {
 }
 
 #menu ul a {
-  color: black;
   text-decoration: none;
+  color: white;
 }
 
 #menu ul a il span {
-  color: #fe5f55;
+  color: #efa70b;
 }
 
 main {
   margin: auto;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 
 main .main-header {
-  height: 70vh;
-}
-
-main .main-header #description-header {
-  font-size: 80px;
-  line-height: 88px;
-  font-weight: 400;
-  margin-top: 100px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   text-align: center;
-}
-
-main .main-header #description-header span {
-  font-size: 45px;
-}
-
-main .main-header #description-content {
-  top: 200px;
-}
-
-main .main-header #description-content p {
-  width: 50em;
-  margin: auto;
-}
-
-main #main-content {
-  -ms-flex-preferred-size: 70%;
-      flex-basis: 70%;
-  margin: auto;
+  line-height: 1.4;
+  background-color: #02182B;
   height: 100vh;
 }
 
-main #main-content #presentation {
+main .main-header span {
+  font-size: 1.2em;
+  color: white;
+}
+
+main .main-header span:hover {
+  color: #e8b340;
+}
+
+main .main-header #description-header {
+  line-height: 70px;
+  font-weight: 400;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+main .main-header #description-header span:first-child {
+  font-size: 70px;
+}
+
+main .main-header #description-header span:first-child:hover {
+  color: #e8b340;
+}
+
+main .main-header #description-header span:nth-child(3) {
+  font-size: 45px;
+}
+
+main .main-header #description-header span:nth-child(3):hover {
+  color: #e8b340;
+}
+
+main .main-header #description-header span:nth-child(5) {
+  font-size: 70px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+}
+
+main .main-header #description-header span:nth-child(5):hover {
+  color: #e8b340;
+}
+
+main #main-content {
   width: 50em;
+  margin: auto;
+  padding-top: 30px;
 }
 
 main .big-title {
-  color: #fe5f55;
+  color: #e8b340;
   font-size: 35px;
   text-align: center;
+  font-weight: bold;
+}
+
+main h2 {
+  color: #084271;
+}
+
+main h3 {
+  font-size: 1.3em;
 }
 
 main p,
-main ul {
+main ul,
+main ol,
+main li {
   font-size: 18px;
   line-height: 1.3;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: auto;
-  padding: 0;
-  width: 500px;
+@font-face {
+  font-family: "arial";
+  src: url("../fonts/arial/ARIAL.woff") format("woff");
+}
+
+.appli {
+  margin-top: 1.7em;
+}
+
+.appli h3 {
+  color: #3f6144;
+}
+
+img {
+  border: 2px solid #bebbbb;
+}
+
+#image-3 {
+  margin: 1.5em;
+  width: 80%;
+}
+
+.code {
+  background-color: #e8e7e7;
+  border-radius: 2px;
+  font-family: monospace;
+  padding: 1em;
+  margin: 1em;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  text-align: center;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 12vh;
+  background-color: #02182B;
+  color: white;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
 }
 
-footer p {
-  font-size: 1.3em;
-  font-weight: bold;
+.fifth-title {
+  color: #084271;
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
