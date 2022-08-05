@@ -24,9 +24,12 @@
                     Les différences entre la formation effectuée a l’université et le stage sont nombreuses. Par exemple, le faite de mener un projet de bout en bout, depuis la formulation des besoins par le client (interne ou externe) jusqu'à la mise en production du produit fini. Effectivement une certaine rigueur est de mise pour bien comprendre les besoins et concevoir un produit répondant réellement à la demande. Il y a aussi beaucoup plus d’autonomie vis à vis du choix des technologies et de la conception de la solution contrairement au projets universitaires ou c’est souvent plus cadré et stricte. Et enfin travailler auprès de développeurs sénior plus expérimentés m’a permis de beaucoup apprendre et d’évoluer en tant que développeuse web.
                 </p>
             </section>
+            <div>
+                <a href="conclusion.php" class="pagination-section"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>
+            </div>
         </div>
     </main>
-    <?php include_once("footer.html")?>
+    <?php include_once("footer.html") ?>
 </body>
 
 </html>

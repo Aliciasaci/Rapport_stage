@@ -53,9 +53,12 @@
                 </p>
                 </p>
             </section>
+            <div>
+                <a href="missions.php" class="pagination-section"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>
+            </div>
         </div>
     </main>
-    <?php include_once("footer.html")?>
+    <?php include_once("footer.html") ?>
 </body>
 
 </html>

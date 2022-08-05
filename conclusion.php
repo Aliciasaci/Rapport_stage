@@ -15,11 +15,14 @@
     <main>
         <div id="main-content">
             <section>
-            <h1 class="big-title">Conclusion</h1>
+                <h1 class="big-title">Conclusion</h1>
             </section>
+            <div>
+                <a href="apport_stage.php" class="pagination-section"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>
+            </div>
         </div>
     </main>
-    <?php include_once("footer.html")?>
+    <?php include_once("footer.html") ?>
 </body>
 
 </html>
