@@ -1,10 +1,11 @@
 body {
   padding: 0;
   background-color: rgb(255, 255, 255);
-  margin: auto;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   font-weight: normal;
+  position: relative;
 }
 
 header {
@@ -12,7 +13,8 @@ header {
   display: flex;
   justify-content: center;
   background-color: #0f0f10;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 #menu {
@@ -70,8 +72,12 @@ main {
         font-size: 70px;
         font-family: "Helvetica", "Arial", sans-serif;
         font-weight: bold;
-        &:hover {
-          color: #fe5f55;
+        a {
+          color: black;
+          &:hover {
+            color: #fe5f55;
+            text-decoration: underline;
+          }
         }
       }
     }
@@ -83,7 +89,7 @@ main {
   }
   .big-title {
     color: #fe5f55;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     font-family: "Superior title", "Times New Roman", sans-serif;
     letter-spacing: 0em;
@@ -99,8 +105,9 @@ main {
   ul,
   ol,
   li {
-    font-size: 16px;
-    line-height: 1.1;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    text-align:justify;
   }
 }
 
@@ -112,7 +119,10 @@ main {
 .appli {
   margin-top: 1.7em;
   h3 {
-    color: #3f6144;
+    margin-bottom: 5px;
+  }
+  p{
+    margin-top: 0;
   }
 }
 
@@ -132,17 +142,18 @@ img {
   margin: 1em;
 }
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  height: 12vh;
+  height: 10vh;
   background-color: #0f0f10;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .fifth-title {
@@ -170,15 +181,45 @@ hr {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: 2em 0 2em 0;
+  margin: 2em 0 8em 0;
   text-decoration: none;
-  color : black;
+  color: black;
   span {
     margin-right: 1em;
     padding-top: 8px;
   }
 }
 
+a {
+  text-decoration: none;
+  color: rgb(32, 114, 191);
+}
+
+.title_link {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.projet-title{
+  // color : #ebce2a;
+}
+
+.middle-title{
+  font-size: 30px;
+    text-align: center;
+    font-family: "Superior title", "Times New Roman", sans-serif;
+    letter-spacing: 0em;
+}
+
+.middle-section{
+  margin-top: 3em;
+}
+
+.third-section{
+  margin-top: 2em;
+}
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@330&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Cormorant+Garamond:wght@600;700&family=Lora:wght@500&family=Old+Standard+TT&family=Poppins&family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans:wght@300&family=Cormorant+Garamond:wght@300;600&family=Lora:wght@500&family=Old+Standard+TT&family=Pacifico&family=Poppins&family=Roboto+Mono:wght@500&family=Roboto:wght@300;400&family=Space+Mono&display=swap");
