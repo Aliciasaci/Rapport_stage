@@ -211,6 +211,7 @@
                             <li>Une liseuse électronique qui diffuse un PDF de façon fluide.</li>
                             <li>Un projet qui fonctionne intégralement en local.</li>
                             <li>Intégration de fonctionnalités telle que le zoom, le partage sur les réseaux sociaux ou encore des liens cliquables.</li>
+                            <li>Amazon S3 pour le stockage des images.</li>
                         </ol>
 
                         <b class="fifth-title">Technologies utilisées</b>
@@ -228,14 +229,16 @@
 
                         <b class="travail-title">Travail effectué</b>
                         <p>Après avoir créé l'environnement local adéquat(Vhost, téléchargement du plugin..), j'ai commencé par adapter le code de la liseuse en intégrant le plugin et en apportant les modifications de design adéquates (exemple : mettre les couleurs de la liseuse aux couleur de la maif)
-                            <br /><br />J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés, exemple, le zoom qui n'était pas suffisant dans certains cas. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer, en utilisant une API, le PDF en images qui étaient ensuite diffusées.
+                            <br /><br />J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés, exemple, le zoom qui n'était pas suffisant dans certains cas. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer en utilisant une API, le PDF en images stockées sur S3, et qui étaient ensuite diffusées.
                             Cela a permis d'avoir un zoom plus efficace. <br /><br />
+                            De là, plusieurs autres modifications ont été apportées, on a fini par avoir le processur représenté ci-dessous :<br />
+                            <br/>
+                            <img width="100%" src="images/liseuse.png" rel="liseuse"><br /><br/>
                             J'ai repris le projet pour intégrer le partage sur les réseaux sociaux, et pour ça j'ai utilisé une librairie JavaScript <b>Sharer.js</b> qui permet de créer des boutons de partage sur les réseaux sociaux, j'ai ensuite intégré les balises meta <b><a href="https://ogp.me">OPEN GRAPH</a></b>.<br /><br />
                             Plusieurs versions ont été livrés avant de se mettre d'accord sur un produit final.
                         </p>
-
                         </p>
-                    </div><br/>
+                    </div>
                     <div class="projet">
                         <h3 class="projet-title"><u>3. SOGEST</u></h3>
                         <p>
@@ -252,8 +255,7 @@
                             Pour automatiser l'envoi des notifications j'ai créé un Cron qui s'exécute à un certain inverval de temps, et qui permet d'envoyer un mail pour toute notification créée dont l'attribut mail = 0 (attribut mail = 0 signifié qu'aucun mail n'a été envoyé pour cette notif). L'outil d'envoi des mails est celui utilisé par notre entreprise, Mail Jt(je peux dire ça ?).
                             <br /><br />
                             Plusieurs tests et améliorations ont été effectués pour perfectionner le système, par exemple, envoyer un seul mail regroupant les notifications cumulées depuis la dernière exécution du Cron. Implémentation des notifications dans d'autres cas d'usage comme les notes de frais, rédaction et signature de contrat pour le service de prod etc.
-                        </p>
-
+                        </p><br />
 
                         <b class="fifth-title">3.2. Visionneuse de PDF</b><br />
                         <p>Suite à la demande de plusieurs employés pour avoir accès aux PDFs des magazines, on a décidé d'enrichir un outil déjà existant qui permet de télécharger les couvertures, logo, et doubles pages des magazines en y ajoutant une visionneuse de PDFS avec possibilité de téléchargement.
@@ -270,7 +272,7 @@
                         <img width="100%;" src="images/liseuse_sogest.png" rel="schema_liseuse" />
 
 
-                    </div><br/>
+                    </div><br />
                     <div class="projet">
                         <h3 class="projet-title"><u>5. SOGOOD Landing page</u></h3>
                         <p>
