@@ -249,7 +249,7 @@
                             J'ai commencé par créer une table "notifications" dans la base de données. Ainsi qu'une classe "Notif" dans le code de sogest, contenant les fonctions nécéssaire à la création, récupération et modifications des données.
                             J'ai ensuite adapté le front-end pour implémenter la fonctionnalité.<br /><br />
 
-                            Pour automatiser l'envoi des notifications j'ai créé un Cron qui s'exécute à chaque minute(à revoir), et qui permet d'envoyer un mail pour toute notification créée dont l'attribut mail = 0 (attribut mail = 0 signifié qu'aucun mail n'a été envoyé pour cette notif). L'outil d'envoi des mails est celui utilisé par notre entreprise, Mail Jt(je peux dire ça ?).
+                            Pour automatiser l'envoi des notifications j'ai créé un Cron qui s'exécute à un certain inverval de temps, et qui permet d'envoyer un mail pour toute notification créée dont l'attribut mail = 0 (attribut mail = 0 signifié qu'aucun mail n'a été envoyé pour cette notif). L'outil d'envoi des mails est celui utilisé par notre entreprise, Mail Jt(je peux dire ça ?).
                             <br /><br />
                             Plusieurs tests et améliorations ont été effectués pour perfectionner le système, par exemple, envoyer un seul mail regroupant les notifications cumulées depuis la dernière exécution du Cron. Implémentation des notifications dans d'autres cas d'usage comme les notes de frais, rédaction et signature de contrat pour le service de prod etc.
                         </p>
