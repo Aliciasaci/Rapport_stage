@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include_once("header.html") ?>
+    <?php include_once("header.php") ?>
     <main>
         <section class="main-header">
             
@@ -52,7 +52,7 @@
             </div>
         </div>
     </main>
-    <?php include_once("footer.html")?>
+    <?php include_once("footer.php")?>
 </body>
 
 </html>

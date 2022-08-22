@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include_once("header.html") ?>
+    <?php include_once("header.php") ?>
     <main>
         <div id="main-content">
             <section>
@@ -47,7 +47,7 @@
                     <h1 class="middle-title">3.2 L'existant</h1>
                     <section class="third-section">
                         <h2>3.2.1. Sites internes</h2>
-                        <p>Les schémas suivants illustrent les différentes applis web qui utilisent l’API SOGEST, ainsi que l'architecture client/API/Serveur/Base de données.<br /><br /> La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com). 
+                        <p>Les schémas suivants illustrent les différentes applis web qui utilisent l’API SOGEST, ainsi que l'architecture client/API/Serveur/Base de données.<br /><br /> La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com).
                         </p>
                         <img src="images/schema_1.png">
                         <img id="image-2" src="images/schema_2.png">
@@ -71,7 +71,7 @@
                                 <li>Suivi des activitées de presse</li>
                             </ul>
                             <p>Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
-                                <b>Technologies employées :</b> <a href="https://www.php.net/">PHP 7</a>, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://getbootstrap.com">Bootstrap</a> et <a href="https://www.w3.org/Style/CSS/#specs">CSS</a> personnalisé pour le front-end.
+                                <b>Technologies employées :</b> PHP 7, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://getbootstrap.com">Bootstrap</a> et <a href="https://www.w3.org/Style/CSS/#specs">CSS</a> personnalisé pour le front-end.
                             </p>
                         </div>
                         <div class="appli">
@@ -83,7 +83,7 @@
                         <div class="appli">
                             <h3>3.2.1.4. Absences :</h3>
                             <p>outil de gestions des congès. Les employés peuvent poser leurs congés à travers le site ainsi que consulter le calendrier des membres de leurs équipes.<br />
-                                <b>Technologies employées :</b> <a href="https://v2.vuejs.org/">Vue 2</a>, <a href="https://bulma.io/">Bulma</a> pour le front, et utilise l'API SOGEST.
+                                <b>Technologies employées :</b> Vue 2, Bulma pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
@@ -96,18 +96,18 @@
                         <h2>3.2.2. Sites publiques</h2>
                         <div class="appli">
                             <h3>3.2.2.1. <a class="title_link" href="https://www.sofoot.com">sofoot.com</a>:</h3>
-                            <p>est un site traitant de l'actualité autour du football dans le monde, il représente l’une des activités principales de SOPRESS. Conçu et développé par Gilles FRANCOIS, le site est codé en <a href="https://www.php.net/">PHP 7</a>, JavaScript, HTML et <a href="https://sass-lang.com/">SASS</a> compilé avec
+                            <p>est un site traitant de l'actualité autour du football dans le monde, il représente l’une des activités principales de SOPRESS. Conçu et développé par Gilles FRANCOIS, le site est codé en PHP 7, JavaScript, HTML et <a href="https://sass-lang.com/">SASS</a> compilé avec
                                 Grunt (outil qui permet d’automatiser des tâches répétitives telles que la génération d’un fichier CSS minifié à partir d’un fichier SASS).<br /><br />
                                 Les commentaires et autres réactions du site proviennent d'un module séparé qui est une application vue 2, alimentée par l'API "Reactions" qui est codée en Php et Javascript.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.2. <a class="title_link" href="https://www.society-magazine.fr">Society-magazine</a>:</h3>
-                            <p>est le sommaire digital au magazine "Society". Conçu avec <a href="https://wordpress.com/fr/">Wordpress</a>, c’est l’un des sites qui utilise le SSO pour l’authentification au back-office.</p>
+                            <p>est le sommaire digital au magazine "Society". Conçu avec Wordpress, c’est l’un des sites qui utilise le SSO pour l’authentification au back-office.</p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.3. <a class="title_link" href="https://www.allso.tv/">Allso</a>, <a class="title_link" href="https://www.sovage.tv/">Sovage</a> :</h3>
-                            <p>les deux sites exposent le travail de production audiovisuelle de SOPRESS, Ils sont tous les deux conçu avec <a href="https://wordpress.com/fr/">Wordpress</a>.</p>
+                            <p>les deux sites exposent le travail de production audiovisuelle de SOPRESS, Ils sont tous les deux conçu avec Wordpress.</p>
                         </div>
                     </section>
                 </section>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="projet">
                         <h3><u>Installation d'un annuaire AD/LDAP(Lightweight Directory Access Protocol)</u></h3>
-                        <p>L'une des missions les plus intéressantes que j'ai pu faire a été d'installer et de gérer un annuaire LDAP. le but étant de mettre en place une authentification SSO pour l'un de nos outils de communication/tchat, Mattermost. Il suffirait ensuite d'avoir un compte SOGEST et de s'y connecter pour accéder à son instance Mattermost.<br /><br />
+                        <p>L'une des missions les plus intéressantes que j'ai pu faire a été d'installer et de gérer un annuaire LDAP. le but étant de mettre en place une <a href="https://www.okta.com/fr/blog/2021/02/single-sign-on-sso/">authentification SSO</a> pour l'un de nos outils de communication, Mattermost. Il suffirait ensuite d'avoir un compte SOGEST et de s'y connecter pour accéder à son instance Mattermost.<br /><br />
 
                             <b>Comment ça marche ?</b><br />
                             Un annuaire est une base de données relationnelle qui va contenir des informations sur des personnes, des groupes, machines etc. Ils sont couramment employés pour stocker des données d’authentification, des données d'utilisateurs (mots de passe, username, e-mail, téléphone, etc.) ou d'objets (localisation, marque, modèle, etc.). D'autres applications(exemple : Mattermost) peuvent utiliser ce service pour valider les identifiants de connexion.<br /><br />
@@ -145,10 +145,10 @@
                             <li>L'annuaire peut être interrogé par toute application compatible LDAP ayant besoin d'utiliser les informations (Mattermost dans notre cas)</li>
                         </ul>
 
-                        <b class="fifth-title">Travail effectué</b>
+                        <b class="travail-title">Travail effectué</b>
                         <ol>
                             <li><b>installer et configurer OpenLDAP et phpLDAP sur une machine Ubuntu :</b><br /><br />
-                                <b class="fifth-title">1.1 OpenLDAP : </b><br />
+                                <b>1.1 OpenLDAP : </b><br />
                                 Avant de me confier la tâche, mon tuteur a commencé par créer une machine virtuelle avec une instance <a href="https://www.ubuntu-fr.org/">ubuntu</a> qu'il a hébérgé sur un serveur. Il m'a ensuite donné les accès et de là, j'ai pris la relève.
                                 <br />J'ai commencé par installer un serveur <a href="https://httpd.apache.org/">Apache</a>, <a href="https://doc.ubuntu-fr.org/mysql">MySQL</a> et php sur ma machine. J'ai ensuite sécurisé mon serveur apache avec un certificat SSL. Il est important de le sécuriser puisque je vais travailler avec des données sensibles dans la suite.<br /><br />
                                 J'ai ensuite installé le serveur LDAP en installant quelques packages avec les commandes suivantes :<br />
@@ -166,7 +166,7 @@
                                 </p>
                                 Le résultat attendu est "anonymous".<br /><br />
 
-                                <b class="fifth-title">1.2 phpLDAP : </b><br />
+                                <b>1.2 phpLDAP : </b><br />
                                 La deuxième étape a été d'installer <a href="http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page">phpLDAPadmin</a> pour gérer les données sur une interface graphique.<br />
                                 Les commandes :
                                 <p class="code">
@@ -176,28 +176,28 @@
 
                                 Une fois l'installation faite, j'ai adapté le fichier de configuration pour utiliser notre nom de domaine en renseignant les informations de notre serveur LDAP.<br /><br />
 
-                                <b class="fifth-title">1.3 Connexion au phpLDAPadmin</b><br /><br />
+                                <b>1.3 Connexion au phpLDAPadmin</b><br /><br />
 
                                 En allant sur "https://notre.domaine.com/phpldapadmin", et en saisissant les coordonnée d'authentification adéquat, j'ai pu me connecter à l'annuaire.<br />
-                            </li><br /><br />
+                            </li><br />
+                            <b>Tuto complet ici :</b><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-ubuntu-16-04"> Installer et configurer un serveur LDAP.</a>
+                            <br /><br />
                             <li><b>importer les données depuis SOGEST: </b><br /><br />
                                 Après installation et configuration du serveur LDAP, j'ai créé une classe "Ldap" contenant les fonctions nécessaires à la récupération des données depuis la base de données sogest et à l'export de celle-ci vers l'annuaire.<br />
                                 J'ai ensuite créé un one shot(programme lancé une seule fois) dans lequel les fonctions sont appelées.<br />
-                                À  chaque utilisateur récupéré depuis SOGEST, une instance "user" est créée dans l'annuaire puis rempli avec les informations de la personne.
+                                À chaque utilisateur récupéré depuis SOGEST, une instance "user" est créée dans l'annuaire puis rempli avec les informations de la personne.
                                 Ainsi, j'ai pu importer toutes les données utilisateur dans notre annuaire AD/LDAP<br /><br />
 
                             </li>
                             <li><b>automatisation de l'import/export des données</b><br /><br />
-                                Une fois nos données importées, il a fallu automatiser le processus, puisque à la moindre modification d'information par un utilisateur, il aura fallu que ses informations soient mise à jour dans l'annuaire également. l'idée était d'exécuter le script d'import/export depuis un <b><a href="https://fr.wikipedia.org/wiki/Cron">cron</a></b> qui s'exécuterait à chaque fois qu'un utilisateur modifie ses informations.<br /><br />
+                                Une fois nos données importées, il a fallu automatiser le processus, puisqu'à la moindre modification d'information par un utilisateur, il aura fallu que ses informations soient mise à jour dans l'annuaire également. l'idée était d'exécuter le script d'import/export depuis un <b><a href="https://fr.wikipedia.org/wiki/Cron">cron</a></b> qui s'exécuterait à chaque fois qu'un utilisateur modifie ses informations.<br /><br />
                                 <b>Cron : </b>un cron est un programme qui permet aux utilisateurs des systèmes Unix d’exécuter automatiquement des scripts, des commandes ou des logiciels à une date et une heure spécifiée à l’avance, ou selon un cycle défini à l’avance.[Wikipédia]
                             </li><br />
                             <li><b>La suite du projet</b><br /><br />
-                                a écrire plus tard.. besoin de validation auprès de gilles.
+                                L'implémentation de cette technologie à Mattermost étant devenue payante, il n'est plus intérésssant pour nous d'y avoir recours. Cependant, celle-ci sera toujours utile pour d'éventuelles futures utilisations.
                             </li>
                         </ol>
                         <br />
-
-
                         </p>
                     </div>
                     <div class="projet">
@@ -215,21 +215,20 @@
 
                         <b class="fifth-title">Technologies utilisées</b>
                         <ul>
-                            <li><a href="https://fr.wikipedia.org/wiki/Plugin">plugin</a> <a href="https://codecanyon.net/item/newspaper-flipbook-jquery/13953512">Jquery flipbook</a> : un plugin qui permet de streamer un pdf en utilisant la librairie PDF.js.</li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Plugin">plugin</a> <a href="https://codecanyon.net/item/newspaper-flipbook-jquery/13953512">Jquery flipbook</a> : un plugin qui permet de diffuser un pdf en utilisant la librairie PDF.js.</li>
                             <li>PHP 8, HTML5, CSS3, JQuery.</li>
                             <li><a href="https://ellisonleao.github.io/sharer.js/">Sharer.js</a> : librairie JavaScript qui permet de créer des boutons de partage sur les réseaux sociaux.</li>
-                            <li>Amazon S3 pour le stockage d'image.</li>
                         </ul>
                         <b class="fifth-title">Avantage à utiliser un plugin </b>
                         <ol>
-                            <li>Simplement implémenter les fonctionnalités dont on a besoin sans avoir recours à d'autre librairies  ou de les coder nous-mêmes.</li>
+                            <li>Simplement implémenter les fonctionnalités dont on a besoin sans avoir recours à d'autre librairies ou de les coder nous-mêmes.</li>
                             <li>Le pluging est responsif.</li>
                             <li>Le plugin implémente des fonctionnalités tel que le zoom, le chargement paresseux, Intégration de lien et bien d'autres.</li>
                         </ol>
 
-                        <b class="fifth-title">Travail effectué</b>
+                        <b class="travail-title">Travail effectué</b>
                         <p>Après avoir créé l'environnement local adéquat(Vhost, téléchargement du plugin..), j'ai commencé par adapter le code de la liseuse en intégrant le plugin et en apportant les modifications de design adéquates (exemple : mettre les couleurs de la liseuse aux couleur de la maif)
-                            <br /><br />J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés, exemple, le zoom qui n'était pas suffisant dans certains cas. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer le PDF en image qui étaient ensuite streamées.
+                            <br /><br />J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés, exemple, le zoom qui n'était pas suffisant dans certains cas. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer, en utilisant une API, le PDF en images qui étaient ensuite diffusées.
                             Cela a permis d'avoir un zoom plus efficace. <br /><br />
                             J'ai repris le projet pour intégrer le partage sur les réseaux sociaux, et pour ça j'ai utilisé une librairie JavaScript <b>Sharer.js</b> qui permet de créer des boutons de partage sur les réseaux sociaux, j'ai ensuite intégré les balises meta <b><a href="https://ogp.me">OPEN GRAPH</a></b>.<br /><br />
                             Plusieurs versions ont été livrés avant de se mettre d'accord sur un produit final.
@@ -245,14 +244,14 @@
                             Une des demandes du service de comptabilité a été de mettre en place un système de notifications afin que les employées puissent recevoir des notifications ainsi que des mails lorsque de nouveaux documents (exemple : fiches de paie) sont disponibles sur leur compte personnel.
                             Il fallait donc implémenter la fonctionnalité tout en envisageant de futures utilisations.<br /><br />
 
-                            <b class="fifth-title">Travail effectué</b><br />
+                            <b class="travail-title">Travail effectué</b><br />
 
                             J'ai commencé par créer une table "notifications" dans la base de données. Ainsi qu'une classe "Notif" dans le code de sogest, contenant les fonctions nécéssaire à la création, récupération et modifications des données.
                             J'ai ensuite adapté le front-end pour implémenter la fonctionnalité.<br /><br />
 
                             Pour automatiser l'envoi des notifications j'ai créé un Cron qui s'exécute à chaque minute(à revoir), et qui permet d'envoyer un mail pour toute notification créée dont l'attribut mail = 0 (attribut mail = 0 signifié qu'aucun mail n'a été envoyé pour cette notif). L'outil d'envoi des mails est celui utilisé par notre entreprise, Mail Jt(je peux dire ça ?).
                             <br /><br />
-                            Plusieurs tests et améliorations ont été effectués pour perfectionner le système, par exemple, envoyer un seul mail regroupant les notifications cumulées depuis la dernière exécution du Cron. Implémentation des notifications dans d'autres cas d'usage comme les notes de frais, rédaction et signature de contrat pour le service de prod etc. 
+                            Plusieurs tests et améliorations ont été effectués pour perfectionner le système, par exemple, envoyer un seul mail regroupant les notifications cumulées depuis la dernière exécution du Cron. Implémentation des notifications dans d'autres cas d'usage comme les notes de frais, rédaction et signature de contrat pour le service de prod etc.
                         </p>
 
 
@@ -260,8 +259,8 @@
                         <p>Suite à la demande de plusieurs employés pour avoir accès aux PDFs des magazines, on a décidé d'enrichir un outil déjà existant qui permet de télécharger les couvertures, logo, et doubles pages des magazines en y ajoutant une visionneuse de PDFS avec possibilité de téléchargement.
                             L'idée étant de réutiliser la liseuse crée pour la MAIF et de l'adapter à nos besoins.<br /><br />
 
-                            <b class="fifth-title">Travail effectué</b><br />
-                            J'ai commencé par adapter le code de la visionneuse/liseuse à nos besoins en minimisant le nombre de fonctionnalités et en utilisant le stream de PDF fourni par le plugin au lieu du stream d'images.
+                            <b class="travail-title">Travail effectué</b><br />
+                            J'ai commencé par adapter le code de la visionneuse/liseuse à nos besoins en minimisant le nombre de fonctionnalités et en utilisant la diffusion de PDF fourni par le plugin.
                             J'ai ensuite implémenté côté client, un bouton avec accès à la visionneuse dans SOGEST ce qui me permet de récupérer les informations de l'activité depuis la base de données. Ainsi j'ai construit l'URL de récupération du PDF depuis le serveur.<br /><br />
                             L'accès à la visionneuse est protégé derrière une authentification à SOGEST, je vérifie bien que le user est connecté et qu'il a un statut lui permettant d'y accéder.<br /><br />
                             Pour ce qui est du téléchargement, afin de protéger l'URL d'accès au serveur, j'ai fait une redirection vers un fichier php qui permet de lire le PDF et de le redériger vers le buffer de sortie en utilisant la fonction <a href="https://www.php.net/manual/fr/function.readfile.php">readfile</a> de php.<br />
@@ -282,16 +281,16 @@
                             La demande incluait aussi de faire varier le logo ainsi que le texte la landing page selon les différents partenaires du magazine.
 
 
-                            <br /><br /><b class="fifth-title">Travail effectué</b><br />
+                            <br /><br /><b class="travail-title">Travail effectué</b><br />
                             Après avoir reçu la maquette ainsi que les fichiers (logo, images et texte) de chaque partenaire. J'ai commencé par reproduire le visuel de la page avec du SASS/CSS3 et du HTML5. J'ai ensuite créé un fichier de configuration dans lequel j'ai listé dans un tableau, l'ensemble des partenaires avec leurs textes, logo ainsi qu'un slug qui sera renseigné en paramètre d'URL pour chacun.
                             Il a ensuite suffi de récupérer le slug du partenaire depuis L'URL par laquelle le client est arrivé pour faire varier le visuel de la page selon les partenaires.
 
                             <br /><br />Pour la partie dynamique, il a fallut écrire un script php permettant de récupérer les adresses mails des utilisateurs et en utilisant <a href="https://supabase.com">supabase</a>, les stocker en base de données.
-                            <br/><br/>Supabase est un ensemble de services d'hébergement open source qui inclue une base de données PostgreSQL, l'authentification, le stockage de fichiers et l'API générée automatiquement.
+                            <br /><br />Supabase est un ensemble de services d'hébergement open source qui inclue une base de données PostgreSQL, l'authentification, le stockage de fichiers et l'API générée automatiquement.
 
-                            
-                            <br /><br />Plusieurs versions et points de validation ont été organisés entre notre équipe et le représentant de l'équipe SOGOOD pour apporter des modifications et améliorations en cours de développement. 
-                            </p>
+
+                            <br /><br />Plusieurs versions et points de validation ont été organisés entre notre équipe et le représentant de l'équipe SOGOOD pour apporter des modifications et améliorations en cours de développement.
+                        </p>
 
                     </div>
                 </section>
@@ -300,7 +299,7 @@
                 </div>
         </div>
     </main>
-    <?php include_once("footer.html") ?>
+    <?php include_once("footer.php") ?>
 </body>
 
 </html>

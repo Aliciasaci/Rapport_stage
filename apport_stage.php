@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include_once("header.html") ?>
+    <?php include_once("header.php") ?>
     <main>
         <div id="main-content">
             <section id="formation">
@@ -25,11 +25,11 @@
                 </p>
             </section>
             <div>
-                <a href="conclusion.php" class="pagination-section"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>
+                <a href="annexes.php" class="pagination-section"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>
             </div>
         </div>
     </main>
-    <?php include_once("footer.html") ?>
+    <?php include_once("footer.php") ?>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include_once("header.html") ?>
+    <?php include_once("header.php") ?>
     <main>
         <div id="main-content">
             <section>
@@ -58,7 +58,7 @@
             </div>
         </div>
     </main>
-    <?php include_once("footer.html") ?>
+    <?php include_once("footer.php") ?>
 </body>
 
 </html>

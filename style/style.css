@@ -134,13 +134,14 @@ main h2 {
 }
 
 main h3 {
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
 main p,
 main ul,
 main ol,
-main li {
+main li,
+main b {
   font-size: 1.1em;
   line-height: 1.2em;
   text-align: justify;
@@ -163,6 +164,11 @@ main li {
   margin-top: 0;
 }
 
+.appli .title_link {
+  text-decoration: none;
+  color: black;
+}
+
 img {
   border: 2px solid #bebbbb;
 }
@@ -181,7 +187,7 @@ img {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 10vh;
@@ -202,8 +208,8 @@ footer {
 }
 
 .fifth-title {
-  color: #0f0f10;
-  font-size: 18px;
+  color: #100f0f;
+  font-size: 1.2em;
 }
 
 hr {
@@ -234,6 +240,9 @@ hr {
   margin: 2em 0 8em 0;
   text-decoration: none;
   color: black;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .pagination-section span {
@@ -267,5 +276,11 @@ a {
 
 .third-section {
   margin-top: 2em;
+}
+
+.travail-title {
+  color: #ec6f21;
+  font-size: 1.2em;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
