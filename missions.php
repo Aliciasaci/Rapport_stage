@@ -235,7 +235,7 @@
                         </p>
 
                         </p>
-                    </div>
+                    </div><br/>
                     <div class="projet">
                         <h3 class="projet-title"><u>3. SOGEST</u></h3>
                         <p>
@@ -270,7 +270,7 @@
                         <img width="100%;" src="images/liseuse_sogest.png" rel="schema_liseuse" />
 
 
-                    </div>
+                    </div><br/>
                     <div class="projet">
                         <h3 class="projet-title"><u>5. SOGOOD Landing page</u></h3>
                         <p>
