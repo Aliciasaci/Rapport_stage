@@ -228,13 +228,18 @@
                         </ol>
 
                         <b class="travail-title">Travail effectué</b>
-                        <p>Après avoir créé l'environnement local adéquat(Vhost, téléchargement du plugin..), j'ai commencé par adapter le code de la liseuse en intégrant le plugin et en apportant les modifications de design adéquates (exemple : mettre les couleurs de la liseuse aux couleur de la maif)
-                            <br /><br />J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés, exemple, le zoom qui n'était pas suffisant dans certains cas. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer en utilisant une API, le PDF en images stockées sur S3, et qui étaient ensuite diffusées.
+                        <p>Après avoir créé l'environnement local adéquat(Vhost, téléchargement du plugin..), j'ai commencé par adapter le code de la liseuse en intégrant le plugin et en apportant les modifications de design adéquates comme mettre les couleurs de la liseuse aux couleur de la maif.
+                            <br /><br />J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés comme le zoom qui n'était pas suffisant dans certains cas. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer en utilisant une API, le PDF en images stockées sur S3, et qui étaient ensuite diffusées.
                             Cela a permis d'avoir un zoom plus efficace. <br /><br />
                             De là, plusieurs autres modifications ont été apportées, on a fini par avoir le processur représenté ci-dessous :<br />
-                            <br/>
-                            <img width="100%" src="images/liseuse.png" rel="liseuse"><br /><br/>
-                            J'ai repris le projet pour intégrer le partage sur les réseaux sociaux, et pour ça j'ai utilisé une librairie JavaScript <b>Sharer.js</b> qui permet de créer des boutons de partage sur les réseaux sociaux, j'ai ensuite intégré les balises meta <b><a href="https://ogp.me">OPEN GRAPH</a></b>.<br /><br />
+                            <br />
+                            <img width="100%" src="images/liseuse.png" rel="liseuse"><br /><br />
+                            En lançant le script "generer.php", la fonction de génération d'image est exécutée, celle-ci fait un appel API vers 'Pdf-to-image' en lui passant les paramètres adéquats dont l'url du PDF. L'API permet d'extraire des pages depuis un PDF en format image, elle retourne ensuite l'url de l'image générée, hébergée sur s3. Dans le cas où on extrait toutes les pages, l'API retourne une donnée JSON.
+                            <br /><br />
+                            Une fois le fichier Json contenant l'ensemble des urls des images retourné, une boucle sur ce fichier est exécutée dans "model.php", et en utilisant la fonctionnalité du plugin, diffuse les images.
+                            Le rendu du fichier "model.php" et ensuite récupéré dans "generer.php" pour l'injecter dans le buffer de sortie et générer le fichier statique "index.html".
+                            <br /><br />
+                            J'ai ensuite intégré le partage sur les réseaux sociaux, et pour ça j'ai utilisé une librairie JavaScript <b>Sharer.js</b> qui permet de créer des boutons de partage sur les réseaux sociaux, j'ai ensuite intégré les balises meta <b><a href="https://ogp.me">OPEN GRAPH</a></b>.<br /><br />
                             Plusieurs versions ont été livrés avant de se mettre d'accord sur un produit final.
                         </p>
                         </p>
@@ -244,7 +249,7 @@
                         <p>
                             Plusieurs de mes missions ont été des améliorations et modifications apportées au système de gestion SOGEST. Parmi celle-ci : <br /><br />
                             <b class="fifth-title">3.1 Un système de notifications:</b><br />
-                            Une des demandes du service de comptabilité a été de mettre en place un système de notifications afin que les employées puissent recevoir des notifications ainsi que des mails lorsque de nouveaux documents (exemple : fiches de paie) sont disponibles sur leur compte personnel.
+                            Une des demandes du service de comptabilité a été de mettre en place un système de notifications afin que les employées puissent recevoir des notifications ainsi que des mails lorsque de nouveaux documents (fiches de paie et autres) sont disponibles sur leur compte personnel.
                             Il fallait donc implémenter la fonctionnalité tout en envisageant de futures utilisations.<br /><br />
 
                             <b class="travail-title">Travail effectué</b><br />
