@@ -52,19 +52,24 @@
                 <section class="middle-section">
                     <h1 class="middle-title">3.2 L'existant</h1>
                     <section class="third-section">
-                        <h2>3.2.1. Sites internes</h2>
+                        <h2>3.2.1. Environnement technologique</h2>
+                        <p>L'environnement technologique était déjà bien établie à mon arrivé, ayant principalemennt travaillé sur des projets existants, je n'ai pas eu de choix à faire quant aux technologies à utiliser. Cependant, pour les projets entamés après mon arrivée, la décision a été collectivement prise afin de garder une certaine cohérence par apports à l'éxistant ainsi qu'aux préférences de chacun puisque ces projets sont susceptibles d'évoluer et d'être reprit par les autres membres de l'équipe.</p>
+
+                    </section>
+                    <section class="third-section">
+                        <h2>3.2.2. Sites internes</h2>
                         <p>Les schémas suivants illustrent les différentes applis web qui utilisent <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api#:~:text=Une%20API%20(application%20programming%20interface,des%20données%20et%20des%20fonctionnalités."> l’API</a> SOGEST, ainsi que l'architecture clients, API, Serveur, base de données.<br /><br /> La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com).
                         </p>
                         <img src="images/schema_1.png">
                         <img id="image-2" src="images/schema_2.png" width="100%">
                         <div class="appli">
-                            <h3>3.2.1.1. API SOGEST :</h3>
-                            <p>est une API exposée par l’outil “SOGEST” et offre des services aux autres applis web représentées dans le schéma.<br /> Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
+                            <h3>3.2.2.1. API SOGEST :</h3>
+                            <p>est une API exposée par l’outil “SOGEST” et offre des services aux autres applis web représentées dans le schéma. Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
                                 <b>Technologies employées :</b> L'API est entièrement codé en <a href="https://www.php.net/">PHP 7</a> et utilise une base de données <a href="https://mariadb.org">MariaDB</a>.<br />
                             </p>
                         </div>
                         <div class="appli">
-                            <h3>3.2.1.2. SOGEST : </h3>
+                            <h3>3.2.2.2. SOGEST : </h3>
                             <p>le système de gestion interne du groupe SO PRESS. Imaginé et conçu par Gilles FRANCOIS, le CTO. C'est à présent l'outil indispensable à l'entreprise puisque la majorité de la gestion du personnel et des activitées relatives à la presse
                                 passe par celui-ci.<br /><br /> Chaque employé (permanents, pigistes ou autres) y possède un compte lui permettant de gérer ses activitées. Ils ont par exemple, accès à leurs fiches de paie à travers leurs espaces personnels. Ils peuvent
                                 également, en fonction de leurs droits, remplir et soumettre des notes de frais aux services adéquats ou encore poser leurs congès en utilisant l'outil "absences".<br /><br /> D'autres employés avec des droits d'administration ou
@@ -74,51 +79,47 @@
                                 <li>Renseigner des fiches de paies et autres documents.</li>
                                 <li>Génération de contrats.</li>
                                 <li>Envoi de la version digital des magazines aux différents distributeurs.</li>
-                                <li>Suivi des activitées de presse</li>
+                                <li>Suivi des activitées de presse et plus.</li>
                             </ul>
                             <p>Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
                                 <b>Technologies employées :</b> PHP 7, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://getbootstrap.com">Bootstrap</a> et <a href="https://www.w3.org/Style/CSS/#specs">CSS</a> personnalisé pour le front-end.
                             </p>
                         </div>
                         <div class="appli">
-                            <h3>3.2.1.3. The Office : </h3>
-                            <p>outil de gestion des bureaux de SOPRES. Il est principalement utilisé pour réserver les différentes salles (réunions, montages, casting..).<br />
-                                <b>Technologies employées :</b> <a href="https://v2.vuejs.org/">Vue 2</a>, <a href="https://bulma.io/">Bulma</a> pour le front, et utilise API SOGEST.
+                            <h3>3.2.2.3. The Office : </h3>
+                            <p>outil de gestion des bureaux SOPRESS. Il est principalement utilisé pour réserver les différentes salles (réunions, montages, casting..).<br />
+                                <b>Technologies employées :</b> <a href="https://v2.vuejs.org/">Vue 2</a>, <a href="https://bulma.io/">Bulma</a> pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
-                            <h3>3.2.1.4. Absences :</h3>
+                            <h3>3.2.2.4. Absences :</h3>
                             <p>outil de gestions des congès. Les employés peuvent poser leurs congés à travers le site ainsi que consulter le calendrier des membres de leurs équipes.<br />
                                 <b>Technologies employées :</b> Vue 2, Bulma pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
-                            <h3>3.2.1.5. SSO (Single sign on)</h3>
+                            <h3>3.2.2.5. SSO (Single sign on)</h3>
                             <p>est un service d'authentification qui permet de se connecter dans n'importe quelle instance <a href="https://wordpress.com/fr/">Wordpress</a> en utilisant son compte SOGEST. Cette manière de faire simplifie considérablement la connexion aux multiples sites existants, puisqu'il
                                 suffit de retenir un seul mot de passe au lieu de plusieurs.<br /></p>
                         </div>
                     </section>
                     <section class="third-section">
-                        <h2>3.2.2. Sites publiques</h2>
+                        <h2>3.2.3. Sites publiques</h2>
                         <div class="appli">
-                            <h3>3.2.2.1. <a class="title_link" href="https://www.sofoot.com">sofoot.com</a>:</h3>
+                            <h3>3.2.3.1. <a class="title_link" href="https://www.sofoot.com">sofoot.com</a>:</h3>
                             <p>est un site traitant de l'actualité autour du football dans le monde, il représente l’une des activités principales de SOPRESS. Conçu et développé par Gilles FRANCOIS, le site est codé en PHP 7, JavaScript, HTML et <a href="https://sass-lang.com/">SASS</a> compilé avec
                                 Grunt (outil qui permet d’automatiser des tâches répétitives telles que la génération d’un fichier CSS minifié à partir d’un fichier SASS).<br /><br />
                                 Les commentaires et autres réactions du site proviennent d'un module séparé qui est une application vue 2, alimentée par l'API "Reactions" qui est codée en Php et Javascript.
                             </p>
                         </div>
                         <div class="appli">
-                            <h3>3.2.2.2. <a class="title_link" href="https://www.society-magazine.fr">Society-magazine</a>:</h3>
+                            <h3>3.2.3.2. <a class="title_link" href="https://www.society-magazine.fr">Society-magazine</a>:</h3>
                             <p>est le sommaire digital au magazine "Society". Conçu avec Wordpress, c’est l’un des sites qui utilise le SSO pour l’authentification au back-office.</p>
                         </div>
                         <div class="appli">
-                            <h3>3.2.2.3. <a class="title_link" href="https://www.allso.tv/">Allso</a>, <a class="title_link" href="https://www.sovage.tv/">Sovage</a> :</h3>
+                            <h3>3.2.3.3. <a class="title_link" href="https://www.allso.tv/">Allso</a>, <a class="title_link" href="https://www.sovage.tv/">Sovage</a> :</h3>
                             <p>les deux sites exposent le travail de production audiovisuelle de SOPRESS, Ils sont tous les deux conçu avec Wordpress.</p>
                         </div>
-                    </section>
-                    <section class="third-section">
-                        <h2>Environnement technologique</h2>
-
                     </section>
                 </section>
                 <section class="middle-section">
@@ -139,20 +140,25 @@
                     </div>
                     <div class="projet">
                         <h3><u>2. Installation d'un annuaire AD/LDAP(Lightweight Directory Access Protocol)</u></h3>
-                        <p>L'une des missions les plus intéressantes que j'ai pu faire a été d'installer et de gérer un annuaire LDAP. le but étant de mettre en place une <a href="https://www.okta.com/fr/blog/2021/02/single-sign-on-sso/">authentification SSO</a> pour l'un de nos outils de communication, Mattermost. Il suffirait ensuite d'avoir un compte SOGEST et de s'y connecter pour accéder à son instance Mattermost.<br /><br />
+                        <p>L'une des missions les plus intéressantes que j'ai pu faire a été d'installer et de gérer un <a href="https://www.ionos.fr/digitalguide/serveur/know-how/ldap/">annuaire LDAP</a>. le but étant de mettre en place une <a href="https://www.okta.com/fr/blog/2021/02/single-sign-on-sso/">authentification SSO</a> pour l'un de nos outils de communication, <a href="https://mattermost.com">Mattermost</a>. Il suffirait ensuite d'avoir un compte SOGEST et de s'y connecter pour accéder à son instance Mattermost.<br /><br />
 
-                            <b>Comment ça marche ?</b><br />
-                            Un annuaire est une base de données relationnelle qui va contenir des informations sur des personnes, des groupes, machines etc. Ils sont couramment employés pour stocker des données d’authentification, des données d'utilisateurs (mots de passe, username, e-mail, téléphone, etc.) ou d'objets (localisation, marque, modèle, etc.). D'autres applications(exemple : Mattermost) peuvent utiliser ce service pour valider les identifiants de connexion.<br /><br />
+                            Avant de pouvoir configurer le serveur LDAP et de créer l'annuaire, il est important de comprendre la technologie derrière et l'intérêt de l'utiliser dans notre cas.<br /><br />
+                            <b>Définition du protocol LDAP «Lightweight Directory Access Protocol» :</b><br />
+                            Ce protocole est un <a href="https://fr.wikipedia.org/wiki/Protocole_réseau">protocole réseau</a> permettant d'avoir accès aux services d’annuaires distribués et centralisés ainsi que de les modifier. LDAP est la version légère du protocole DAP, qui s'avère être trop complexe pour la gestion d'annuaires volumineux. Les annuaires de ce genre sont généralement utilisés par les entreprise à grande quantités de données afin de faire des accès plus rapides. Dans ce contexte on parle de serveur LDAP.
+                            <br /><br /><b>Définition d'un annuaire LDAP</b><br />
+                            Un annuaire LDAP est une <ax href="https://fr.wikipedia.org/wiki/Base_de_données_relationnelle">base de données relationnelle</ax> qui va contenir des informations sur des personnes, des groupes, machines etc. Ils sont couramment employés pour stocker des données d’authentification, des données d'utilisateurs (mot de passe, pseudonyme, e-mail, téléphone, etc.) ou d'objets (localisation, marque, modèle, etc.). D'autres applications (exemple : Mattermost) peuvent utiliser ce service pour valider les identifiants de connexion.<br /><br />
 
-                            <b>Le fonctionnement d'un AD/LDAP:</b><br />
-                            un annuaire LDAP est un organisation hiérarchique d’entrées dont une des entrées est la racine.
+                            <b>Le fonctionnement d'un annuaire AD/LDAP:</b><br />
+                            Un annuaire LDAP est un ensemble d'objets organisés hiérarchiquement selon une arborescence dite <a href="https://en.wikipedia.org/wiki/Directory_information_tree">« DIT » (Directory Information Tree).</a>
+                            <br /><br /><b>Exemple d'arborescence d'un annuaire LDAP</b>
                             <img id="image-3" src="images/ldap.png"><br />
-                            Chaque entrée peut contenir des attributs auxquels on assigne des valeurs. Chaque entrée appartient au moins à une classe d’objet qui définit les attributs de l’entrée.<br /><br />
-
+                            Chaque objet peut contenir des attributs auxquels on assigne des valeurs. Un objet appartient au moins à une <a href="https://web.maths.unsw.edu.au/~lafaye/CCM/activedirectory/active-directory-principes.htm">classe d’objet</a> qui définit les attributs de l’objet. Dans notre cas, une objet du groupe "personnes" représente une personne physique, cette personne est représenté par des attributs tels que le nom (sn), prénom (cn), telephone, email etc. <br /><br />
                             <b>Avantage à utiliser un annuaire LDAP:</b>
                         <ul>
                             <li>Single sign-on : pouvoir se connecter à des applications en utilisant les identifiants contenus dans l'annuaire (les même que SOGEST dans notre cas)</li>
                             <li>L'annuaire peut être interrogé par toute application compatible LDAP ayant besoin d'utiliser les informations (Mattermost dans notre cas)</li>
+                            <li>La centralisation de données permet une facilité de gestion, une meilleure sécurité informatique et une meilleur communication entre les applications les utilisant.</li>
+                            <li>Un accès plus rapide aux serveurs permet d'améliorer l'expérience utilisateur et d'éviter tout bug relatifs au temps d'attente des réponses serveur. </li>
                         </ul>
 
                         <b class="travail-title">Travail effectué</b>
@@ -193,16 +199,15 @@
                             <b>Tuto complet ici :</b><a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-ubuntu-16-04"> Installer et configurer un serveur LDAP.</a>
                             <br /><br />
                             <li><b>importer les données depuis SOGEST: </b><br /><br />
-                                Après installation et configuration du serveur LDAP, j'ai créé une classe "Ldap" contenant les fonctions nécessaires à la récupération des données depuis la base de données sogest et à l'export de celle-ci vers l'annuaire.<br />
-                                J'ai ensuite créé un one shot(programme lancé une seule fois) dans lequel les fonctions sont appelées.<br />
+                                Après installation et configuration du serveur LDAP, j'ai créé une classe "Ldap" contenant les fonctions nécessaires à la récupération des données depuis la base de données sogest et à l'export de celle-ci vers l'annuaire. Pour cela, j'ai utilisé les <a href="https://www.php.net/manual/fr/book.ldap.php">fonctions prédéfinies </a>en php.<br />
+                                J'ai ensuite créé un "one shot" (programme lancé une seule fois) dans lequel les fonctions sont appelées.<br />
                                 À chaque utilisateur récupéré depuis SOGEST, une instance "user" est créée dans l'annuaire puis rempli avec les informations de la personne.
                                 Ainsi, j'ai pu importer toutes les données utilisateur dans notre annuaire AD/LDAP<br /><br />
 
                             </li>
                             <li><b>automatisation de l'import/export des données</b><br /><br />
                                 Une fois nos données importées, il a fallu automatiser le processus, puisqu'à la moindre modification d'information par un utilisateur, il aura fallu que ses informations soient mise à jour dans l'annuaire également. l'idée était d'exécuter le script d'import/export depuis un <b><a href="https://fr.wikipedia.org/wiki/Cron">cron</a></b> qui s'exécuterait à chaque fois qu'un utilisateur modifie ses informations.<br /><br />
-                                <b>Cron : </b>un cron est un programme qui permet aux utilisateurs des systèmes Unix d’exécuter automatiquement des scripts, des commandes ou des logiciels à une date et une heure spécifiée à l’avance, ou selon un cycle défini à l’avance.[Wikipédia]
-                            </li><br />
+                            </li>
                             <li><b>La suite du projet</b><br /><br />
                                 L'implémentation de cette technologie à Mattermost étant devenue payante, il n'est plus intérésssant pour nous d'y avoir recours. Cependant, celle-ci sera toujours utile pour d'éventuelles futures utilisations.
                             </li>
@@ -225,9 +230,9 @@
 
                         <b class="fifth-title">Technologies utilisées</b>
                         <ul>
-                            <li><a href="https://fr.wikipedia.org/wiki/Plugin">plugin</a> <a href="https://codecanyon.net/item/newspaper-flipbook-jquery/13953512">Jquery flipbook</a> : un plugin qui permet de diffuser un pdf en utilisant la librairie PDF.js.</li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Plugin">plugin</a> <a href="https://codecanyon.net/item/newspaper-flipbook-jquery/13953512">Jquery flipbook</a> : un plugin qui permet de diffuser un pdf en utilisant la <a href="https://www.techno-science.net/definition/1470.html#:~:text=En%20informatique%2C%20une%20bibliothèque%20ou,sans%20avoir%20à%20les%20réécrire.">librairie</a> PDF.js.</li>
                             <li>PHP 8, HTML5, CSS3, JQuery.</li>
-                            <li><a href="https://ellisonleao.github.io/sharer.js/">Sharer.js</a> : librairie JavaScript qui permet de créer des boutons de partage sur les réseaux sociaux.</li>
+                            <li><a href="https://ellisonleao.github.io/sharer.js/">Sharer.js</a>: librairie JavaScript qui permet de créer des boutons de partage sur les réseaux sociaux.</li>
                         </ul>
                         <b class="fifth-title">Avantage à utiliser un plugin </b>
                         <ol>
@@ -238,9 +243,9 @@
 
                         <b class="travail-title">Travail effectué</b>
                         <p>Après avoir créé l'environnement local adéquat(Vhost, téléchargement du plugin..), j'ai commencé par adapter le code de la liseuse en intégrant le plugin et en apportant les modifications de design adéquates comme mettre les couleurs de la liseuse aux couleur de la maif.
-                            <br /><br />J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés comme le zoom qui n'était pas suffisant dans certains cas. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer en utilisant une API, le PDF en images stockées sur S3, et qui étaient ensuite diffusées.
+                            <br /><br />J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés comme le zoom qui était insuffisant. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer en utilisant une API, le PDF en images stockées sur S3, et qui étaient ensuite diffusées.
                             Cela a permis d'avoir un zoom plus efficace. <br /><br />
-                            De là, plusieurs autres modifications ont été apportées, on a fini par avoir le processur représenté ci-dessous :<br />
+                            Afin d'automatiser la génération du rendu, plusieurs autres modifications ont été apportées, on a fini par avoir le processur représenté ci-dessous :<br />
                             <br />
                             <img width="100%" src="images/liseuse.png" rel="liseuse"><br /><br />
                             En lançant le script "generer.php", la fonction de génération d'image est exécutée, celle-ci fait un appel API vers 'Pdf-to-image' en lui passant les paramètres adéquats dont l'url du PDF. L'API permet d'extraire des pages depuis un PDF en format image, elle retourne ensuite l'url de l'image générée, hébergée sur s3. Dans le cas où on extrait toutes les pages, l'API retourne une donnée JSON.
@@ -249,7 +254,8 @@
                             Le rendu du fichier "model.php" et ensuite récupéré dans "generer.php" pour l'injecter dans le buffer de sortie et générer le fichier statique "index.html".
                             <br /><br />
                             J'ai ensuite intégré le partage sur les réseaux sociaux, et pour ça j'ai utilisé une librairie JavaScript <b>Sharer.js</b> qui permet de créer des boutons de partage sur les réseaux sociaux, j'ai ensuite intégré les balises meta <b><a href="https://ogp.me">OPEN GRAPH</a></b>.<br /><br />
-                            Plusieurs versions ont été livrés avant de se mettre d'accord sur un produit final.
+                            Plusieurs versions ont été livrés avant de se mettre d'accord sur un produit final.<br /><br />
+                            <b>Produit final : <a href="https://satellites.maif.fr/maif/maif-mag/189-juillet-2022/#maif-mag-189-juillet-2022/1">Mag maif</a></b>
                         </p>
                         </p>
                     </div>
@@ -265,10 +271,17 @@
 
                             J'ai commencé par créer une table "notifications" dans la base de données. Ainsi qu'une classe "Notif" dans le code de sogest, contenant les fonctions nécéssaire à la création, récupération et modifications des données.
                             J'ai ensuite adapté le front-end pour implémenter la fonctionnalité.<br /><br />
-
-                            Pour automatiser l'envoi des notifications j'ai créé un Cron qui s'exécute à un certain inverval de temps, et qui permet d'envoyer un mail pour toute notification créée dont l'attribut mail = 0 (attribut mail = 0 signifié qu'aucun mail n'a été envoyé pour cette notif). L'outil d'envoi des mails est celui utilisé par notre entreprise, Mail Jt(je peux dire ça ?).
+                            <img src="images/notif_1.jpg" width="60%" /><br /><br />
+                            Chaque notification a pour attribut un lien qui redérige vers la liste des documents de la personne, et qui rempli automatiquement le champ de recherche avec le nom du fichier concerné, Ce qui permet à l'utilisateur de retrouver facilement son document.<br /><br />
+                            Pour automatiser l'envoi des notifications j'ai créé un Cron qui s'exécute à un certain inverval de temps, et qui permet d'envoyer un mail pour toute notification créée dont l'attribut mail = 0 (attribut mail = 0 signifié qu'aucun mail n'a été envoyé pour cette notif). L'outil d'envoi des mails est celui utilisé par l'entreprise, mailjet.
                             <br /><br />
-                            Plusieurs tests et améliorations ont été effectués pour perfectionner le système, par exemple, envoyer un seul mail regroupant les notifications cumulées depuis la dernière exécution du Cron. Implémentation des notifications dans d'autres cas d'usage comme les notes de frais, rédaction et signature de contrat pour le service de prod etc.
+                            Plusieurs tests et améliorations ont été effectués pour perfectionner le système, par exemple, envoyer un seul mail regroupant les notifications cumulées depuis la dernière exécution du Cron, implémentation des notifications dans d'autres cas d'usage comme les notes de frais, rédaction et signature de contrat pour le service de prod etc.
+                            <br /><br /><b>Rendu</b><br />
+                            Après l'envoie d'un document, une notification ainsi qu'un mail sont reçus par la personne concernée :<br />
+                            <img src="images/notif_2.jpg" width="60%" /><br /><br />
+
+                            Au clique sur une notification :<br />
+                            <img src="images/notif_3.jpg" width="100%" />
                         </p><br />
 
                         <b class="fifth-title"><u>4.2 Visionneuse de PDF</u></b><br />
@@ -302,8 +315,8 @@
                             Il a ensuite suffi de récupérer le slug du partenaire depuis L'URL par laquelle le client est arrivé pour faire varier le visuel de la page selon les partenaires.
 
                             <br /><br />Pour la partie dynamique, il a fallut écrire un script php permettant de récupérer les adresses mails des utilisateurs et en utilisant <a href="https://supabase.com">supabase</a>, les stocker en base de données.
-                            <br /><br />Supabase est un ensemble de services d'hébergement open source qui inclue une base de données PostgreSQL, l'authentification, le stockage de fichiers et l'API générée automatiquement.
-
+                            <br /><br />Supabase est un ensemble de services d'hébergement open source qui inclue une base de données PostgreSQL, l'authentification, le stockage de fichiers et l'API générée automatiquement.<br/><br />
+                            <img src="images/velib.png" width="100%"/>
 
                             <br /><br /><b>Retrouvez le résultat juste ici :</b> <a href="https://sogoodstories.com/gratuit/">Landing page SOGOOD</a>
 
