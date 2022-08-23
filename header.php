@@ -23,7 +23,7 @@
           <a href="apport_stage.php">
             <il><span>4.</span> Apport du stage</il>
           </a>
-          <a>
+          <a href="annexes.php">
             <il><span>5.</span> Annexes</il>
           </a>
           <a href="conclusion.php">

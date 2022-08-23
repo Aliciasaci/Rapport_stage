@@ -11,14 +11,14 @@
 </head>
 
 <body>
-    <?php include_once("header.html") ?>
+    <?php include_once("header.php") ?>
     <main>
         <div id="main-content">
             <section>
                 <h1 class="big-title">2. Contexte entreprise</h1>
                 <h2>a. SOPRESS</h2>
                 <p>
-                    Fondée il y a plus de 19 ans, SO Press est un groupe de presse indépendant à l’origine de plusieurs titres de presse. On y trouve SOFOOT -lancé en 2003- un mensuel traitant du football sur un ton décalé. Et qui fut le tout premier magazine édité par le
+                    Fondée il y a plus de 19 ans, SO Press est un groupe de presse indépendant à l’origine de plusieurs titres de presse. On y trouve SOFOOT -lancé en 2003- un mensuel traitant du football sur un ton décalé et qui fut le tout premier magazine édité par le
                     groupe.
                     <br /><br /> Plus tard, d’autres magazines traitant de sujet divers ont vu le jour. Le groupe propose désormais une déclinaison de SOFOOT pour les ados (So Foot Club), le quinzomadaire de société en liberté (Society), un média sur
                     le cinéma (So Film), le vélo (Pédale), le rugby (Tampon), le basket (Trashtalk), les enfants pour les parents (Doolittle), l'élégance masculine (L'Etiquette), la musique d'aujourd'hui et de demain (Tsugi).
@@ -28,16 +28,17 @@
                 <h2>b. Focus sur le service DEV/WEB et IT :</h2>
                 <p>
                     Au sein de <b>SOPRESS</b>, j’ai rejoint l’équipe DEV et IT, également connue sous le nom de
-                    <b>"l‘équipe des 0 et des 1"</b>. Elle forme le pôle informatique du groupe de presse.<br /><br /> L’équipe est actuellement composée de 3 personnes :
+                    <b>"l‘équipe des 0 et des 1"</b>. Elle forme le pôle informatique du groupe de presse.<br /><br /> L’équipe est actuellement composée de quatre personnes :
                 <ul>
                     <li>Gilles FRANCOIS : CTO.</li>
                     <li>Aina RANDRIANARIJAONA : assistant technique.</li>
+                    <li>Nicolas Capeyron : ingénieur système.</li>
                     <li>Alicia SACI : stagiaire</li>
                 </ul>
                 <p>Parmi les différentes missions prises en charge par le service :
                 <ul>
                     <li>
-                        Conception, réalisation et maintenance des multiples sites internet du groupe tel que sofoot.com, society-magazine.fr, sovage.tv, allso.tv, vietname-label.com ou encore solonely.fr.</li>
+                        Conception, réalisation et maintenance des multiples sites internet du groupe tel que <a href="https://www.sofoot.com">sofoot.com</a>, <a href="https://www.society-magazine.fr">society-magazine.fr</a>, <a href="https://www.sovage.tv">sovage.tv</a>, <a href="allso.tv">allso.tv</a href="https://www.vietnam-label.com">, <a>vietnam-label.com</a> ou encore <a href="https://www.so-lonely.fr">so-lonely.fr</a>.</li>
                     <li>Mise en place de plusieurs outils interne à l’entreprise tel que SOGEST, qui est le système de gestion des employés de l'entreprise ou encore "The Office" pour la gestion des bureaux.</li>
 
                     <li>Gestion des incidents et assistance technique.</li>
@@ -48,8 +49,8 @@
                     <li>Réalisation de projets pour des clients externes.</li><br />
                 </ul>
                 </p>
-                <p>Notre service est quotidiennement amené à collaborer avec d’autres services au sein de l'entreprise, on retrouve notamment le service “DA maquette” pour la création visuelle, le service juridique pour
-                    tout ce qui relève du droit internet ou encore le service abonnement.
+                <p>Notre service est quotidiennement amené à collaborer avec d’autres services au sein de l'entreprise, on retrouve notamment “DA maquette” pour la création visuelle, le service juridique pour
+                    tout ce qui relève du droit internet ou encore le service abonnement, qui est le service en charge des abonnements numériques et papiers des différents magazines du groupe.
                 </p>
                 </p>
             </section>
@@ -58,7 +59,7 @@
             </div>
         </div>
     </main>
-    <?php include_once("footer.html") ?>
+    <?php include_once("footer.php") ?>
 </body>
 
 </html>
