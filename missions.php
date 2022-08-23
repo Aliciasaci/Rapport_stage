@@ -197,7 +197,6 @@
                                 L'implémentation de cette technologie à Mattermost étant devenue payante, il n'est plus intérésssant pour nous d'y avoir recours. Cependant, celle-ci sera toujours utile pour d'éventuelles futures utilisations.
                             </li>
                         </ol>
-                        <br />
                         </p>
                     </div>
                     <div class="projet">
