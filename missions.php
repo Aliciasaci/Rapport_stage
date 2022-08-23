@@ -296,7 +296,8 @@
                             <br /><br />Supabase est un ensemble de services d'hébergement open source qui inclue une base de données PostgreSQL, l'authentification, le stockage de fichiers et l'API générée automatiquement.
 
 
-                            <br /><br />Plusieurs versions et points de validation ont été organisés entre notre équipe et le représentant de l'équipe SOGOOD pour apporter des modifications et améliorations en cours de développement.
+                            <br /><br /><b>Retrouvez le résultat juste ici :</b> <a href="https://sogoodstories.com/gratuit/">Landing page SOGOOD</a>
+
                         </p>
 
                     </div>
