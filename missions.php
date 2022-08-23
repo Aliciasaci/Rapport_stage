@@ -128,7 +128,7 @@
                         <p>Cette opération a été répété autant de fois que j'ai eu de projet la nécessitant.</p>
                     </div>
                     <div class="projet">
-                        <h3><u>Installation d'un annuaire AD/LDAP(Lightweight Directory Access Protocol)</u></h3>
+                        <h3><u>2. Installation d'un annuaire AD/LDAP(Lightweight Directory Access Protocol)</u></h3>
                         <p>L'une des missions les plus intéressantes que j'ai pu faire a été d'installer et de gérer un annuaire LDAP. le but étant de mettre en place une <a href="https://www.okta.com/fr/blog/2021/02/single-sign-on-sso/">authentification SSO</a> pour l'un de nos outils de communication, Mattermost. Il suffirait ensuite d'avoir un compte SOGEST et de s'y connecter pour accéder à son instance Mattermost.<br /><br />
 
                             <b>Comment ça marche ?</b><br />
@@ -201,7 +201,7 @@
                         </p>
                     </div>
                     <div class="projet">
-                        <h3 class="projet-title"><u>2. Liseuse éléctronique</u></h3>
+                        <h3 class="projet-title"><u>3. Liseuse éléctronique</u></h3>
                         <p>
                             Un des projets qu'on a collectivement réalisés a été une liseuse électronique pour la MAIF. Aina RANDRIANARIJAONA a commencé par nous exposer le besoin en nous listant les différents objectifs et demandes du client.
                             Mon tuteur m'a ensuite orienté vers des pistes par lequelles commencer, et qui se basent sur un ancien projet qu'il a lui-même réalisé.<br /><br />
@@ -245,10 +245,10 @@
                         </p>
                     </div>
                     <div class="projet">
-                        <h3 class="projet-title"><u>3. SOGEST</u></h3>
+                        <h3 class="projet-title"><u>4. SOGEST</u></h3>
                         <p>
                             Plusieurs de mes missions ont été des améliorations et modifications apportées au système de gestion SOGEST. Parmi celle-ci : <br /><br />
-                            <b class="fifth-title">3.1 Un système de notifications:</b><br />
+                            <b class="fifth-title">4.1 Un système de notifications:</b><br />
                             Une des demandes du service de comptabilité a été de mettre en place un système de notifications afin que les employées puissent recevoir des notifications ainsi que des mails lorsque de nouveaux documents (fiches de paie et autres) sont disponibles sur leur compte personnel.
                             Il fallait donc implémenter la fonctionnalité tout en envisageant de futures utilisations.<br /><br />
 
@@ -262,7 +262,7 @@
                             Plusieurs tests et améliorations ont été effectués pour perfectionner le système, par exemple, envoyer un seul mail regroupant les notifications cumulées depuis la dernière exécution du Cron. Implémentation des notifications dans d'autres cas d'usage comme les notes de frais, rédaction et signature de contrat pour le service de prod etc.
                         </p><br />
 
-                        <b class="fifth-title">3.2. Visionneuse de PDF</b><br />
+                        <b class="fifth-title">4.2 Visionneuse de PDF</b><br />
                         <p>Suite à la demande de plusieurs employés pour avoir accès aux PDFs des magazines, on a décidé d'enrichir un outil déjà existant qui permet de télécharger les couvertures, logo, et doubles pages des magazines en y ajoutant une visionneuse de PDFS avec possibilité de téléchargement.
                             L'idée étant de réutiliser la liseuse crée pour la MAIF et de l'adapter à nos besoins.<br /><br />
 
