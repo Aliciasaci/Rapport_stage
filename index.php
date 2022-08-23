@@ -38,16 +38,19 @@
                         pour l’entreprise)</b>, J’ai eu l’opportunité d’effectuer mon stage de fin d’études au sein du groupe
                     <b>SOPRESS</b>, ou j’ai rejoint l’équipe Dev/WEB et IT en tant que développeuse web pour une durée de 5 mois.<br /><br /> Durant cette période, j’ai pu découvrir les différentes manières de travailler au sein d’une équipe de développeurs
                     dans un contexte d'entreprise. j'ai pu côtoyer différents profils et apprendre de chacun.<br /><br /> En plus des très bonnes conditions de travail et de l'accueil bienveillant de tout le personnel de l'entreprise, les missions qui m'ont
-                    été confiées m'ont permis de monter progressivement en responsabilités, et de développer les soft-kills nécessaires pour mettre en valeur les travaux réalisés. J’ai également pu activement participer à la prise de décisions qui ont conduit à l'aboutissement de plusieurs des projets sur lequels notre équipe a travaillé, ce qui ma fait gagner en assurance.<br /><br /> Ainsi, ce rapport me permet d'effectuer un compte rendu de mon
+                    été confiées m'ont permis de monter progressivement en responsabilités, et de développer les soft-kills nécessaires pour mettre en valeur les travaux réalisés. J’ai également pu, activement participé au processus décisionnel qui a conduit à l'aboutissement de plusieurs des projets sur lequels notre équipe a travaillé, ce qui ma fait gagner en assurance et a renforncé mes aptitutes à travailler en équipe.<br /><br /> Ainsi, ce rapport me permet d'effectuer un compte rendu de mon
                     travail et de mon expérience vécue tout au long de mon stage.
                 </p>
                 <h2>b. Structure du rapport</h2>
-                <p>Ce rapport sera divisé en cinq grandes sections :<br /><br />
-                    1. Une présentation globale de l’entreprise qui m’a accueillie, son histoire ainsi que son domaine d’activité. Puis, de l’équipe que j’ai pu rejoindre.<br /><br />
-                    2. Le détail des missions sur lesquelles je suis intervenu.<br /><br />
-                    3. L'apport du stage et les différences avec la formation<br /><br />
-                    4. Un « Annexes » qui contiendra des illustrations et autres documents pertinents.<br /><br />
-                    5. Une conclusion.</p>
+                <p>Ce rapport sera divisé en cinq grandes sections :<br />
+                <ol>
+                    <li>Une présentation globale de l’entreprise qui m’a accueillie, son histoire ainsi que son domaine d’activité. Puis, de l’équipe que j’ai pu rejoindre.</li>
+                    <li>Méthodologie de travail, étude de l'existant ainsi que le détail des missions sur lesquelles je suis intervenu.</li>
+                    <li>L'apport du stage et les différences avec la formation.</li>
+                    <li>Un « Annexes » qui contiendra des illustrations et autres documents pertinents.</li>
+                    <li> Une conclusion.</li>
+                </ol>
+                </p>
             </section>
             <div>
                 <a class="pagination-section" href="entreprise.php"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>

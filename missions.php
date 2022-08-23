@@ -33,19 +33,19 @@
                     </ul>
                     <ul>
                         <b>Les principaux objectifs : </b>
-                        <li>Développer des <a href="https://fr.wikipedia.org/wiki/Plate-forme_(informatique)">plate-formes</a> qualitatives et complètes et qui servent d'outils de travail aux employées de l'entreprise.</li>
-                        <li>Veiller aux bons fonctionnements des différents sites internet (intérvention en cas de bug(s) technique(s), contantes mise à jour et améliorations).</li>
+                        <li>Développer des <a href="https://fr.wikipedia.org/wiki/Plate-forme_(informatique)">plate-formes</a> qualitatives et complètes qui servent d'outils de travail aux employées de l'entreprise.</li>
+                        <li>Assurer le bon fonctionnement des différents sites (intervention en cas de bug(s) technique(s), mise à jour permanente et améliorations).</li>
                         <li>Assister le personnel dans la prise en main et l'utilisation et des différents sites.</li>
                     </ul>
                     <h2>3.1.2. Cadre des missions</h2>
                     <p>
                         Le sujet de mon stage a porté sur plusieurs missions émanant d'un besoin évolutif du métier. En effet, elles ont au fur et à mesure été crée selon les demandes des employées.<br />
-                        <br />à l'émergence d'une nouvelle tâche, nous effectuons une réunion pour en discuter et se mettre d'accord sur la manière de procéder ainsi que les technologies à utiliser. Souvent, je travaille sur des projets déjà existants ce qui nécéssite une mise en contexte afin de me familiariser avec l'existant.<br /><br />
+                        <br />à l'émergence d'une nouvelle tâche, nous effectuons une réunion pour en discuter et se mettre d'accord sur la manière de procéder ainsi que les technologies à utiliser. Souvent, je travaille sur des projets déjà existants ce qui nécessite une mise en contexte afin de me familiariser avec l'existant.<br /><br />
 
 
                         Pour l’organisation au sein de l’équipe, nous adoptons une méthodologie agile qui nous permet d’être flexibles et réactifs aux différents besoins des métiers. Des tableaux listant les différentes tâches qui me sont confiées sont tenus entre nous afin de communiquer au mieux sur
                         l'avancement de celle-ci. Plusieurs points d’équipe hebdomadaires sont organisés pour tenir compte des avancées et difficultés que je peux rencontrer et de la suite des événements.<br /><br /> Deux à trois fois par
-                        semaine, un point est organisé avec mon tuteur pour faire un suivi général. Différents sujets sont abordés vis-à-vis des missions confiées.<br /><br /> Le détail des missions sera vu dans
+                        semaine, un point est organisé avec mon tuteur pour faire un suivi général.<br /><br /> Le détail des missions sera vu dans
                         la section suivante.
                     </p>
                 </section>
@@ -60,7 +60,7 @@
                         <h2>3.2.2. Sites internes</h2>
                         <p>Les schémas suivants illustrent les différentes applis web qui utilisent <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api#:~:text=Une%20API%20(application%20programming%20interface,des%20données%20et%20des%20fonctionnalités."> l’API</a> SOGEST, ainsi que l'architecture clients, API, Serveur, base de données.<br /><br /> La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com).
                         </p>
-                        <img src="images/schema_1.png">
+                        <img src="images/schema_1.png" width="100%">
                         <img id="image-2" src="images/schema_2.png" width="100%">
                         <div class="appli">
                             <h3>3.2.2.1. API SOGEST :</h3>
