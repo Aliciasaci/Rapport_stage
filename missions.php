@@ -40,10 +40,10 @@
                     <h2>3.1.2. Cadre des missions</h2>
                     <p class="alinea">
                         Le sujet de mon stage a porté sur plusieurs missions émanant d'un besoin évolutif du métier. En effet, elles ont au fur et à mesure été crée selon les demandes des employées.<br /></p>
-                        <p class="alinea">Lorsqu'une nouvelle tâche émerge, nous tenons une réunion pour en discuter et nous mettre d'accord sur la façon de procéder ainsi que sur les technologies à utiliser. Souvent, je travaille sur des projets déjà existants qui nécessitent une mise en contexte pour me familiariser avec l'existant.<br /></p>
+                    <p class="alinea">Lorsqu'une nouvelle tâche émerge, nous tenons une réunion pour en discuter et nous mettre d'accord sur la façon de procéder ainsi que sur les technologies à utiliser. Souvent, je travaille sur des projets déjà existants qui nécessitent une mise en contexte pour me familiariser avec l'existant.<br /></p>
 
 
-                        <p class="alinea">Pour l’organisation au sein de l’équipe, nous adoptons une méthodologie agile qui nous permet d’être flexibles et réactifs aux différents besoins du métier. Des tableaux listant les différentes tâches qui me sont confiées sont tenus entre nous afin de communiquer au mieux sur
+                    <p class="alinea">Pour l’organisation au sein de l’équipe, nous adoptons une méthodologie agile qui nous permet d’être flexibles et réactifs aux différents besoins du métier. Des tableaux listant les différentes tâches qui me sont confiées sont tenus entre nous afin de communiquer au mieux sur
                         l'avancement de celle-ci. Plusieurs points d’équipe hebdomadaires sont organisés pour tenir compte des avancées et difficultés que je peux rencontrer et de la suite des événements. Deux à trois fois par
                         semaine, un point est organisé avec mon tuteur pour faire un suivi général et discuter de la suite des missions.
                     </p>
@@ -53,11 +53,12 @@
                     <p class="alinea">Dans cette section, j'aborderai l'existant ainsi que le détail des missions sur lesquelles je suis intervenue.</p>
                     <section class="third-section">
                         <h2>3.2.1. Environnement technologique</h2>
-                        <p class="alinea">L'environnement technologique était déjà bien établie à mon arrivé, ayant principalemennt travaillé sur des projets existants, je n'ai pas eu de choix à faire quant aux technologies à utiliser. Cependant, pour les projets entamés après mon arrivée, la décision a été collectivement prise afin de garder une certaine cohérence par apports à l'éxistant ainsi qu'aux préférences de chacun puisque ces projets sont susceptibles d'évoluer et d'être reprit par les autres membres de l'équipe.</p>
+                        <p class="alinea">Concernant les projets existant, l'environnement technologique ainsi que les technologies à utiliser était déjà bien établie à mon arrivé. Cependant, pour ceux entamés après mon arrivée, la décision a été prise collectivement afin de garder une certaine cohérence par apports à l'éxistant ainsi qu'aux préférences de chacun puisque ces projets sont susceptibles d'évoluer et d'être reprit par les autres membres de l'équipe.</p>
                     </section>
                     <section class="third-section">
                         <h2>3.2.2. Sites internes</h2>
-                        <p class="alinea">Les schémas suivants illustrent les différentes applis web qui utilisent <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api#:~:text=Une%20API%20(application%20programming%20interface,des%20données%20et%20des%20fonctionnalités."> l’API</a> SOGEST, ainsi que l'architecture clients, API, serveur, base de données.</p><p class="alinea">La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com).
+                        <p class="alinea">Les schémas suivants illustrent les différentes applis web qui utilisent <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api#:~:text=Une%20API%20(application%20programming%20interface,des%20données%20et%20des%20fonctionnalités."> l’API</a> SOGEST, ainsi que l'architecture clients, API, serveur, base de données.</p>
+                        <p class="alinea">La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com).
                         </p>
                         <img src="images/schema_1.png" width="100%">
                         <img id="image-2" src="images/schema_2.png" width="100%">
@@ -70,9 +71,10 @@
                         <div class="appli">
                             <h3>3.2.2.2. SOGEST : </h3>
                             <p class="alinea">le système de gestion interne du groupe SO PRESS. Imaginé et conçu par Gilles FRANCOIS, le CTO. C'est à présent l'outil indispensable à l'entreprise puisque la majorité de la gestion du personnel et des activitées relatives à la presse
-                                passe par celui-ci.<br /><br /> Chaque employé (permanents, pigistes ou autres) y possède un compte lui permettant de gérer ses activitées. Ils ont par exemple, accès à leurs fiches de paie à travers leurs espaces personnels. Ils peuvent
-                                également, en fonction de leurs droits, remplir et soumettre des notes de frais aux services adéquats ou encore poser leurs congès en utilisant l'outil "absences".<br /><br /> D'autres employés avec des droits d'administration ou
-                                d'ultra administration ont accès à d'avantages de fonctionnalités. Parmi celles-ci :
+                                passe par celui-ci.</p>
+                            <p class="alinea">Chaque employé (permanents, pigistes ou autres) y possède un compte lui permettant de gérer ses activitées. Ils ont par exemple, accès à leurs fiches de paie à travers leurs espaces personnels. Ils peuvent
+                                également, en fonction de leurs droits, remplir et soumettre des notes de frais aux services adéquats ou encore poser leurs congès en utilisant l'outil "absences". D'autres employés avec des droits d'administration ou
+                                d'ultra administration ont accès à d'avantages de fonctionnalités. Parmi celles-ci :</p>
                             <ul>
                                 <li>Traiter des notes de frais.</li>
                                 <li>Renseigner des fiches de paies et autres documents.</li>
@@ -80,7 +82,7 @@
                                 <li>Envoi de la version digital des magazines aux différents distributeurs.</li>
                                 <li>Suivi des activitées de presse et plus.</li>
                             </ul>
-                            <p class="alinea">Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
+                            <p>Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
                                 <b>Technologies employées :</b> PHP 7, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://getbootstrap.com">Bootstrap</a> et <a href="https://www.w3.org/Style/CSS/#specs">CSS</a> personnalisé pour le front-end.
                             </p>
                         </div>
@@ -123,7 +125,7 @@
                 </section>
                 <section class="middle-section">
                     <h1 class="middle-title">3.3 Focus sur les missions effectuées</h1>
-                    <p>Dans la section qui suit, je décrirai quelqu'une des différentes missions qui m’ont été confiée, ainsi que les aspects techniques les concernant.
+                    <p class="alinea">Dans la section qui suit, je décrirai quelqu'une des différentes missions qui m’ont été confiée, ainsi que les aspects techniques les concernant.
                     </p>
                     <div class="projet">
                         <h3><u>1. Installation des sites en local</u></h3>
