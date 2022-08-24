@@ -19,9 +19,9 @@
                     <h1 class="big-title">3. Missions</h1>
                     <h1 class="middle-title">3.1. Objectifs et cadre des missions effectuées</h1>
                     <h2>3.1.1. Besoins et objectifs : </h2>
-                    <p>
+                    <p class="alinea">
                         La principale activité de notre équipe consiste à développer et maintenir les différents sites internet du groupe, qu’ils soient internes ou publics, et à veiller à leur bon fonctionnement.<br /> De ce fait, le besoin, ainsi que
-                        mes missions dans le cadre de mon stage, consistent à apporter des modifications et améliorations à ces derniers. mais aussi en développer de nouveaux.
+                        mes missions dans le cadre de mon stage consistent à apporter des modifications et améliorations à ces derniers. mais aussi à en développer de nouveaux.
                     </p>
                     <ul>
                         <b>Parmi les principales sources du besoin : </b>
@@ -38,12 +38,12 @@
                         <li>Assister le personnel dans la prise en main et l'utilisation et des différents sites.</li>
                     </ul>
                     <h2>3.1.2. Cadre des missions</h2>
-                    <p>
-                        Le sujet de mon stage a porté sur plusieurs missions émanant d'un besoin évolutif du métier. En effet, elles ont au fur et à mesure été crée selon les demandes des employées.<br />
-                        <br />Lorsqu'une nouvelle tâche émerge, nous tenons une réunion pour en discuter et nous mettre d'accord sur la façon de procéder ainsi que sur les technologies à utiliser. Souvent, je travaille sur des projets déjà existants qui nécessitent une mise en contexte pour me familiariser avec l'existant.<br /><br />
+                    <p class="alinea">
+                        Le sujet de mon stage a porté sur plusieurs missions émanant d'un besoin évolutif du métier. En effet, elles ont au fur et à mesure été crée selon les demandes des employées.<br /></p>
+                        <p class="alinea">Lorsqu'une nouvelle tâche émerge, nous tenons une réunion pour en discuter et nous mettre d'accord sur la façon de procéder ainsi que sur les technologies à utiliser. Souvent, je travaille sur des projets déjà existants qui nécessitent une mise en contexte pour me familiariser avec l'existant.<br /></p>
 
 
-                        Pour l’organisation au sein de l’équipe, nous adoptons une méthodologie agile qui nous permet d’être flexibles et réactifs aux différents besoins du métier. Des tableaux listant les différentes tâches qui me sont confiées sont tenus entre nous afin de communiquer au mieux sur
+                        <p class="alinea">Pour l’organisation au sein de l’équipe, nous adoptons une méthodologie agile qui nous permet d’être flexibles et réactifs aux différents besoins du métier. Des tableaux listant les différentes tâches qui me sont confiées sont tenus entre nous afin de communiquer au mieux sur
                         l'avancement de celle-ci. Plusieurs points d’équipe hebdomadaires sont organisés pour tenir compte des avancées et difficultés que je peux rencontrer et de la suite des événements. Deux à trois fois par
                         semaine, un point est organisé avec mon tuteur pour faire un suivi général et discuter de la suite des missions.
                     </p>
@@ -57,7 +57,7 @@
                     </section>
                     <section class="third-section">
                         <h2>3.2.2. Sites internes</h2>
-                        <p>Les schémas suivants illustrent les différentes applis web qui utilisent <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api#:~:text=Une%20API%20(application%20programming%20interface,des%20données%20et%20des%20fonctionnalités."> l’API</a> SOGEST, ainsi que l'architecture clients, API, Serveur, base de données.<br /><br /> La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com).
+                        <p>Les schémas suivants illustrent les différentes applis web qui utilisent <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api#:~:text=Une%20API%20(application%20programming%20interface,des%20données%20et%20des%20fonctionnalités."> l’API</a> SOGEST, ainsi que l'architecture clients, API, serveur, base de données.<br /><br /> La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com).
                         </p>
                         <img src="images/schema_1.png" width="100%">
                         <img id="image-2" src="images/schema_2.png" width="100%">

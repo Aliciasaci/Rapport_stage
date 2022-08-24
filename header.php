@@ -23,7 +23,7 @@
           <il><span>3.</span> Missions</il>
         </a>
         <a href="apport_stage.php">
-          <il><span>4.</span> Apport du stage</il>
+          <il><span>4.</span> Apports du stage</il>
         </a>
         <a href="conclusion.php">
           <il><span>5.</span> Conclusion</il>

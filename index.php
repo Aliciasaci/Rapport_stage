@@ -19,12 +19,12 @@
             <div><img src="images/logo_iut.jpg" style="border:none; width:35%; margin:30px auto;" /></div>
             <div id="description-header">
                 <span>Rapport de stage de Licence Professionnelle CIASIE</span><br />
-                <span>Alicia Saci</span><br />
+                <span>Alicia SACI</span><br />
                 <span><a href="https://sopress.net/">SOPRESS</a></span><br /><br />
                 <span>Stage réalisé du 11 Avril 2022 au 31 Août 2022</span><br />
             </div>
-            <span>Tuteur entreprise : FRANCOIS Gilles</span><br />
-            <span>Tuteur IUT : BONIFACE Yann</span><br /><br />
+            <span>Tuteur entreprise : Gilles FRANCOIS</span><br />
+            <span>Tuteur IUT : Yann BONIFACE</span><br /><br />
             <span>Année universitaire : 2021-2022</span>
         </section>
         <div id="main-content">
@@ -32,7 +32,7 @@
                 <br /><br />
                 <hr />
                 <h1 class="big-title">1. Introduction</h1>
-                <p>
+                <p class="alinea">
                     Dans le cadre de ma licence professionnelle
                     <b>CIASIE (Conception-Intégration d’Applications et Services Web
                         pour l’entreprise)</b>, J’ai eu l’opportunité d’effectuer mon stage de fin d’études au sein du groupe
@@ -44,7 +44,7 @@
                 <h2>b. Structure du rapport</h2>
                 <p>Ce rapport sera divisé en cinq grandes sections :<br />
                 <ul>
-                    <li>La première partie est résérver à la présentation globale de l’entreprise qui m’a accueillie, son histoire ainsi que son domaine d’activité. Puis, de l’équipe que j’ai pu rejoindre.</li>
+                    <li>La première partie est réservée à la présentation globale de l’entreprise qui m’a accueillie, son histoire ainsi que son domaine d’activité. Puis, de l’équipe que j’ai pu rejoindre.</li>
                     <li>La deuxième partie abordera notre méthodologie de travail au sein de l'équipe, l'étude de l'existant ainsi que le détail des missions sur lesquelles je suis intervenu.</li>
                     <li>La troisième partie sera sur les apports de mon stage et les différences avec la formation.</li>
                     <li>La quatrième partie pour conclure ce rapport.</li>
