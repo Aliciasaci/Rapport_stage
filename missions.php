@@ -88,25 +88,25 @@
                                 <li>Envoi de la version digital des magazines aux différents distributeurs.</li>
                                 <li>Suivi des activitées de presse et plus.</li>
                             </ul>
-                            <p>Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
+                            <p class="alinea">Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
                                 <b>Technologies employées :</b> PHP 7, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://getbootstrap.com">Bootstrap</a> et <a href="https://www.w3.org/Style/CSS/#specs">CSS</a> personnalisé pour le front-end.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.3. The Office : </h3>
-                            <p>outil de gestion des bureaux SOPRESS. Il est principalement utilisé pour réserver les différentes salles (réunions, montages, casting..).<br />
+                            <p class="alinea">est un outil de gestion des bureaux SOPRESS. Il est principalement utilisé pour réserver les différentes salles (réunions, montages, casting..).<br />
                                 <b>Technologies employées :</b> <a href="https://v2.vuejs.org/">Vue 2</a>, <a href="https://bulma.io/">Bulma</a> pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.4. Absences :</h3>
-                            <p>outil de gestions des congès. Les employés peuvent poser leurs congés à travers le site ainsi que consulter le calendrier des membres de leurs équipes.<br />
+                            <p class="alinea">est un outil de gestions des congès. Les employés peuvent poser leurs congés à travers le site ainsi que consulter le calendrier des membres de leurs équipes.<br />
                                 <b>Technologies employées :</b> Vue 2, Bulma pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.5. SSO (Single sign on)</h3>
-                            <p>est un service d'authentification qui permet de se connecter dans n'importe quelle instance <a href="https://wordpress.com/fr/">Wordpress</a> en utilisant son compte SOGEST. Cette manière de faire simplifie considérablement la connexion aux multiples sites existants, puisqu'il
+                            <p class="alinea">est un service d'authentification qui permet de se connecter dans n'importe quelle instance <a href="https://wordpress.com/fr/">Wordpress</a> en utilisant son compte SOGEST. Cette manière de faire simplifie considérablement la connexion aux multiples sites existants, puisqu'il
                                 suffit de retenir un seul mot de passe au lieu de plusieurs.<br /></p>
                         </div>
                     </section>
