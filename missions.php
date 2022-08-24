@@ -75,13 +75,13 @@
                         </div>
                         <div class="appli">
                             <h3>3.2.2.1. API SOGEST :</h3>
-                            <p class="alinea"> est une API exposée par l’outil “SOGEST” offrant des services aux applis web représentées dans le schéma. Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
+                            <p class="alinea">C'est une API exposée par l’outil “SOGEST” offrant des services aux applis web représentées dans le schéma. Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
                                 <b class="technos">Technologies employées :</b> L'API est entièrement codé en <a href="https://www.php.net/">PHP 7</a> et utilise une base de données <a href="https://mariadb.org">MariaDB</a>.<br />
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.2. SOGEST : </h3>
-                            <p class="alinea">est le système de gestion interne du groupe SO PRESS, imaginé et conçu par Gilles FRANCOIS. C'est à présent l'outil indispensable à l'entreprise puisque la majorité de la gestion du personnel et des activitées relatives à la presse
+                            <p class="alinea">Il s'agit du système de gestion interne du groupe SO PRESS, imaginé et conçu par Gilles FRANCOIS. C'est à présent l'outil indispensable à l'entreprise puisque la majorité de la gestion du personnel et des activitées relatives à la presse
                                 passe par celui-ci.</p>
                             <br />
                             <p class="alinea">Chaque employé (permanents, pigistes ou autres) y possède un compte lui permettant de gérer ses activitées. Ils ont par exemple, accès à leurs fiches de paie à travers leurs espaces personnels. Ils peuvent
@@ -102,19 +102,19 @@
                         </div>
                         <div class="appli">
                             <h3>3.2.2.3. The Office : </h3>
-                            <p class="alinea">est un outil de gestion des bureaux SOPRESS. Il est principalement utilisé pour réserver les différentes salles (réunions, montages, casting..).<br />
+                            <p class="alinea">The office est un outil de gestion des bureaux SOPRESS. Il est principalement utilisé pour réserver les différentes salles (réunions, montages, casting..).<br />
                                 <b class="technos">Technologies employées :</b> <a href="https://v2.vuejs.org/">Vue 2</a>, <a href="https://bulma.io/">Bulma</a> pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.4. Absences :</h3>
-                            <p class="alinea">est un outil de gestions des congès. Les employés peuvent poser leurs congés à travers le site ainsi que consulter le calendrier des membres de leurs équipes.<br />
+                            <p class="alinea">Il s'agit de l'outil de gestions des congès. Les employés peuvent poser leurs congés à travers le site ainsi que consulter le calendrier des membres de leurs équipes.<br />
                                 <b class="technos">Technologies employées :</b> Vue 2, Bulma pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.5. SSO (Single sign on)</h3>
-                            <p class="alinea">est un service d'authentification qui permet de se connecter dans n'importe quelle instance <a href="https://wordpress.com/fr/">Wordpress</a> en utilisant son compte SOGEST. Cette manière de faire simplifie considérablement la connexion aux multiples sites existants, puisqu'il
+                            <p class="alinea">Le SSO So Press est le service d'authentification qui permet de se connecter dans n'importe quelle instance <a href="https://wordpress.com/fr/">Wordpress</a> en utilisant son compte SOGEST. Cette manière de faire simplifie considérablement la connexion aux multiples sites existants, puisqu'il
                                 suffit de retenir un seul mot de passe au lieu de plusieurs.<br /></p>
                         </div>
                     </section>
@@ -122,17 +122,17 @@
                         <h2>3.2.3. Sites publiques</h2>
                         <div class="appli">
                             <h3>3.2.3.1. <a class="title_link" href="https://www.sofoot.com">sofoot.com</a>:</h3>
-                            <p class="alinea">est un site traitant de l'actualité autour du football dans le monde, il représente l’une des activités principales de SOPRESS. Conçu et développé par Gilles FRANCOIS, le site est codé en PHP 7, JavaScript, HTML et <a href="https://sass-lang.com/">SASS</a> compilé avec
+                            <p class="alinea">«sofoot.com» est un site traitant de l'actualité autour du football dans le monde, il représente l’une des activités principales de SOPRESS. Conçu et développé par Gilles FRANCOIS, le site est codé en PHP 7, JavaScript, HTML et <a href="https://sass-lang.com/">SASS</a> compilé avec
                                 Grunt (outil qui permet d’automatiser des tâches répétitives telles que la génération d’un fichier CSS minifié à partir d’un fichier SASS). Les commentaires et autres réactions du site proviennent d'un module séparé qui est une application vue 2, alimentée par l'API "Reactions" qui est codée en PHP et JavaSript.<br />
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.3.2. <a class="title_link" href="https://www.society-magazine.fr">Society-magazine</a>:</h3>
-                            <p class="alinea">est le sommaire digital au magazine "Society". Conçu avec Wordpress, c’est l’un des sites qui utilise le SSO pour l’authentification au back-office.</p>
+                            <p class="alinea">Il s'agit du sommaire digital au magazine "Society". Conçu avec Wordpress, c’est l’un des sites qui utilise le SSO pour l’authentification au back-office.</p>
                         </div>
                         <div class="appli">
                             <h3>3.2.3.3. <a class="title_link" href="https://www.allso.tv/">Allso</a>, <a class="title_link" href="https://www.sovage.tv/">Sovage</a> :</h3>
-                            <p class="alinea">les deux sites exposent le travail de production audiovisuelle de SOPRESS, Ils sont tous les deux conçu avec Wordpress.</p>
+                            <p class="alinea">Les deux sites exposent le travail de production audiovisuelle de SOPRESS, Ils sont tous les deux conçu avec Wordpress.</p>
                         </div>
                     </section>
                 </section>
@@ -185,8 +185,8 @@
                         </ul><br /><br />
 
                         <p>
-                            <b class="title-etape-mission">1. Installer et configurer OpenLDAP et phpLDAP sur une machine Ubuntu :</b><br />
-                            <b>1.1 OpenLDAP : </b><br />
+                            <b class="title-etape-mission">1. Installer et configurer OpenLDAP et phpLDAP sur une machine Ubuntu :</b><br/><br/>
+                            <b class="title-etape-mission">1.1 OpenLDAP : </b><br />
                         <p class="alinea">Avant de me confier la tâche, mon tuteur a commencé par créer une machine virtuelle avec une instance <a href="https://www.ubuntu-fr.org/">ubuntu</a> qu'il a hébérgé sur un serveur. Il m'a ensuite donné les accès et de là, j'ai pris la relève.</p>
                         <p class="alinea">J'ai commencé par installer un serveur <a href="https://httpd.apache.org/">Apache</a>, <a href="https://doc.ubuntu-fr.org/mysql">MySQL</a> et php sur ma machine. J'ai ensuite sécurisé mon serveur apache avec un <a href="https://www.globalsign.com/fr/centre-information-ssl/definition-certificat-ssl">certificat SSL</a>. Il est important de le sécuriser puisque je vais travailler avec des données sensibles dans la suite.<br /><br /></p>
                         <p class="alinea">J'ai ensuite installé le serveur LDAP en installant quelques packages avec les commandes :<br /></p>
@@ -356,18 +356,6 @@
                         <p class="alinea"><b>Retrouvez le résultat juste ici :</b> <a href="https://sogoodstories.com/gratuit/">Landing page SOGOOD</a></p>
 
                     </div>
-                    <div class="projet">
-                        <h3 class="projet-title"><u>6. Autres missions</u></h3>
-                        <p class="alinea">En plus des cinq missions précédément détaillées, j'ai eu l'occasion d'en effectué bien d'autres plus au moins consequentes et dont je vais brièvement parler dans cette section : </p>
-                        <b class="title-etape-mission">6.1 Générateur d'images :</b>
-                        <p class="alinea">
-                        
-                        </p>
-                        <b class="title-etape-mission">6.3 Rédaction de tutoriels : </b>
-                        <p class="alinea">
-
-                        </p>
-                        <div>
                 </section>
                 <a href="apport_stage.php" class="pagination-section"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>
         </div>
