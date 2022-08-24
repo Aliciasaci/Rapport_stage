@@ -359,7 +359,15 @@
                     </div>
                     <div class="projet">
                         <h3 class="projet-title"><u>6. Autres missions</u></h3>
+                        <p class="alinea">En plus des cinq missions précédément détaillées, j'ai eu l'occasion d'en effectué bien d'autres plus au moins consequentes et dont je vais brièvement parler dans cette section : </p>
+                        <b class="title-etape-mission">6.1 Générateur d'images :</b>
+                        <p class="alinea">
+                        
+                        </p>
+                        <b class="title-etape-mission">6.3 Rédaction de tutoriels : </b>
+                        <p class="alinea">
 
+                        </p>
                         <div>
                 </section>
                 <a href="apport_stage.php" class="pagination-section"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>

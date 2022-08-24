@@ -222,6 +222,7 @@ a {
 .figure {
   text-align: center;
   padding-bottom: 7px;
+  font-weight: bold;
 }
 
 .projet {
@@ -233,5 +234,5 @@ a {
 }
 
 .technos {
-  color: grey;
+  color: rgb(104, 104, 104);
 }/*# sourceMappingURL=style.css.map */
