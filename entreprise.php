@@ -18,7 +18,7 @@
                 <h1 class="big-title">2. Contexte entreprise</h1>
                 <h2>a. SOPRESS</h2>
                 <p>
-                    Fondée il y a plus de 19 ans, SO Press est un groupe de presse indépendant à l’origine de plusieurs titres de presse. On y trouve SOFOOT -lancé en 2003- un mensuel traitant du football sur un ton décalé et qui fut le tout premier magazine édité par le
+                    Fondé il y a plus de 19 ans, SO Press est un groupe de presse indépendant à l’origine de plusieurs titres. On y trouve SOFOOT -lancé en 2003- un mensuel traitant du football sur un ton décalé et qui fut le tout premier magazine édité par le
                     groupe.
                     <br /><br /> Plus tard, d’autres magazines traitant de sujet divers ont vu le jour. Le groupe propose désormais une déclinaison de SOFOOT pour les ados (So Foot Club), le quinzomadaire de société en liberté (Society), un média sur
                     le cinéma (So Film), le vélo (Pédale), le rugby (Tampon), le basket (Trashtalk), les enfants pour les parents (Doolittle), l'élégance masculine (L'Etiquette), la musique d'aujourd'hui et de demain (Tsugi).
@@ -50,7 +50,7 @@
                 </ul>
                 </p>
                 <p>Notre service est quotidiennement amené à collaborer avec d’autres services au sein de l'entreprise, on retrouve notamment “DA maquette” pour la création visuelle, le service juridique pour
-                    tout ce qui relève du droit internet ou encore le service abonnement, qui est le service en charge des abonnements numériques et papiers des différents magazines du groupe.
+                    tout ce qui relève du droit internet ou encore le service abonnement, qui est le service en charge des abonnements numériques et papiers des différents magazines.
                 </p>
                 </p>
             </section>

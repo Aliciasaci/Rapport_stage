@@ -50,20 +50,20 @@ main .main-header span {
   color: rgb(0, 0, 0);
 }
 main .main-header #description-header {
-  line-height: 70px;
+  line-height: 60px;
   font-weight: 400;
   padding-top: 80px;
   text-align: center;
   color: white;
 }
 main .main-header #description-header span:first-child {
-  font-size: 50px;
+  font-size: 45px;
 }
 main .main-header #description-header span:nth-child(3) {
-  font-size: 40px;
+  font-size: 35px;
 }
 main .main-header #description-header span:nth-child(5) {
-  font-size: 60px;
+  font-size: 55px;
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: bold;
 }
@@ -97,6 +97,7 @@ main li,
 main b {
   font-size: 20px;
   line-height: 1.2em;
+  font-family: "Superior title", "Times New Roman", sans-serif;
 }
 
 @font-face {

@@ -20,7 +20,7 @@
                     <h1 class="middle-title">3.1. Objectifs et cadre des missions effectuées</h1>
                     <h2>3.1.1. Besoins et objectifs : </h2>
                     <p>
-                        La principale activité de notre équipe consiste à développer et à maintenir les différents sites internet du groupe, qu’ils soient internes ou publics, et à veiller à leur bon fonctionnement.<br /> De ce fait, le besoin, ainsi que
+                        La principale activité de notre équipe consiste à développer et maintenir les différents sites internet du groupe, qu’ils soient internes ou publics, et à veiller à leur bon fonctionnement.<br /> De ce fait, le besoin, ainsi que
                         mes missions dans le cadre de mon stage, consistent à apporter des modifications et améliorations à ces derniers. mais aussi en développer de nouveaux.
                     </p>
                     <ul>
@@ -34,27 +34,26 @@
                     <ul>
                         <b>Les principaux objectifs : </b>
                         <li>Développer des <a href="https://fr.wikipedia.org/wiki/Plate-forme_(informatique)">plate-formes</a> qualitatives et complètes qui servent d'outils de travail aux employées de l'entreprise.</li>
-                        <li>Assurer le bon fonctionnement des différents sites (intervention en cas de bug(s) technique(s), mise à jour permanente et améliorations).</li>
+                        <li>Assurer le bon fonctionnement des différents sites (intervention en cas de bugs techniques, mise à jour permanente, améliorations et corrections).</li>
                         <li>Assister le personnel dans la prise en main et l'utilisation et des différents sites.</li>
                     </ul>
                     <h2>3.1.2. Cadre des missions</h2>
                     <p>
                         Le sujet de mon stage a porté sur plusieurs missions émanant d'un besoin évolutif du métier. En effet, elles ont au fur et à mesure été crée selon les demandes des employées.<br />
-                        <br />à l'émergence d'une nouvelle tâche, nous effectuons une réunion pour en discuter et se mettre d'accord sur la manière de procéder ainsi que les technologies à utiliser. Souvent, je travaille sur des projets déjà existants ce qui nécessite une mise en contexte afin de me familiariser avec l'existant.<br /><br />
+                        <br />Lorsqu'une nouvelle tâche émerge, nous tenons une réunion pour en discuter et nous mettre d'accord sur la façon de procéder ainsi que sur les technologies à utiliser. Souvent, je travaille sur des projets déjà existants qui nécessitent une mise en contexte pour me familiariser avec l'existant.<br /><br />
 
 
-                        Pour l’organisation au sein de l’équipe, nous adoptons une méthodologie agile qui nous permet d’être flexibles et réactifs aux différents besoins des métiers. Des tableaux listant les différentes tâches qui me sont confiées sont tenus entre nous afin de communiquer au mieux sur
-                        l'avancement de celle-ci. Plusieurs points d’équipe hebdomadaires sont organisés pour tenir compte des avancées et difficultés que je peux rencontrer et de la suite des événements.<br /><br /> Deux à trois fois par
-                        semaine, un point est organisé avec mon tuteur pour faire un suivi général.<br /><br /> Le détail des missions sera vu dans
-                        la section suivante.
+                        Pour l’organisation au sein de l’équipe, nous adoptons une méthodologie agile qui nous permet d’être flexibles et réactifs aux différents besoins du métier. Des tableaux listant les différentes tâches qui me sont confiées sont tenus entre nous afin de communiquer au mieux sur
+                        l'avancement de celle-ci. Plusieurs points d’équipe hebdomadaires sont organisés pour tenir compte des avancées et difficultés que je peux rencontrer et de la suite des événements. Deux à trois fois par
+                        semaine, un point est organisé avec mon tuteur pour faire un suivi général et discuter de la suite des missions.
                     </p>
                 </section>
                 <section class="middle-section">
                     <h1 class="middle-title">3.2 L'existant</h1>
+                    <p>Dans cette section, j'aborderai l'existant ainsi que le détail des missions sur lesquelles je suis intervenue.</p>
                     <section class="third-section">
                         <h2>3.2.1. Environnement technologique</h2>
                         <p>L'environnement technologique était déjà bien établie à mon arrivé, ayant principalemennt travaillé sur des projets existants, je n'ai pas eu de choix à faire quant aux technologies à utiliser. Cependant, pour les projets entamés après mon arrivée, la décision a été collectivement prise afin de garder une certaine cohérence par apports à l'éxistant ainsi qu'aux préférences de chacun puisque ces projets sont susceptibles d'évoluer et d'être reprit par les autres membres de l'équipe.</p>
-
                     </section>
                     <section class="third-section">
                         <h2>3.2.2. Sites internes</h2>
@@ -315,8 +314,8 @@
                             Il a ensuite suffi de récupérer le slug du partenaire depuis L'URL par laquelle le client est arrivé pour faire varier le visuel de la page selon les partenaires.
 
                             <br /><br />Pour la partie dynamique, il a fallut écrire un script php permettant de récupérer les adresses mails des utilisateurs et en utilisant <a href="https://supabase.com">supabase</a>, les stocker en base de données.
-                            <br /><br />Supabase est un ensemble de services d'hébergement open source qui inclue une base de données PostgreSQL, l'authentification, le stockage de fichiers et l'API générée automatiquement.<br/><br />
-                            <img src="images/velib.png" width="100%"/>
+                            <br /><br />Supabase est un ensemble de services d'hébergement open source qui inclue une base de données PostgreSQL, l'authentification, le stockage de fichiers et l'API générée automatiquement.<br /><br />
+                            <img src="images/velib.png" width="100%" />
 
                             <br /><br /><b>Retrouvez le résultat juste ici :</b> <a href="https://sogoodstories.com/gratuit/">Landing page SOGOOD</a>
 

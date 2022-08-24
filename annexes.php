@@ -18,7 +18,7 @@
                 <h1 class="big-title">Annexes</h1>
             </section>
             <div>
-                <a href="conclusion.php" class="pagination-section"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>
+                <a href="index.php" class="pagination-section"><span>Début</span><img id="next" src="images/right.png" rel="next"></a>
             </div>
         </div>
     </main>

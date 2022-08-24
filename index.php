@@ -16,7 +16,7 @@
     <main>
         <section class="main-header">
 
-            <div><img src="images/logo_iut.jpg" style="border:none; width:40%; margin:30px auto;" /></div>
+            <div><img src="images/logo_iut.jpg" style="border:none; width:35%; margin:30px auto;" /></div>
             <div id="description-header">
                 <span>Rapport de stage de Licence Professionnelle CIASIE</span><br />
                 <span>Alicia Saci</span><br />
@@ -37,19 +37,19 @@
                     <b>CIASIE (Conception-Intégration d’Applications et Services Web
                         pour l’entreprise)</b>, J’ai eu l’opportunité d’effectuer mon stage de fin d’études au sein du groupe
                     <b>SOPRESS</b>, ou j’ai rejoint l’équipe Dev/WEB et IT en tant que développeuse web pour une durée de 5 mois.<br /><br /> Durant cette période, j’ai pu découvrir les différentes manières de travailler au sein d’une équipe de développeurs
-                    dans un contexte d'entreprise. j'ai pu côtoyer différents profils et apprendre de chacun.<br /><br /> En plus des très bonnes conditions de travail et de l'accueil bienveillant de tout le personnel de l'entreprise, les missions qui m'ont
-                    été confiées m'ont permis de monter progressivement en responsabilités, et de développer les soft-kills nécessaires pour mettre en valeur les travaux réalisés. J’ai également pu, activement participé au processus décisionnel qui a conduit à l'aboutissement de plusieurs des projets sur lequels notre équipe a travaillé, ce qui ma fait gagner en assurance et a renforncé mes aptitutes à travailler en équipe.<br /><br /> Ainsi, ce rapport me permet d'effectuer un compte rendu de mon
+                    dans un contexte d'entreprise. J'ai pu côtoyer différents profils et apprendre de chacun.<br /><br /> En plus des très bonnes conditions de travail et de l'accueil bienveillant de tout le personnel, les missions qui m'ont
+                    été confiées m'ont permis de monter progressivement en responsabilités, et de développer les soft-kills nécessaires pour mettre en valeur les travaux réalisés. J’ai également pu activement participer au processus décisionnel et faire preuve de force de proposition sur plusieurs des projets sur lequels notre équipe a travaillé, ce qui m’a fait gagner en assurance et a renfoncé mes aptitudes à travailler en équipe.<br /><br /> Ainsi, ce rapport me permet d'effectuer un compte rendu de mon
                     travail et de mon expérience vécue tout au long de mon stage.
                 </p>
                 <h2>b. Structure du rapport</h2>
                 <p>Ce rapport sera divisé en cinq grandes sections :<br />
-                <ol>
-                    <li>Une présentation globale de l’entreprise qui m’a accueillie, son histoire ainsi que son domaine d’activité. Puis, de l’équipe que j’ai pu rejoindre.</li>
-                    <li>Méthodologie de travail, étude de l'existant ainsi que le détail des missions sur lesquelles je suis intervenu.</li>
-                    <li>L'apport du stage et les différences avec la formation.</li>
-                    <li>Un « Annexes » qui contiendra des illustrations et autres documents pertinents.</li>
-                    <li> Une conclusion.</li>
-                </ol>
+                <ul>
+                    <li>La première partie est résérver à la présentation globale de l’entreprise qui m’a accueillie, son histoire ainsi que son domaine d’activité. Puis, de l’équipe que j’ai pu rejoindre.</li>
+                    <li>La deuxième partie abordera notre méthodologie de travail au sein de l'équipe, l'étude de l'existant ainsi que le détail des missions sur lesquelles je suis intervenu.</li>
+                    <li>La troisième partie sera sur les apports de mon stage et les différences avec la formation.</li>
+                    <li>La quatrième partie pour conclure ce rapport.</li>
+                    <li>Et enfin une cinquième partie « Annexes » qui contiendra des illustrations et autres documents pertinents.</li>
+                </ul>
                 </p>
             </section>
             <div>

@@ -50,25 +50,25 @@ main {
             }
         }
         #description-header {
-            line-height: 70px;
+            line-height: 60px;
             font-weight: 400;
             padding-top: 80px;
             text-align: center;
             color: white;
             span:first-child {
-                font-size: 50px;
+                font-size: 45px;
                 &:hover {
                     // color: #fe5f55;
                 }
             }
             span:nth-child(3) {
-                font-size: 40px;
+                font-size: 35px;
                 &:hover {
                     // color: #fe5f55;
                 }
             }
             span:nth-child(5) {
-                font-size: 60px;
+                font-size: 55px;
                 font-family: "Helvetica", "Arial", sans-serif;
                 font-weight: bold;
                 a {
@@ -106,6 +106,7 @@ main {
     b {
         font-size: 20px;
         line-height: 1.2em;
+        font-family: "Superior title", "Times New Roman", sans-serif;
     }
 }
 
