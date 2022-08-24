@@ -71,7 +71,7 @@
                         <div class="appli">
                             <h3>3.2.2.1. API SOGEST :</h3>
                             <p class="alinea"> est une API exposée par l’outil “SOGEST” offrant des services aux applis web représentées dans le schéma. Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
-                                <b>Technologies employées :</b> L'API est entièrement codé en <a href="https://www.php.net/"><i>PHP 7</i></a> et utilise une base de données <a href="https://mariadb.org"><i>MariaDB</i></a>.<br />
+                                <b>Technologies employées :</b> L'API est entièrement codé en <a href="https://www.php.net/">PHP 7</a> et utilise une base de données <a href="https://mariadb.org">MariaDB</a>.<br />
                             </p>
                         </div>
                         <div class="appli">
@@ -89,19 +89,19 @@
                                 <li>Suivi des activitées de presse et plus.</li>
                             </ul>
                             <p class="alinea">Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
-                                <b>Technologies employées :</b> <i>PHP 7</i>, <a href="https://www.javascript.com/"><i>JavaScript</i></a>, <a href="https://getbootstrap.com"><i>Bootstrap</i></a> et <a href="https://www.w3.org/Style/CSS/#specs"><i>CSS</i></a> personnalisé pour le front-end.
+                                <b>Technologies employées :</b> PHP 7, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://getbootstrap.com">Bootstrap</a> et <a href="https://www.w3.org/Style/CSS/#specs">CSS</a> personnalisé pour le front-end.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.3. The Office : </h3>
                             <p class="alinea">est un outil de gestion des bureaux SOPRESS. Il est principalement utilisé pour réserver les différentes salles (réunions, montages, casting..).<br />
-                                <b>Technologies employées :</b> <a href="https://v2.vuejs.org/"><i>Vue 2</i></a>, <a href="https://bulma.io/"><i>Bulma</i></a> pour le front, et utilise l'API SOGEST.
+                                <b>Technologies employées :</b> <a href="https://v2.vuejs.org/">Vue 2</a>, <a href="https://bulma.io/">Bulma</a> pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.4. Absences :</h3>
                             <p class="alinea">est un outil de gestions des congès. Les employés peuvent poser leurs congés à travers le site ainsi que consulter le calendrier des membres de leurs équipes.<br />
-                                <b>Technologies employées :</b> <i>Vue 2</i>, <i>Bulma</i> pour le front, et utilise l'API SOGEST.
+                                <b>Technologies employées :</b> Vue 2, Bulma pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
@@ -114,9 +114,9 @@
                         <h2>3.2.3. Sites publiques</h2>
                         <div class="appli">
                             <h3>3.2.3.1. <a class="title_link" href="https://www.sofoot.com">sofoot.com</a>:</h3>
-                            <p>est un site traitant de l'actualité autour du football dans le monde, il représente l’une des activités principales de SOPRESS. Conçu et développé par Gilles FRANCOIS, le site est codé en <i>PHP 7</i>, <i>JavaScript</i>, <i>HTML</i> et <a href="https://sass-lang.com/"><i>SASS</i></a> compilé avec
-                                <i>Grunt</i> (outil qui permet d’automatiser des tâches répétitives telles que la génération d’un fichier CSS minifié à partir d’un fichier SASS).<br /><br />
-                                Les commentaires et autres réactions du site proviennent d'un module séparé qui est une application <i>vue 2</i>, alimentée par l'API "Reactions" qui est codée en <i>PHP</i> et <i>JavaSript</i>.
+                            <p>est un site traitant de l'actualité autour du football dans le monde, il représente l’une des activités principales de SOPRESS. Conçu et développé par Gilles FRANCOIS, le site est codé en PHP 7, JavaScript, HTML et <a href="https://sass-lang.com/">SASS</a> compilé avec
+                                Grunt (outil qui permet d’automatiser des tâches répétitives telles que la génération d’un fichier CSS minifié à partir d’un fichier SASS).<br /><br />
+                                Les commentaires et autres réactions du site proviennent d'un module séparé qui est une application vue 2, alimentée par l'API "Reactions" qui est codée en PHP et JavaSript.
                             </p>
                         </div>
                         <div class="appli">
@@ -151,16 +151,19 @@
 
                             Avant de pouvoir configurer le serveur LDAP et de créer l'annuaire, il est important de comprendre la technologie derrière et l'intérêt de l'utiliser dans notre cas.<br /><br />
                             <b>Définition du protocol LDAP «Lightweight Directory Access Protocol» :</b><br />
-                            Un<a href="https://fr.wikipedia.org/wiki/Protocole_réseau">protocole réseau</a> permettant d'avoir accès aux services d’annuaires distribués et centralisés ainsi que de les modifier. LDAP est la version légère du protocole DAP, qui s'avère être trop complexe pour la gestion d'annuaires volumineux. Les annuaires de ce genre sont généralement utilisés par les entreprise à grande quantités de données afin de faire des accès plus rapides. Dans ce contexte on parle de serveur LDAP.
+                            C'est <a href="https://fr.wikipedia.org/wiki/Protocole_réseau">protocole réseau</a> permettant d'avoir accès aux services d’annuaires distribués et centralisés ainsi que de les modifier. LDAP est la version légère du protocole DAP, qui s'avère être trop complexe pour la gestion d'annuaires volumineux. Les annuaires de ce genre sont généralement utilisés par les entreprise à grande quantités de données afin de faire des accès plus rapides. Dans ce contexte on parle de serveur LDAP.
                             <br /><br /><b>Définition d'un annuaire LDAP</b><br />
                             Un annuaire LDAP est une <ax href="https://fr.wikipedia.org/wiki/Base_de_données_relationnelle">base de données relationnelle</ax> qui va contenir des informations sur des personnes, des groupes, machines etc. Ils sont couramment employés pour stocker des données d’authentification, des données d'utilisateurs (mot de passe, pseudonyme, e-mail, téléphone, etc.) ou d'objets (localisation, marque, modèle, etc.). D'autres applications (exemple : Mattermost) peuvent utiliser ce service pour valider les identifiants de connexion.<br /><br />
 
                             <b>Le fonctionnement d'un annuaire AD/LDAP:</b><br />
                             Un annuaire LDAP est un ensemble d'objets organisés hiérarchiquement selon une arborescence dite <a href="https://en.wikipedia.org/wiki/Directory_information_tree">« DIT » (Directory Information Tree).</a>
                             <br /><br /><b>Exemple d'arborescence d'un annuaire LDAP</b>
-                            <img id="image-3" src="images/ldap.png"><br />
-                            Chaque objet peut contenir des attributs auxquels on assigne des valeurs. Un objet appartient au moins à une <a href="https://web.maths.unsw.edu.au/~lafaye/CCM/activedirectory/active-directory-principes.htm">classe d’objet</a> qui définit les attributs de l’objet. Dans notre cas, une objet du groupe "personnes" représente une personne physique, cette personne est représenté par des attributs tels que le nom (sn), prénom (cn), telephone, email etc. <br /><br />
-                            <b>Avantage à utiliser un annuaire LDAP:</b>
+                        <div class="figure">
+                            <img id="image-3" src="images/ldap.png" width="100%"><br />
+                            <label>Figure 3</label>
+                        </div>
+                        <p>Chaque objet peut contenir des attributs auxquels on assigne des valeurs. Un objet appartient au moins à une <a href="https://web.maths.unsw.edu.au/~lafaye/CCM/activedirectory/active-directory-principes.htm">classe d’objet</a> qui définit les attributs de l’objet. Dans notre cas, une objet du groupe "personnes" représente une personne physique, cette personne est représenté par des attributs tels que le nom (sn), prénom (cn), telephone, email etc. </p>
+                        <b>Avantage à utiliser un annuaire LDAP:</b>
                         <ul>
                             <li>Single sign-on : pouvoir se connecter à des applications en utilisant les identifiants contenus dans l'annuaire (les même que SOGEST dans notre cas)</li>
                             <li>L'annuaire peut être interrogé par toute application compatible LDAP ayant besoin d'utiliser les informations (Mattermost dans notre cas)</li>
@@ -173,7 +176,7 @@
                             <li><b>installer et configurer OpenLDAP et phpLDAP sur une machine Ubuntu :</b><br /><br />
                                 <b>1.1 OpenLDAP : </b><br />
                                 Avant de me confier la tâche, mon tuteur a commencé par créer une machine virtuelle avec une instance <a href="https://www.ubuntu-fr.org/">ubuntu</a> qu'il a hébérgé sur un serveur. Il m'a ensuite donné les accès et de là, j'ai pris la relève.
-                                <br />J'ai commencé par installer un serveur <a href="https://httpd.apache.org/">Apache</a>, <a href="https://doc.ubuntu-fr.org/mysql">MySQL</a> et php sur ma machine. J'ai ensuite sécurisé mon serveur apache avec un certificat SSL. Il est important de le sécuriser puisque je vais travailler avec des données sensibles dans la suite.<br /><br />
+                                <br />J'ai commencé par installer un serveur <a href="https://httpd.apache.org/">Apache</a>, <a href="https://doc.ubuntu-fr.org/mysql">MySQL</a> et php sur ma machine. J'ai ensuite sécurisé mon serveur apache avec un <a href="https://www.globalsign.com/fr/centre-information-ssl/definition-certificat-ssl">certificat SSL</a>. Il est important de le sécuriser puisque je vais travailler avec des données sensibles dans la suite.<br /><br />
                                 J'ai ensuite installé le serveur LDAP en installant quelques packages avec les commandes suivantes :<br />
                                 <p class="code">
                                     $ sudo apt-get install slapd ldap-utils<br />
@@ -254,16 +257,18 @@
                             Cela a permis d'avoir un zoom plus efficace. <br /><br />
                             Afin d'automatiser la génération du rendu, plusieurs autres modifications ont été apportées, on a fini par avoir le processur représenté ci-dessous :<br />
                             <br />
+                        <div class="figure">
                             <img width="100%" src="images/liseuse.png" rel="liseuse"><br /><br />
-                            En lançant le script "generer.php", la fonction de génération d'image est exécutée, celle-ci fait un appel API vers 'Pdf-to-image' en lui passant les paramètres adéquats dont l'url du PDF. L'API permet d'extraire des pages depuis un PDF en format image, elle retourne ensuite l'url de l'image générée, hébergée sur s3. Dans le cas où on extrait toutes les pages, l'API retourne une donnée JSON.
+                            <label>Figure </label>
+                        </div>
+                        <p>En lançant le script "generer.php", la fonction de génération d'image est exécutée, celle-ci fait un appel API vers 'Pdf-to-image' en lui passant les paramètres adéquats dont l'url du PDF. L'API permet d'extraire des pages depuis un PDF en format image, elle retourne ensuite l'url de l'image générée, hébergée sur s3. Dans le cas où on extrait toutes les pages, l'API retourne une donnée JSON.
                             <br /><br />
-                            Une fois le fichier Json contenant l'ensemble des urls des images retourné, une boucle sur ce fichier est exécutée dans "model.php", et en utilisant la fonctionnalité du plugin, diffuse les images.
+                            Une fois le fichier <a href="https://fr.wikipedia.org/wiki/JavaScript_Object_Notation">Json</a> contenant l'ensemble des urls des images retourné, une boucle sur ce fichier est exécutée dans "model.php", et en utilisant la fonctionnalité du plugin, diffuse les images.
                             Le rendu du fichier "model.php" et ensuite récupéré dans "generer.php" pour l'injecter dans le buffer de sortie et générer le fichier statique "index.html".
                             <br /><br />
-                            J'ai ensuite intégré le partage sur les réseaux sociaux, et pour ça j'ai utilisé une librairie JavaScript <b>Sharer.js</b> qui permet de créer des boutons de partage sur les réseaux sociaux, j'ai ensuite intégré les balises meta <b><a href="https://ogp.me">OPEN GRAPH</a></b>.<br /><br />
+                            J'ai ensuite intégré le partage sur les réseaux sociaux, et pour ça j'ai utilisé une librairie JavaScript Sharer.js qui permet de créer des boutons de partage sur les réseaux sociaux, j'ai ensuite intégré les balises meta <b><a href="https://ogp.me">OPEN GRAPH</a></b>.<br /><br />
                             Plusieurs versions ont été livrés avant de se mettre d'accord sur un produit final.<br /><br />
                             <b>Produit final : <a href="https://satellites.maif.fr/maif/maif-mag/189-juillet-2022/#maif-mag-189-juillet-2022/1">Mag maif</a></b>
-                        </p>
                         </p>
                     </div>
                     <div class="projet">
@@ -278,33 +283,48 @@
 
                             J'ai commencé par créer une table "notifications" dans la base de données. Ainsi qu'une classe "Notif" dans le code de sogest, contenant les fonctions nécéssaire à la création, récupération et modifications des données.
                             J'ai ensuite adapté le front-end pour implémenter la fonctionnalité.<br /><br />
+
+                        <div class="figure">
                             <img src="images/notif_1.jpg" width="60%" /><br /><br />
-                            Chaque notification a pour attribut un lien qui redérige vers la liste des documents de la personne, et qui rempli automatiquement le champ de recherche avec le nom du fichier concerné, Ce qui permet à l'utilisateur de retrouver facilement son document.<br /><br />
-                            Pour automatiser l'envoi des notifications j'ai créé un Cron qui s'exécute à un certain inverval de temps, et qui permet d'envoyer un mail pour toute notification créée dont l'attribut mail = 0 (attribut mail = 0 signifié qu'aucun mail n'a été envoyé pour cette notif). L'outil d'envoi des mails est celui utilisé par l'entreprise, mailjet.
+                            <label>Figure </label>
+                        </div>
+
+                        <p>Chaque notification a pour attribut un lien qui redérige vers la liste des documents de la personne, et qui rempli automatiquement le champ de recherche avec le nom du fichier concerné, ce qui permet à l'utilisateur de retrouver facilement son document.<br /><br />
+                            Pour automatiser l'envoi des notifications, j'ai créé un Cron qui s'exécute à un certain inverval de temps, et qui permet d'envoyer un mail pour toute notification créée dont l'attribut mail = 0 (attribut mail = 0 signifié qu'aucun mail n'a été envoyé pour cette notif). L'outil d'envoi des mails est celui utilisé par l'entreprise, mailjet.
                             <br /><br />
                             Plusieurs tests et améliorations ont été effectués pour perfectionner le système, par exemple, envoyer un seul mail regroupant les notifications cumulées depuis la dernière exécution du Cron, implémentation des notifications dans d'autres cas d'usage comme les notes de frais, rédaction et signature de contrat pour le service de prod etc.
                             <br /><br /><b>Rendu</b><br />
                             Après l'envoie d'un document, une notification ainsi qu'un mail sont reçus par la personne concernée :<br />
-                            <img src="images/notif_2.jpg" width="60%" /><br /><br />
+                        </p>
 
-                            Au clique sur une notification :<br />
+                        <div class="figure">
+                            <img src="images/notif_2.jpg" width="60%" /><br /><br />
+                            <label>Figure </label>
+                        </div>
+
+                        <p>Au clique sur une notification :<br /></p>
+                        <div class="figure">
                             <img src="images/notif_3.jpg" width="100%" />
+                            <label>Figure </label>
+                        </div>
+
                         </p><br />
 
                         <b class="fifth-title"><u>4.2 Visionneuse de PDF</u></b><br />
-                        <p>Suite à la demande de plusieurs employés pour avoir accès aux PDFs des magazines, on a décidé d'enrichir un outil déjà existant qui permet de télécharger les couvertures, logo, et doubles pages des magazines en y ajoutant une visionneuse de PDFS avec possibilité de téléchargement.
-                            L'idée étant de réutiliser la liseuse crée pour la MAIF et de l'adapter à nos besoins.<br /><br />
+                        <p>Suite à la demande de plusieurs employés pour avoir accès aux PDFs des magazines, on a décidé d'enrichir un outil déjà existant qui permet de télécharger les couvertures, logo, et doubles pages des magazines en y ajoutant une visionneuse de PDFS avec possibilité de téléchargement.<br /><br />
 
                             <b class="travail-title">Travail effectué</b><br />
                             J'ai commencé par adapter le code de la visionneuse/liseuse à nos besoins en minimisant le nombre de fonctionnalités et en utilisant la diffusion de PDF fourni par le plugin.
-                            J'ai ensuite implémenté côté client, un bouton avec accès à la visionneuse dans SOGEST ce qui me permet de récupérer les informations de l'activité depuis la base de données. Ainsi j'ai construit l'URL de récupération du PDF depuis le serveur.<br /><br />
-                            L'accès à la visionneuse est protégé derrière une authentification à SOGEST, je vérifie bien que le user est connecté et qu'il a un statut lui permettant d'y accéder.<br /><br />
+                            J'ai ensuite implémenté côté client, un bouton avec accès à la visionneuse dans SOGEST ce qui me permet de récupérer les informations de l'activité depuis la base de données. Ainsi, j'ai construit l'URL de récupération du PDF depuis le serveur.<br /><br />
+                            L'accès à la visionneuse est protégé derrière une authentification à SOGEST, je vérifie bien que l'utilisateur est connecté et qu'il a un statut lui permettant d'y accéder.<br /><br />
                             Pour ce qui est du téléchargement, afin de protéger l'URL d'accès au serveur, j'ai fait une redirection vers un fichier php qui permet de lire le PDF et de le redériger vers le buffer de sortie en utilisant la fonction <a href="https://www.php.net/manual/fr/function.readfile.php">readfile</a> de php.<br />
                         </p>
                         <h4>Schéma représentatif du processus :</h4>
 
-                        <img width="100%;" src="images/liseuse_sogest.png" rel="schema_liseuse" />
-
+                        <div class="figure">
+                            <img width="100%;" src="images/liseuse_sogest.png" rel="schema_liseuse" />
+                            <label>Figure </label>
+                        </div>
 
                     </div><br />
                     <div class="projet">
@@ -323,9 +343,12 @@
 
                             <br /><br />Pour la partie dynamique, il a fallut écrire un script php permettant de récupérer les adresses mails des utilisateurs et en utilisant <a href="https://supabase.com">supabase</a>, les stocker en base de données.
                             <br /><br />Supabase est un ensemble de services d'hébergement open source qui inclue une base de données PostgreSQL, l'authentification, le stockage de fichiers et l'API générée automatiquement.<br /><br />
-                            <img src="images/velib.png" width="100%" />
+                            <div class="figure">
+                                <img src="images/velib.png" width="100%" />
 
-                            <br /><br /><b>Retrouvez le résultat juste ici :</b> <a href="https://sogoodstories.com/gratuit/">Landing page SOGOOD</a>
+                                <label>Figure </label>
+                            </div>
+                        <br /><br /><b>Retrouvez le résultat juste ici :</b> <a href="https://sogoodstories.com/gratuit/">Landing page SOGOOD</a>
 
                         </p>
 

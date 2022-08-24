@@ -96,7 +96,7 @@ main ol,
 main li,
 main b {
   font-size: 20px;
-  line-height: 1.2em;
+  line-height: 1.4em;
   font-family: "Superior title", "Times New Roman", sans-serif;
 }
 
@@ -120,11 +120,6 @@ main b {
 
 img {
   border: 2px solid rgb(190, 187, 187);
-}
-
-#image-3 {
-  margin: 1.5em;
-  width: 80%;
 }
 
 .code {
