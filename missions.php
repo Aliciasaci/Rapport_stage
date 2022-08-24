@@ -50,14 +50,14 @@
                 </section>
                 <section class="middle-section">
                     <h1 class="middle-title">3.2 L'existant</h1>
-                    <p>Dans cette section, j'aborderai l'existant ainsi que le détail des missions sur lesquelles je suis intervenue.</p>
+                    <p class="alinea">Dans cette section, j'aborderai l'existant ainsi que le détail des missions sur lesquelles je suis intervenue.</p>
                     <section class="third-section">
                         <h2>3.2.1. Environnement technologique</h2>
-                        <p>L'environnement technologique était déjà bien établie à mon arrivé, ayant principalemennt travaillé sur des projets existants, je n'ai pas eu de choix à faire quant aux technologies à utiliser. Cependant, pour les projets entamés après mon arrivée, la décision a été collectivement prise afin de garder une certaine cohérence par apports à l'éxistant ainsi qu'aux préférences de chacun puisque ces projets sont susceptibles d'évoluer et d'être reprit par les autres membres de l'équipe.</p>
+                        <p class="alinea">L'environnement technologique était déjà bien établie à mon arrivé, ayant principalemennt travaillé sur des projets existants, je n'ai pas eu de choix à faire quant aux technologies à utiliser. Cependant, pour les projets entamés après mon arrivée, la décision a été collectivement prise afin de garder une certaine cohérence par apports à l'éxistant ainsi qu'aux préférences de chacun puisque ces projets sont susceptibles d'évoluer et d'être reprit par les autres membres de l'équipe.</p>
                     </section>
                     <section class="third-section">
                         <h2>3.2.2. Sites internes</h2>
-                        <p>Les schémas suivants illustrent les différentes applis web qui utilisent <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api#:~:text=Une%20API%20(application%20programming%20interface,des%20données%20et%20des%20fonctionnalités."> l’API</a> SOGEST, ainsi que l'architecture clients, API, serveur, base de données.<br /><br /> La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com).
+                        <p class="alinea">Les schémas suivants illustrent les différentes applis web qui utilisent <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api#:~:text=Une%20API%20(application%20programming%20interface,des%20données%20et%20des%20fonctionnalités."> l’API</a> SOGEST, ainsi que l'architecture clients, API, serveur, base de données.</p><p class="alinea">La plupart des sites sont exclusivement utilisés en interne (The office, absences, titres, sogest). D'autres, sont rendues publiques (Kiosque SOPRESS, society-magazine, allso TV, sauvage TV, sofoot.com).
                         </p>
                         <img src="images/schema_1.png" width="100%">
                         <img id="image-2" src="images/schema_2.png" width="100%">
