@@ -63,13 +63,13 @@
                         <img id="image-2" src="images/schema_2.png" width="100%">
                         <div class="appli">
                             <h3>3.2.2.1. API SOGEST :</h3>
-                            <p>est une API exposée par l’outil “SOGEST” et offre des services aux autres applis web représentées dans le schéma. Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
+                            <p class="alinea">API exposée par l’outil “SOGEST” et offre des services aux autres applis web représentées dans le schéma. Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
                                 <b>Technologies employées :</b> L'API est entièrement codé en <a href="https://www.php.net/">PHP 7</a> et utilise une base de données <a href="https://mariadb.org">MariaDB</a>.<br />
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.2. SOGEST : </h3>
-                            <p>le système de gestion interne du groupe SO PRESS. Imaginé et conçu par Gilles FRANCOIS, le CTO. C'est à présent l'outil indispensable à l'entreprise puisque la majorité de la gestion du personnel et des activitées relatives à la presse
+                            <p class="alinea">le système de gestion interne du groupe SO PRESS. Imaginé et conçu par Gilles FRANCOIS, le CTO. C'est à présent l'outil indispensable à l'entreprise puisque la majorité de la gestion du personnel et des activitées relatives à la presse
                                 passe par celui-ci.<br /><br /> Chaque employé (permanents, pigistes ou autres) y possède un compte lui permettant de gérer ses activitées. Ils ont par exemple, accès à leurs fiches de paie à travers leurs espaces personnels. Ils peuvent
                                 également, en fonction de leurs droits, remplir et soumettre des notes de frais aux services adéquats ou encore poser leurs congès en utilisant l'outil "absences".<br /><br /> D'autres employés avec des droits d'administration ou
                                 d'ultra administration ont accès à d'avantages de fonctionnalités. Parmi celles-ci :
@@ -80,7 +80,7 @@
                                 <li>Envoi de la version digital des magazines aux différents distributeurs.</li>
                                 <li>Suivi des activitées de presse et plus.</li>
                             </ul>
-                            <p>Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
+                            <p class="alinea">Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
                                 <b>Technologies employées :</b> PHP 7, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://getbootstrap.com">Bootstrap</a> et <a href="https://www.w3.org/Style/CSS/#specs">CSS</a> personnalisé pour le front-end.
                             </p>
                         </div>
