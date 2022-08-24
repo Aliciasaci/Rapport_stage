@@ -24,12 +24,12 @@
                     le cinéma (So Film), le vélo (Pédale), le rugby (Tampon), le basket (Trashtalk), les enfants pour les parents (Doolittle), l'élégance masculine (L'Etiquette), la musique d'aujourd'hui et de demain (Tsugi).</p>
                 <p class="alinea">En plus de la presse écrite, SOPRESS a élargi son champ d’activité pour lancer une régie publicitaire, H3 Media ainsi que des activités diversifiées dans la production audiovisuelle (AllSo, Sovage), l'édition de
                     livres (So Lonely), la musique (le label Vietnam), les podcasts (Allsound), l'événementiel et le brand content (print, web, vidéo, events)...
-                </p>
+                </p><br/>
                 <h2>b. Focus sur le service DEV/WEB et IT :</h2>
                 <p class="alinea">
                     Au sein de <b>SOPRESS</b>, j’ai rejoint l’équipe DEV et IT, également connue sous le nom de
 
-                    <b>"l‘équipe des 0 et des 1"</b>. Elle forme le pôle informatique du groupe de presse.<br />
+                    <b>"l‘équipe des 0 et des 1"</b>. Elle forme le pôle informatique du groupe de presse.<br /><br/>
                 </p>
                 <p class="alinea">L’équipe est actuellement composée de quatre personnes :
                 <ul>
@@ -38,7 +38,7 @@
                     <li>Nicolas Capeyron : ingénieur système.</li>
                     <li>Alicia SACI : stagiaire</li>
                 </ul>
-                </p>
+                </p><br/>
                 <p class="alinea">Parmi les différentes missions prises en charge par le service :
                 <ul>
                     <li>

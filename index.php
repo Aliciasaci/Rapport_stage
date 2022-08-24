@@ -37,10 +37,14 @@
                     <b>CIASIE (Conception-Intégration d’Applications et Services Web
                         pour l’entreprise)</b>, J’ai eu l’opportunité d’effectuer mon stage de fin d’études au sein du groupe
                     <b>SOPRESS</b>, ou j’ai rejoint l’équipe Dev/WEB et IT en tant que développeuse web pour une durée de 5 mois.<br /><br /> Durant cette période, j’ai pu découvrir les différentes manières de travailler au sein d’une équipe de développeurs
-                    dans un contexte d'entreprise. J'ai pu côtoyer différents profils et apprendre de chacun.<br /><br /> En plus des très bonnes conditions de travail et de l'accueil bienveillant de tout le personnel, les missions qui m'ont
-                    été confiées m'ont permis de monter progressivement en responsabilités, et de développer les soft-kills nécessaires pour mettre en valeur les travaux réalisés. J’ai également pu activement participer au processus décisionnel et faire preuve de force de proposition sur plusieurs des projets sur lequels notre équipe a travaillé, ce qui m’a fait gagner en assurance et a renfoncé mes aptitudes à travailler en équipe.<br /><br /> Ainsi, ce rapport me permet d'effectuer un compte rendu de mon
+                    dans un contexte d'entreprise. J'ai pu côtoyer différents profils et apprendre de chacun.
+                </p><br/>
+                <p class="alinea">En plus des très bonnes conditions de travail et de l'accueil bienveillant de tout le personnel, les missions qui m'ont
+                    été confiées m'ont permis de monter progressivement en responsabilités, et de développer les soft-kills nécessaires pour mettre en valeur les travaux réalisés. J’ai également pu activement participer au processus décisionnel et faire preuve de force de proposition sur plusieurs des projets sur lequels notre équipe a travaillé, ce qui m’a fait gagner en assurance et a renfoncé mes aptitudes à travailler en équipe.</p><br />
+
+                <p class="alinea">Ainsi, ce rapport me permet d'effectuer un compte rendu de mon
                     travail et de mon expérience vécue tout au long de mon stage.
-                </p>
+                </p><br/>
                 <h2>b. Structure du rapport</h2>
                 <p>Ce rapport sera divisé en cinq grandes sections :<br />
                 <ul>

@@ -90,14 +90,15 @@ main {
         // color: #fe5f55;
         font-size: 40px;
         text-align: center;
-        font-family: "Superior title", "Times New Roman", sans-serif;
+        // font-family: "Superior title", "Times New Roman", sans-serif;
         letter-spacing: 0em;
     }
     h2 {
         color: #0f0f10;
+        margin: 10px 0 10px 0;
     }
     h3 {
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
     p,
     ul,
@@ -106,7 +107,8 @@ main {
     b {
         font-size: 20px;
         line-height: 1.4em;
-        font-family: "Superior title", "Times New Roman", sans-serif;
+        // font-family: "Superior title", "Times New Roman", sans-serif;
+        margin: 0;
     }
 }
 
@@ -125,12 +127,13 @@ main {
     }
     .title_link {
         text-decoration: none;
-        color: black;
+        color: rgb(0, 0, 0);
     }
 }
 
 img {
     border: 2px solid rgb(190, 187, 187);
+    margin: 15px;
 }
 
 .code {
@@ -139,6 +142,7 @@ img {
     font-family: monospace;
     padding: 1em;
     margin: 1em;
+    font-size: 15px;
 }
 
 footer {
@@ -209,7 +213,7 @@ a {
 .middle-title {
     font-size: 30px;
     text-align: center;
-    font-family: "Superior title", "Times New Roman", sans-serif;
+    // font-family: "Superior title", "Times New Roman", sans-serif;
     letter-spacing: 0em;
 }
 
@@ -218,7 +222,7 @@ a {
 }
 
 .third-section {
-    margin-top: 2em;
+    margin-top: 1.7em;
 }
 
 .travail-title {
@@ -234,6 +238,18 @@ a {
 .figure {
     text-align: center;
     padding-bottom: 7px;
+}
+
+.projet {
+    margin-top: 20px;
+}
+
+.title-etape-mission {
+    font-size: 21px;
+}
+
+.technos {
+    color: grey;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@330&family=Roboto:wght@100&display=swap");
