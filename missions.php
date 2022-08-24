@@ -71,7 +71,7 @@
                         <div class="appli">
                             <h3>3.2.2.1. API SOGEST :</h3>
                             <p class="alinea"> est une API exposée par l’outil “SOGEST” offrant des services aux applis web représentées dans le schéma. Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
-                                <b>Technologies employées :</b> L'API est entièrement codé en <a href="https://www.php.net/">PHP 7</a> et utilise une base de données <a href="https://mariadb.org">MariaDB</a>.<br />
+                                <b>Technologies employées :</b> L'API est entièrement codé en <a href="https://www.php.net/"><i>PHP 7</i></a> et utilise une base de données <a href="https://mariadb.org"><i>MariaDB</i></a>.<br />
                             </p>
                         </div>
                         <div class="appli">
@@ -89,19 +89,19 @@
                                 <li>Suivi des activitées de presse et plus.</li>
                             </ul>
                             <p class="alinea">Plusieurs améliorations et mises à jours sont prévues afin de perfectionner le système.<br />
-                                <b>Technologies employées :</b> PHP 7, <a href="https://www.javascript.com/">JavaScript</a>, <a href="https://getbootstrap.com">Bootstrap</a> et <a href="https://www.w3.org/Style/CSS/#specs">CSS</a> personnalisé pour le front-end.
+                                <b>Technologies employées :</b> <i>PHP 7</i>, <a href="https://www.javascript.com/"><i>JavaScript</i></a>, <a href="https://getbootstrap.com"><i>Bootstrap</i></a> et <a href="https://www.w3.org/Style/CSS/#specs"><i>CSS</i></a> personnalisé pour le front-end.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.3. The Office : </h3>
                             <p class="alinea">est un outil de gestion des bureaux SOPRESS. Il est principalement utilisé pour réserver les différentes salles (réunions, montages, casting..).<br />
-                                <b>Technologies employées :</b> <a href="https://v2.vuejs.org/">Vue 2</a>, <a href="https://bulma.io/">Bulma</a> pour le front, et utilise l'API SOGEST.
+                                <b>Technologies employées :</b> <a href="https://v2.vuejs.org/"><i>Vue 2</i></a>, <a href="https://bulma.io/"><i>Bulma</i></a> pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
                             <h3>3.2.2.4. Absences :</h3>
                             <p class="alinea">est un outil de gestions des congès. Les employés peuvent poser leurs congés à travers le site ainsi que consulter le calendrier des membres de leurs équipes.<br />
-                                <b>Technologies employées :</b> Vue 2, Bulma pour le front, et utilise l'API SOGEST.
+                                <b>Technologies employées :</b> <i>Vue 2</i>, <i>Bulma</i> pour le front, et utilise l'API SOGEST.
                             </p>
                         </div>
                         <div class="appli">
@@ -114,9 +114,9 @@
                         <h2>3.2.3. Sites publiques</h2>
                         <div class="appli">
                             <h3>3.2.3.1. <a class="title_link" href="https://www.sofoot.com">sofoot.com</a>:</h3>
-                            <p>est un site traitant de l'actualité autour du football dans le monde, il représente l’une des activités principales de SOPRESS. Conçu et développé par Gilles FRANCOIS, le site est codé en PHP 7, JavaScript, HTML et <a href="https://sass-lang.com/">SASS</a> compilé avec
-                                Grunt (outil qui permet d’automatiser des tâches répétitives telles que la génération d’un fichier CSS minifié à partir d’un fichier SASS).<br /><br />
-                                Les commentaires et autres réactions du site proviennent d'un module séparé qui est une application vue 2, alimentée par l'API "Reactions" qui est codée en Php et Javascript.
+                            <p>est un site traitant de l'actualité autour du football dans le monde, il représente l’une des activités principales de SOPRESS. Conçu et développé par Gilles FRANCOIS, le site est codé en <i>PHP 7</i>, <i>JavaScript</i>, <i>HTML</i> et <a href="https://sass-lang.com/"><i>SASS</i></a> compilé avec
+                                <i>Grunt</i> (outil qui permet d’automatiser des tâches répétitives telles que la génération d’un fichier CSS minifié à partir d’un fichier SASS).<br /><br />
+                                Les commentaires et autres réactions du site proviennent d'un module séparé qui est une application <i>vue 2</i>, alimentée par l'API "Reactions" qui est codée en <i>PHP</i> et <i>JavaSript</i>.
                             </p>
                         </div>
                         <div class="appli">
@@ -151,7 +151,7 @@
 
                             Avant de pouvoir configurer le serveur LDAP et de créer l'annuaire, il est important de comprendre la technologie derrière et l'intérêt de l'utiliser dans notre cas.<br /><br />
                             <b>Définition du protocol LDAP «Lightweight Directory Access Protocol» :</b><br />
-                            Ce protocole est un <a href="https://fr.wikipedia.org/wiki/Protocole_réseau">protocole réseau</a> permettant d'avoir accès aux services d’annuaires distribués et centralisés ainsi que de les modifier. LDAP est la version légère du protocole DAP, qui s'avère être trop complexe pour la gestion d'annuaires volumineux. Les annuaires de ce genre sont généralement utilisés par les entreprise à grande quantités de données afin de faire des accès plus rapides. Dans ce contexte on parle de serveur LDAP.
+                            Un<a href="https://fr.wikipedia.org/wiki/Protocole_réseau">protocole réseau</a> permettant d'avoir accès aux services d’annuaires distribués et centralisés ainsi que de les modifier. LDAP est la version légère du protocole DAP, qui s'avère être trop complexe pour la gestion d'annuaires volumineux. Les annuaires de ce genre sont généralement utilisés par les entreprise à grande quantités de données afin de faire des accès plus rapides. Dans ce contexte on parle de serveur LDAP.
                             <br /><br /><b>Définition d'un annuaire LDAP</b><br />
                             Un annuaire LDAP est une <ax href="https://fr.wikipedia.org/wiki/Base_de_données_relationnelle">base de données relationnelle</ax> qui va contenir des informations sur des personnes, des groupes, machines etc. Ils sont couramment employés pour stocker des données d’authentification, des données d'utilisateurs (mot de passe, pseudonyme, e-mail, téléphone, etc.) ou d'objets (localisation, marque, modèle, etc.). D'autres applications (exemple : Mattermost) peuvent utiliser ce service pour valider les identifiants de connexion.<br /><br />
 
