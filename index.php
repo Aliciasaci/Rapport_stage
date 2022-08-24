@@ -33,18 +33,11 @@
                 <hr />
                 <h1 class="big-title">1. Introduction</h1>
                 <p class="alinea">
-                    Dans le cadre de ma licence professionnelle
-                    <b>CIASIE (Conception-Intégration d’Applications et Services Web
-                        pour l’entreprise)</b>, J’ai eu l’opportunité d’effectuer mon stage de fin d’études au sein du groupe
-                    <b>SOPRESS</b>, ou j’ai rejoint l’équipe Dev/WEB et IT en tant que développeuse web pour une durée de 5 mois.<br /><br /> Durant cette période, j’ai pu découvrir les différentes manières de travailler au sein d’une équipe de développeurs
-                    dans un contexte d'entreprise. J'ai pu côtoyer différents profils et apprendre de chacun.
-                </p><br/>
-                <p class="alinea">En plus des très bonnes conditions de travail et de l'accueil bienveillant de tout le personnel, les missions qui m'ont
-                    été confiées m'ont permis de monter progressivement en responsabilités, et de développer les soft-kills nécessaires pour mettre en valeur les travaux réalisés. J’ai également pu activement participer au processus décisionnel et faire preuve de force de proposition sur plusieurs des projets sur lequels notre équipe a travaillé, ce qui m’a fait gagner en assurance et a renfoncé mes aptitudes à travailler en équipe.</p><br />
+                    Dans le cadre de ma licence professionnelle CIASIE (Conception-Intégration d’Applications et Services Web pour l’entreprise), J’ai eu l’opportunité d’effectuer mon stage de fin d’études au sein du groupe SOPRESS, où j’ai rejoint l’équipe Dev/WEB et IT en tant que développeuse web pour une durée de 5 mois.</p>
 
-                <p class="alinea">Ainsi, ce rapport me permet d'effectuer un compte rendu de mon
-                    travail et de mon expérience vécue tout au long de mon stage.
-                </p><br/>
+                <br/><p class="alinea">
+                    À travers ce rapport, je vais pouvoir détailler mon expérience vécue au sein du groupe SOPRESS, les missions auxquelles j’ai participé en tant que développeuse web, les outils et méthodes que j’ai pu utilisé ainsi que les différentes manières de travailler au sein d’une équipe de développeurs dans un contexte d'entreprise.
+                </p><br />
                 <h2>b. Structure du rapport</h2>
                 <p>Ce rapport sera divisé en cinq grandes sections :<br />
                 <ul>

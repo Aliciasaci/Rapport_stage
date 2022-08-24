@@ -315,7 +315,7 @@
 
                         </p><br />
 
-                        <b class="title-etape-mission"><u>4.2 Visionneuse de PDF</u></b><br />
+                        <b class="title-etape-mission"><u>4.2 Visionneuse de magazines</u></b><br />
                         <p class="alinea">Suite à la demande de plusieurs employés pour avoir accès aux PDFs des magazines, on a décidé d'enrichir un outil déjà existant qui permet de télécharger les couvertures, logo, et doubles pages des magazines en y ajoutant une visionneuse de PDFS avec possibilité de téléchargement.</p><br />
                         <p class="alinea">
                             J'ai commencé par adapter le code de la visionneuse/liseuse à nos besoins en minimisant le nombre de fonctionnalités et en utilisant la diffusion de PDF fourni par le plugin.
