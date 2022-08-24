@@ -160,7 +160,7 @@
                         <p class="alinea">Avant de pouvoir configurer le serveur LDAP et de créer l'annuaire, il est important de comprendre la technologie derrière et l'intérêt de l'utiliser dans notre cas.<br /><br />
                         <p>
                             <b class="title-etape-mission">Définition du protocol LDAP «Lightweight Directory Access Protocol» :</b><br />
-                        <p class="alinea">C'est <a href="https://fr.wikipedia.org/wiki/Protocole_réseau">protocole réseau</a> permettant d'avoir accès aux services d’annuaires distribués et centralisés ainsi que de les modifier. LDAP est la version légère du protocole DAP, qui s'avère être trop complexe pour la gestion d'annuaires volumineux. Les annuaires de ce genre sont généralement utilisés par les entreprise à grande quantités de données afin de faire des accès plus rapides. Dans ce contexte on parle de serveur LDAP.</p><br /><br />
+                        <p class="alinea">C'est <a href="https://fr.wikipedia.org/wiki/Protocole_réseau">un protocole réseau</a> permettant d'avoir accès aux services d’annuaires distribués et centralisés ainsi que de les modifier. LDAP est la version légère du protocole DAP, qui s'avère être trop complexe pour la gestion d'annuaires volumineux. Les annuaires de ce genre sont généralement utilisés par les entreprise à grande quantités de données afin de faire des accès plus rapides. Dans ce contexte on parle de serveur LDAP.</p><br /><br />
 
                         <b class="title-etape-mission">Définition d'un annuaire LDAP</b><br />
                         <p class="alinea">
@@ -241,7 +241,6 @@
                             <li>Une liseuse électronique qui diffuse un PDF de façon fluide.</li>
                             <li>Un projet qui fonctionne intégralement en local.</li>
                             <li>Intégration de fonctionnalités telle que le zoom, le partage sur les réseaux sociaux ou encore des liens cliquables.</li>
-                            <li>Amazon S3 pour le stockage des images.</li>
                         </ol><br />
 
                         <b class="title-etape-mission">Technologies utilisées</b>
@@ -253,8 +252,8 @@
                         <b class="title-etape-mission">Avantage à utiliser un plugin </b>
                         <ol>
                             <li>Simplement implémenter les fonctionnalités dont on a besoin sans avoir recours à d'autre librairies ou de les coder nous-mêmes.</li>
-                            <li>Le pluging est responsif.</li>
-                            <li>Le plugin implémente des fonctionnalités tel que le zoom, le chargement paresseux, Intégration de lien et bien d'autres.</li>
+                            <li>Le plugin est responsif.</li>
+                            <li>Le plugin implémente des fonctionnalités tel que le zoom, le chargement paresseux, l'intégration de lien et bien d'autres.</li>
                         </ol>
 
 
