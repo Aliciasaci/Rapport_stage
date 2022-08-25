@@ -107,6 +107,12 @@ main {
     }
   }
 
+  @media screen and (max-width: 1200px) {
+    #main-content {
+      width: 40%;
+      margin: auto;
+  }
+
   #main-content {
     width: 40%;
     margin: auto;
