@@ -136,7 +136,7 @@ main .main-header #description-header span:nth-child(5) a:hover {
 }
 
 main #main-content {
-  width: 50em;
+  width: 40%;
   margin: auto;
   padding-top: 30px;
 }
