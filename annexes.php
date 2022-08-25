@@ -13,12 +13,21 @@
 <body>
     <?php include_once("header.php") ?>
     <main>
-        <div id="annexes-content">
+        <div id="main-content">
             <h1 class="big-title">Annexes</h1>
-
-            <div>
+            <div class="annexes-content">
                 <h2>Annexe 1</h2>
+                <p></p>
+                <img src="images/tache.png" width="100%"/>
+            </div>
+            <div class="annexes-content">
+                <h2>Annexe 2</h2>
+                <img src="images/ldap_browser.png" width="100%"/>
+            </div>
+            <div class="annexes-content">
+                <h2>Annexe 3</h2>
                 <p>Rendu de la visionneuse de </p>
+                <img>
             </div>
         </div>
     </main>
