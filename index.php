@@ -30,12 +30,19 @@
         <div id="main-content">
             <section>
                 <br /><br />
+                <h1 class="big-title">Remerciement</h1>
+                <p class="alinea">
+                    Je tiens en premier lieu à remercier mon tuteur de stage Gilles FRACOIS, ainsi qu'Aina RANDRIANARIJAONA pour m'avoir acceuili au sein de l'équipe et m'avoir fait confiance pour la réalisation des projets.</p><br />
+                    à continuer..
+                <p class="alinea"></p><br/><br/><br/></br><br/>
+
                 <hr />
                 <h1 class="big-title">1. Introduction</h1>
                 <p class="alinea">
                     Dans le cadre de ma licence professionnelle CIASIE (Conception-Intégration d’Applications et Services Web pour l’entreprise), J’ai eu l’opportunité d’effectuer mon stage de fin d’études au sein du groupe SOPRESS, où j’ai rejoint l’équipe Dev/WEB et IT en tant que développeuse web pour une durée de 5 mois.</p>
 
-                <br/><p class="alinea">
+                <br />
+                <p class="alinea">
                     À travers ce rapport, je vais pouvoir détailler mon expérience vécue au sein du groupe SOPRESS, les missions auxquelles j’ai participé en tant que développeuse web, les outils et méthodes que j’ai pu utilisé ainsi que les différentes manières de travailler au sein d’une équipe de développeurs dans un contexte d'entreprise.
                 </p><br />
                 <h2>b. Structure du rapport</h2>
