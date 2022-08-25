@@ -8,6 +8,6 @@
     <link href="style/style.css" rel="stylesheet" />
   </head>
   <body>
-    <footer>2022 Alicia Saci</footer>
+    <footer>Alicia Saci </footer>
   </body>
 </html>
