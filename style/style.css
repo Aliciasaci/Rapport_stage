@@ -297,14 +297,4 @@ a {
 .technos {
   color: #686868;
 }
-
-.def {
-  background-color: #e6e6e6;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  font-size: 17px;
-  border-radius: 5px;
-  padding: 1em;
-}
 /*# sourceMappingURL=style.css.map */
