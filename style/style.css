@@ -135,6 +135,12 @@ main .main-header #description-header span:nth-child(5) a:hover {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 1200px) {
+  main {
+    width: 35em;
+  }
+}
+
 main #main-content {
   width: 50em;
   margin: auto;
