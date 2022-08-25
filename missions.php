@@ -154,7 +154,7 @@
                         <p class="alinea">Cette opération a été répété autant de fois que j'ai eu de projet la nécessitant.</p>
                     </div>
                     <div class="projet">
-                        <h3><u>2. Installation d'un annuaire AD/LDAP(Lightweight Directory Access Protocol)</u></h3>
+                        <h3><u>2. Installation d'un annuaire LDAP(Lightweight Directory Access Protocol)</u></h3>
                         <p class="alinea">L'une des missions les plus intéressantes que j'ai pu faire a été d'installer et de gérer un <a href="https://www.ionos.fr/digitalguide/serveur/know-how/ldap/">annuaire LDAP</a>. le but étant de mettre en place une <a href="https://www.okta.com/fr/blog/2021/02/single-sign-on-sso/">authentification SSO</a> pour l'un de nos outils de communication, <a href="https://mattermost.com">Mattermost</a>. Il suffirait ensuite d'avoir un compte SOGEST et de s'y connecter pour accéder à son instance Mattermost.</p>
 
                         <p class="alinea">Avant de pouvoir configurer le serveur LDAP et de créer l'annuaire, il est important de comprendre la technologie derrière et l'intérêt de l'utiliser dans notre cas.<br /><br />
@@ -167,7 +167,7 @@
                             Un annuaire LDAP est une <ax href="https://fr.wikipedia.org/wiki/Base_de_données_relationnelle">base de données relationnelle</ax> qui va contenir des informations sur des personnes, des groupes, machines etc. Ils sont couramment employés pour stocker des données d’authentification, des données d'utilisateurs (mot de passe, pseudonyme, e-mail, téléphone, etc.) ou d'objets (localisation, marque, modèle, etc.). D'autres applications (exemple : Mattermost) peuvent utiliser ce service pour valider les identifiants de connexion.
                         </p><br /><br />
 
-                        <b class="title-etape-mission">Le fonctionnement d'un annuaire AD/LDAP:</b><br />
+                        <b class="title-etape-mission">Le fonctionnement d'un annuaire LDAP:</b><br />
                         <p class="alinea">Un annuaire LDAP est un ensemble d'objets organisés hiérarchiquement selon une arborescence dite <a href="https://en.wikipedia.org/wiki/Directory_information_tree">« DIT » (Directory Information Tree).</a></p>
                         <br /><b>Exemple d'arborescence d'un annuaire LDAP</b><br /><br />
                         <div class="figure">
