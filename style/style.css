@@ -121,7 +121,7 @@ main .main-header #description-header span:nth-child(5) a:hover {
   text-decoration: underline;
 }
 main #main-content {
-  width: 40%;
+  width: 50%;
   margin: auto;
   padding-top: 30px;
 }
