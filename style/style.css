@@ -31,7 +31,7 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   #menu ul a {
     margin: 0.5em;
   }
@@ -61,7 +61,7 @@ main .main-header span {
   font-size: 1.2em;
   color: rgb(0, 0, 0);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   main .main-header span {
     font-size: 1em;
   }
@@ -76,7 +76,7 @@ main .main-header #description-header {
 main .main-header #description-header span:first-child {
   font-size: 45px;
 }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 900px) {
   main .main-header #description-header span:first-child {
     font-size: 35px;
   }
@@ -89,7 +89,7 @@ main .main-header #description-header span:first-child {
 main .main-header #description-header span:nth-child(3) {
   font-size: 35px;
 }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 900px) {
   main .main-header #description-header span:nth-child(3) {
     font-size: 25px;
   }
@@ -104,7 +104,7 @@ main .main-header #description-header span:nth-child(5) {
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: bold;
 }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 900px) {
   main .main-header #description-header span:nth-child(5) {
     font-size: 35px;
   }
@@ -130,7 +130,7 @@ main #main-content {
     width: 80%;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 900px) {
   main #main-content {
     width: 80%;
   }
@@ -149,7 +149,7 @@ main .big-title {
     font-size: 27px;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 900px) {
   main .big-title {
     font-size: 33px;
   }
@@ -179,7 +179,7 @@ main b {
     font-size: 1em;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 900px) {
   main p,
 main ul,
 main ol,
@@ -189,10 +189,42 @@ main b {
   }
 }
 
-@font-face {
-  font-family: "arial";
-  src: url("../fonts/arial/ARIAL.woff") format("woff");
+.pagination-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 2em 0 8em 0;
+  text-decoration: none;
+  color: black;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
+.pagination-section span {
+  margin-right: 1em;
+  padding-top: 25px;
+}
+@media screen and (max-width: 480px) {
+  .pagination-section span {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .pagination-section span {
+    padding-top: 15px;
+  }
+}
+.pagination-section > img {
+  border: none !important;
+  width: 5%;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .pagination-section > img {
+    width: 15%;
+  }
+}
+
 .appli {
   margin-top: 1.7em;
 }
@@ -245,28 +277,6 @@ hr {
   width: 500px;
 }
 
-#next {
-  border: none;
-  width: 5%;
-  cursor: pointer;
-}
-
-.pagination-section {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: 2em 0 8em 0;
-  text-decoration: none;
-  color: black;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-.pagination-section span {
-  margin-right: 1em;
-  padding-top: 25px;
-}
-
 a {
   text-decoration: none;
   color: rgb(32, 114, 191);
@@ -284,7 +294,7 @@ a {
   text-align: center;
   letter-spacing: 0em;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .middle-title {
     font-size: 20px;
   }
@@ -303,7 +313,7 @@ a {
   font-size: 1.2em;
   text-decoration: underline;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .travail-title {
     font-size: 1em;
   }
@@ -339,5 +349,5 @@ a {
   text-align: center;
 }
 .annexes-content img {
-  border: none;
+  border: none !important;
 }/*# sourceMappingURL=style.css.map */
