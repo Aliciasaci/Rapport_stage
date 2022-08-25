@@ -151,7 +151,47 @@
                             <li>Et enfin, j'ai clôné les fichiers de configurations en les adaptant à mon nouvel environnement.</li>
                         </ol>
                         <br />
-                        <p class="alinea">Cette opération a été répété autant de fois que j'ai eu de projet la nécessitant.</p>
+                        <b>La configuration du Vhost utilisé pour faire fonctionner le site "https://www.society-magazine.fr" en local</b>
+                        <img src="images/vhost.png" width="100%" />
+                        <p class="alinea">
+                        <ul>
+                            <li>"<\VirtualHost *:80"> indique à notre serveur Apache d'écouter sur le port 80. Le port 80 correspond au <a href="https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol">protocole HTTP</a>, c'est-à-dire la connexion d'un serveur HTTP avec un navigateur Web. Les protocoles définissent la façon dont clients et serveurs communiquent. Il est bien-sûre possible de changer de numéro de port.</li>
+                            <li>"www.society-magazine.local" est nom du serveur auquel le vhost doit répondre. Si la partie hôte d'une demande HTTP correspond à ce nom, autorisez la demande.</li>
+                            <li>"society-magazine.local" est un alias qui est un nom de domaine alternatif acceptés par le serveur et qui est facultatif</li>
+                            <li>"DocumentRoot" est le chemin vers le dossier contenant les fichiers du site.</li>
+                            <li>
+                                <\Directory d:/web/society /> signifie qu'on applique les droits à l'intérieur des bâlises au répertoire correspondant au chemin.
+                            </li>
+                            <li>
+                                Les droits :
+
+                                <ul>
+                                    <li>"Options Indexes FollowSymLinks" sont les options choisies dans la suite.</li>
+                                    <li>"AuthType None" permet de définir le type d'authentification utilisateur pour un répertoire. Le type None désactive l'authentification.</li>
+                                    <li>"AllowOverride All" permet d'utiliser le .htaccess dans un site. Les .htaccess sont des fichiers de configurations des serveurs Apache, ils sont utilisés pour configurer des droits d'accès, des <a href="https://fr.wikipedia.org/wiki/Redirection_d%27URL">redirections d'URL</a> ou même des erreurs personnalisés. Ces derniers sont placés à la racine des répertoires ainsi la portée de leurs configuration est limité au répertoire en question.</li>
+                                    <li>"Order allow,deny" permet d'autoriser ou de refuser l'accès à une adresse IP, nom de domaine etc.</li>
+                                    <li>"Allow from all" signifie tout hôte se voit accordé l'accès, en tenant compte des directives Deny et Order comme décrite précédemment .</li>
+                                    <li>"Require all granted" signifie qu'on autorise tout le monde en tenant comptes des droits décrits précédemment.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="code">
+                                    <\FilesMatch "\.php$">
+                                        SetHandler application/x-httpd-php8-cgi
+                                        <\FilesMatch>
+                                </div>
+                                Indique la version de PHP avec nécéssaire au fonctionnement du site.
+                            </li>
+                            <li>
+                                <div class="code">
+                                    ErrorLog logs/society.dev-error.log
+                                    CustomLog logs/society.dev-access.log combined
+                                </div>
+                                Représentent les chemin des fichiers de logs (d'erreurs) pouvant provenir de ce site.
+                            </li>
+                        </ul><br />
+                        <p class="alinea">Cette opération a été répété autant de fois que j'ai eu de projet la nécessitant.</p><br />
+                        </p>
                     </div>
                     <div class="projet">
                         <h3><u>2. Installation d'un annuaire LDAP(Lightweight Directory Access Protocol)</u></h3>
@@ -185,7 +225,7 @@
                         </ul><br /><br />
 
                         <p>
-                            <b class="title-etape-mission">1. Installer et configurer OpenLDAP et phpLDAP sur une machine Ubuntu :</b><br/><br/>
+                            <b class="title-etape-mission">1. Installer et configurer OpenLDAP et phpLDAP sur une machine Ubuntu :</b><br /><br />
                             <b class="title-etape-mission">1.1 OpenLDAP : </b><br />
                         <p class="alinea">Avant de me confier la tâche, mon tuteur a commencé par créer une machine virtuelle avec une instance <a href="https://www.ubuntu-fr.org/">ubuntu</a> qu'il a hébérgé sur un serveur. Il m'a ensuite donné les accès et de là, j'ai pris la relève.</p>
                         <p class="alinea">J'ai commencé par installer un serveur <a href="https://httpd.apache.org/">Apache</a>, <a href="https://doc.ubuntu-fr.org/mysql">MySQL</a> et php sur ma machine. J'ai ensuite sécurisé mon serveur apache avec un <a href="https://www.globalsign.com/fr/centre-information-ssl/definition-certificat-ssl">certificat SSL</a>. Il est important de le sécuriser puisque je vais travailler avec des données sensibles dans la suite.<br /><br /></p>
@@ -222,8 +262,27 @@
                         <p class="alinea">Après installation et configuration du serveur LDAP, j'ai créé une classe "Ldap" contenant les fonctions nécessaires à la récupération des données depuis la base de données sogest et à l'export de celle-ci vers l'annuaire. Pour cela, j'ai utilisé les <a href="https://www.php.net/manual/fr/book.ldap.php">fonctions prédéfinies </a>en php. J'ai ensuite créé un "one shot" (programme lancé une seule fois) dans lequel les fonctions sont appelées.<br /></p>
                         <br />
                         <p class="alinea">À chaque utilisateur récupéré depuis SOGEST, une instance "user" est créée dans l'annuaire puis rempli avec les informations de la personne.
-                            Ainsi, j'ai pu importer toutes les données utilisateur dans notre annuaire AD/LDAP</p><br /><br />
+                            Ainsi, j'ai pu importer toutes les données utilisateur dans notre annuaire AD/LDAP</p><br />
 
+                        <div class="alinea">
+                            <p>Aperçu des fonctions :<br />
+                            <p class="alinea">
+                                Connexion au serveur :
+                                <img src="images/connect_ldap.png" width="100%" />
+                            </p>
+                            <p class="alinea">
+                                Insertion des données utilisateurs SOGEST dans l'annuaire une première fois, la variable $info étant les données d'un utilisateur :
+                                <img src="images/insert_data.png" width="100%" />
+                            </p>
+                            <p class="alinea">
+                                Récupération des données depuis l'annuaire :
+                                <img src="images/get_data.png" width="100%" />
+                            </p>
+                            <p class="alinea">
+                                Ressources sur lesquelles je me suis appuie pour construire la classe LDAP : <a href="https://www.php.net/manual/fr/book.ldap.php">Manuel Php</a>, <a href="https://riptutorial.com/ldap/example/19797/setting-up-php-to-work-with-ldap">LDAP avec PHP</a>
+                            </p>
+                            </p><br/>
+                        </div>
                         <b class="title-etape-mission">Automatisation de l'import/export des données</b><br />
                         <p class="alinea">Une fois nos données importées, il a fallu automatiser le processus, puisqu'à la moindre modification d'information par un utilisateur, il aura fallu que ses informations soient mise à jour dans l'annuaire également. l'idée était d'exécuter le script d'import/export depuis un <b><a href="https://fr.wikipedia.org/wiki/Cron">cron</a></b> qui s'exécuterait à chaque fois qu'un utilisateur modifie ses informations.</p><br /><br />
 
