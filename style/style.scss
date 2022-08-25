@@ -51,6 +51,9 @@ main {
         text-align: center;
         line-height: 1.4;
         span {
+            @media screen and (max-width: 1200px) {
+                font-size: 1.2em;
+            }
             font-size: 1.2em;
             color: rgb(0, 0, 0);
         }
@@ -61,14 +64,25 @@ main {
             text-align: center;
             color: white;
             span:first-child {
+                @media screen and (max-width: 1200px) {
+                    font-size: 35px;
+                }
                 font-size: 45px;
             }
             span:nth-child(3) {
+                @media screen and (max-width: 1200px) {
+                    font-size: 25px;
+                }
                 font-size: 35px;
             }
             span:nth-child(5) {
+                @media screen and (max-width: 1200px) {
+                    font-size: 35px;
+                }
                 font-size: 55px;
-                font-family: "Helvetica", "Arial", sans-serif;
+                font-family: "Helvetica",
+                "Arial",
+                sans-serif;
                 font-weight: bold;
                 a {
                     color: black;
@@ -93,6 +107,9 @@ main {
     }
     .big-title {
         // color: #fe5f55;
+        @media screen and (max-width: 1200px) {
+            font-size: 33px;
+        }
         font-size: 40px;
         text-align: center;
         // font-family: "Superior title", "Times New Roman", sans-serif;
@@ -110,6 +127,9 @@ main {
     ol,
     li,
     b {
+        @media screen and (max-width: 1200px) {
+            font-size: 16px;
+        }
         font-size: 20px;
         line-height: 1.4em;
         // font-family: "Superior title", "Times New Roman", sans-serif;
@@ -211,6 +231,9 @@ a {
 }
 
 .middle-title {
+    @media screen and (max-width: 1200px) {
+        font-size: 20px;
+    }
     font-size: 30px;
     text-align: center;
     // font-family: "Superior title", "Times New Roman", sans-serif;
@@ -226,6 +249,9 @@ a {
 }
 
 .travail-title {
+    @media screen and (max-width: 1200px) {
+        font-size: 1em;
+    }
     color: #ec6f21;
     font-size: 1.2em;
     text-decoration: underline;
