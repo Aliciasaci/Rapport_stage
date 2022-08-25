@@ -15,7 +15,7 @@ body {
         flex-basis: 100%;
         display: flex;
         justify-content: space-between;
-        @media screen and (max-width: 1200px) {
+        @media screen and (max-width: 900px) {
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
@@ -52,7 +52,7 @@ main {
         line-height: 1.4;
         span {
             @media screen and (max-width: 1200px) {
-                font-size: 1.2em;
+                font-size: 1em;
             }
             font-size: 1.2em;
             color: rgb(0, 0, 0);
@@ -64,20 +64,29 @@ main {
             text-align: center;
             color: white;
             span:first-child {
-                @media screen and (max-width: 1200px) {
+                @media screen and (min-width: 481px) and (max-width: 1200px) {
                     font-size: 35px;
+                }
+                @media screen and (max-width: 480px) {
+                    font-size: 25px;
                 }
                 font-size: 45px;
             }
             span:nth-child(3) {
-                @media screen and (max-width: 1200px) {
+                @media screen and (min-width: 481px) and (max-width: 1200px) {
                     font-size: 25px;
+                }
+                @media screen and (max-width: 480px) {
+                    font-size: 20px;
                 }
                 font-size: 35px;
             }
             span:nth-child(5) {
-                @media screen and (max-width: 1200px) {
+                @media screen and (min-width: 481px) and (max-width: 1200px) {
                     font-size: 35px;
+                }
+                @media screen and (max-width: 480px) {
+                    font-size: 30px;
                 }
                 font-size: 55px;
                 font-family: "Helvetica",
@@ -94,7 +103,10 @@ main {
         }
     }
     #main-content {
-        @media screen and (max-width: 1200px) {
+        @media screen and (max-width: 480px) {
+            width: 80%;
+        }
+        @media screen and (min-width: 481px) and (max-width: 1200px) {
             width: 80%;
         }
         width: 40%;
@@ -107,7 +119,10 @@ main {
     }
     .big-title {
         // color: #fe5f55;
-        @media screen and (max-width: 1200px) {
+        @media screen and (max-width: 480px) {
+            font-size: 27px;
+        }
+        @media screen and (min-width: 481px) and (max-width: 1200px) {
             font-size: 33px;
         }
         font-size: 40px;
@@ -127,7 +142,10 @@ main {
     ol,
     li,
     b {
-        @media screen and (max-width: 1200px) {
+        @media screen and (max-width: 480px) {
+            font-size: 1em;
+        }
+        @media screen and (min-width: 481px) and (max-width: 1200px) {
             font-size: 16px;
         }
         font-size: 20px;

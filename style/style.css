@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   #menu ul {
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,7 @@ main .main-header span {
 }
 @media screen and (max-width: 1200px) {
   main .main-header span {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 main .main-header #description-header {
@@ -76,17 +76,27 @@ main .main-header #description-header {
 main .main-header #description-header span:first-child {
   font-size: 45px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 1200px) {
   main .main-header #description-header span:first-child {
     font-size: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .main-header #description-header span:first-child {
+    font-size: 25px;
   }
 }
 main .main-header #description-header span:nth-child(3) {
   font-size: 35px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 1200px) {
   main .main-header #description-header span:nth-child(3) {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .main-header #description-header span:nth-child(3) {
+    font-size: 20px;
   }
 }
 main .main-header #description-header span:nth-child(5) {
@@ -94,9 +104,14 @@ main .main-header #description-header span:nth-child(5) {
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: bold;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 1200px) {
   main .main-header #description-header span:nth-child(5) {
     font-size: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .main-header #description-header span:nth-child(5) {
+    font-size: 30px;
   }
 }
 main .main-header #description-header span:nth-child(5) a {
@@ -110,7 +125,12 @@ main #main-content {
   margin: auto;
   padding-top: 30px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 480px) {
+  main #main-content {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1200px) {
   main #main-content {
     width: 80%;
   }
@@ -124,7 +144,12 @@ main .big-title {
   text-align: center;
   letter-spacing: 0em;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 480px) {
+  main .big-title {
+    font-size: 27px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1200px) {
   main .big-title {
     font-size: 33px;
   }
@@ -145,7 +170,16 @@ main b {
   line-height: 1.4em;
   margin: 0;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 480px) {
+  main p,
+main ul,
+main ol,
+main li,
+main b {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1200px) {
   main p,
 main ul,
 main ol,
