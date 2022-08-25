@@ -335,13 +335,13 @@
                             Le rendu du fichier "model.php" et ensuite récupéré dans "generer.php" pour l'injecter dans le buffer de sortie et générer le fichier statique "index.html".
                         </p><br />
                         <p class="alinea">J'ai ensuite intégré le partage sur les réseaux sociaux, et pour ça j'ai utilisé une librairie JavaScript Sharer.js qui permet de créer des boutons de partage sur les réseaux sociaux, j'ai ensuite intégré les balises meta <b><a href="https://ogp.me">OPEN GRAPH</a></b>.<br /><br />
-                        <p class="alinea">Plusieurs versions ont été livrés avant de se mettre d'accord sur un <a href="https://satellites.maif.fr/maif/maif-mag/189-juillet-2022/#maif-mag-189-juillet-2022/1">produit final</a>.</p>
+                        <p class="alinea">Aina était l'interlocuteur principal avec les représentants de la maif, c'est lui qui m'aiguillait sur les modifications à effectuer sur les nouvelles versions afin d'arriver à un <a href="https://satellites.maif.fr/maif/maif-mag/189-juillet-2022/#maif-mag-189-juillet-2022/1">produit final</a> satisfaisant.</p>
                         </p>
                     </div>
                     <div class="projet">
                         <h3 class="projet-title"><u>4. SOGEST</u></h3>
                         <p class="alinea">
-                          La plupart de mes missions ont consisté à apporter des améliorations et modifications au système de gestion SOGEST. Parmi celle-ci :</p><br />
+                            La plupart de mes missions ont consisté à apporter des améliorations et modifications au système de gestion SOGEST. Parmi celle-ci :</p><br />
                         <b class="title-etape-mission"><u>4.1 Un système de notifications:</u></b><br />
                         <p class="alinea">Une des demandes du service de comptabilité a été de mettre en place un système de notifications afin que les employées puissent recevoir des notifications ainsi que des mails lorsque de nouveaux documents (fiches de paie et autres) sont disponibles sur leur compte personnel.
                             Il fallait donc implémenter la fonctionnalité tout en envisageant de futures utilisations.<br /></p><br />
@@ -391,7 +391,13 @@
                         <div class="figure">
                             <img width="100%;" src="images/liseuse_sogest.png" rel="schema_liseuse" />
                             <label>Figure 8</label>
-                        </div>
+                        </div><br />
+
+                        <b>Rendu</b>
+                        <div class="figure">
+                            <img src="images/magazine.png" width="100%">
+                            <label>Figure </label>
+                        </div><br />
 
                     </div><br />
                     <div class="projet">

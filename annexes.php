@@ -13,16 +13,16 @@
 <body>
     <?php include_once("header.php") ?>
     <main>
-        <div id="main-content">
-            <section>
-                <h1 class="big-title">Annexes</h1>
-            </section>
+        <div id="annexes-content">
+            <h1 class="big-title">Annexes</h1>
+
             <div>
-                <a href="index.php" class="pagination-section"><span>Début</span><img id="next" src="images/right.png" rel="next"></a>
+                <h2>Annexe 1</h2>
+                <p>Rendu de la visionneuse de </p>
             </div>
         </div>
     </main>
-    <?php include_once("footer.php") ?>
+    <!-- <?php include_once("footer.php") ?> -->
 </body>
 
 </html>
