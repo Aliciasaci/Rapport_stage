@@ -108,14 +108,9 @@ main #main-content {
   padding-top: 30px;
 }
 
-main #annexes-content {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-}
-
-main #annexes-content img {
-  width: 100%;
+main #main-content img {
+  border: 2px solid #bebbbb;
+  margin: 15px;
 }
 
 main .big-title {
@@ -163,11 +158,6 @@ main b {
 .appli .title_link {
   text-decoration: none;
   color: black;
-}
-
-img {
-  border: 2px solid #bebbbb;
-  margin: 15px;
 }
 
 .code {
@@ -296,5 +286,17 @@ a {
 
 .technos {
   color: #686868;
+}
+
+.annexes-content {
+  margin: auto;
+}
+
+.annexes-content h2 {
+  text-align: center;
+}
+
+.annexes-content img {
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */

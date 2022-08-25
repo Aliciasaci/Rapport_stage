@@ -86,6 +86,10 @@ main {
     width: 50em;
     margin: auto;
     padding-top: 30px;
+    img {
+      border: 2px solid rgb(190, 187, 187);
+      margin: 15px;
+    }
   }
 
   .big-title {
@@ -131,11 +135,6 @@ main {
     text-decoration: none;
     color: rgb(0, 0, 0);
   }
-}
-
-img {
-  border: 2px solid rgb(190, 187, 187);
-  margin: 15px;
 }
 
 .code {
@@ -261,9 +260,8 @@ a {
   h2 {
     text-align: center;
   }
-  img {
-    border: none;
-    width: 100%;
+  img{
+    border : none;
   }
 }
 
