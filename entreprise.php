@@ -36,7 +36,7 @@
                     <li>Gilles FRANCOIS : directeur technique.</li>
                     <li>Aina RANDRIANARIJAONA : assistant technique.</li>
                     <li>Nicolas Capeyron : ingénieur système.</li>
-                    <li>Alicia SACI : Développeuse Web stagiare.</li>
+                    <li>Alicia SACI : Développeuse Web stagiaire.</li>
                 </ul>
                 </p><br/>
                 <p class="alinea">Parmi les différentes missions prises en charge par le service :

@@ -29,12 +29,20 @@
         <br /><br />
         <div id="main-content">
                 <section class="middle-section">
-                    <div class="third-section">
-                        <h1 class="big-title">Remerciement</h1>
+                    <div class="third-section" style="margin-bottom: 30vh">
+                        <h1 class="big-title">Remerciements</h1>
                         <p class="alinea">
-                            Je tiens en premier lieu à remercier mon tuteur de stage Gilles FRACOIS, ainsi qu'Aina RANDRIANARIJAONA pour m'avoir acceuili au sein de l'équipe et m'avoir fait confiance pour la réalisation des projets.</p><br />
-                        à continuer..
-                        <p class="alinea"></p><br /><br /><br /></br><br />
+                            Je tiens en premier lieu à remercier chaleureusement mon tuteur de stage Gilles FRANCOIS, ainsi qu'Aina RANDRIANARIJAONA pour m'avoir acceuilie au sein de l'équipe et m'avoir fait confiance pour la réalisation des projets.</p>
+                        <p class="alinea"></p><br />
+                        <p class="alinea">
+                        Je remercie également tout SOPRESS, pour m’avoir accueillie et offert cette opportunité.
+                        <p class="alinea"></p><br />
+                        <p class="alinea">
+                        Je tiens aussi à remercier le corps pédagogique, ainsi que les membres de l’administration de l'IUT Nancy-Charlemagne pour leurs enseignements et leurs accompagnements durant cette année.
+                        <p class="alinea"></p><br />
+                        <p class="alinea">
+                        Enfin, je remercie Yann BONIFACE pour ses relectures et corrections.
+                        <p class="alinea"></p><br />
                     </div>
                     <div class="third-section">
                         <h1 class="big-title">1. Introduction</h1>
@@ -43,14 +51,14 @@
 
                         <br />
                         <p class="alinea">
-                            À travers ce rapport, je vais pouvoir détailler mon expérience vécue au sein du groupe SOPRESS, les missions auxquelles j’ai participé en tant que développeuse web, les outils et méthodes que j’ai pu utilisé ainsi que les différentes manières de travailler au sein d’une équipe de développeurs dans un contexte d'entreprise.
+                            À travers ce rapport, je vais pouvoir détailler mon expérience vécue au sein du groupe SOPRESS, les missions auxquelles j’ai participé en tant que développeuse web, les outils et méthodes que j’ai pu utiliser ainsi que les différentes manières de travailler au sein d’une équipe de développeurs dans un contexte d'entreprise.
                         </p><br />
                     </div>
                     <div class="third-section">
                         <h2>b. Structure du rapport</h2>
                         <p>Ce rapport sera divisé en cinq grandes sections :<br />
                         <ul>
-                            <li>La première partie est réservée à la présentation globale de l’entreprise qui m’a accueillie, son histoire ainsi que son domaine d’activité. Puis, de l’équipe que j’ai pu rejoindre.</li>
+                            <li>La première partie est réservée à la présentation globale de l’entreprise qui m’a accueillie, son histoire ainsi que son domaine d’activité. Puis de l’équipe que j’ai pu rejoindre.</li>
                             <li>La deuxième partie abordera notre méthodologie de travail au sein de l'équipe, l'étude de l'existant ainsi que le détail des missions sur lesquelles je suis intervenu.</li>
                             <li>La troisième concernera les apports de mon stage et les différences avec la formation.</li>
                             <li>La quatrième partie conclura ce rapport.</li>

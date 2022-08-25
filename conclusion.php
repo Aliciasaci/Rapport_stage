@@ -22,7 +22,7 @@
 
                 <p class="alinea">Les missions qui m'ont été confiées m'ont permis de monter progressivement en responsabilités et de développer les soft-skills nécessaires pour mettre en valeur les travaux réalisés. J’ai également pu participer activement au processus décisionnel et faire preuve de force de proposition sur plusieurs des projets sur lesquels notre équipe a travaillé, ce qui m’a fait gagner en assurance et a renforcé mes aptitudes à travailler en équipe.</p><br />
 
-                <p class="alinea">Grâce à cette expérience, je suis convaincue de mon choix de carrière. Cette période a été très enrichissante et formatrice, et m’a donné les bases nécessaires à mon épanouissement professionnel.</p><br />
+                <p class="alinea">Pour conclure, grâce à cette expérience je suis convaincue de mon choix de carrière. Cette période a été très enrichissante et formatrice, et m’a donné les bases nécessaires à mon épanouissement professionnel.</p><br />
             </section>
             <div>
                 <a href="annexes.php" class="pagination-section"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>

@@ -167,8 +167,9 @@ main ol,
 main li,
 main b {
   font-size: 20px;
-  line-height: 1.4em;
+  line-height: 1.5em;
   margin: 0;
+  text-align: justify;
 }
 @media screen and (max-width: 480px) {
   main p,
@@ -287,6 +288,10 @@ a {
 }
 .title_link:hover {
   text-decoration: underline;
+}
+
+.projet-title {
+  font-size: 23px;
 }
 
 .middle-title {
