@@ -14,7 +14,7 @@
 <body>
     <?php include_once("header.php") ?>
     <main>
-        <!-- <section class="main-header">
+        <section class="main-header">
             <div><img src="images/logo_iut.jpg" style="border:none; width:35%; margin:30px auto;" /></div>
             <div id="description-header">
                 <span>Rapport de stage de Licence Professionnelle CIASIE</span><br />
@@ -26,9 +26,8 @@
             <span>Tuteur IUT : Yann BONIFACE</span><br /><br />
             <span>Année universitaire : 2021-2022</span>
         </section>
-        <br /><br /> -->
+        <br /><br />
         <div id="main-content">
-            <section>
                 <section class="middle-section">
                     <div class="third-section">
                         <h1 class="big-title">Remerciement</h1>
@@ -37,7 +36,6 @@
                         à continuer..
                         <p class="alinea"></p><br /><br /><br /></br><br />
                     </div>
-                    <hr />
                     <div class="third-section">
                         <h1 class="big-title">1. Introduction</h1>
                         <p class="alinea">
@@ -60,11 +58,10 @@
                         </ul>
                         </p>
                     </div>
-                    <!-- <div>
+                    <div>
                         <a class="pagination-section" href="entreprise.php"><span>Page suivante</span><img id="next" src="images/right.png" rel="next"></a>
-                    </div> -->
+                    </div>
                 </section>
-                <section>
         </div>
     </main>
     <?php include_once("footer.php") ?>
