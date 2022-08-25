@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/script.js"></script>
     <link href="style/style.css" rel="stylesheet" />
-    <title>Entreprise</title>
+    <title>Contexte entreprise</title>
 </head>
 
 <body>
@@ -33,16 +33,16 @@
                 </p>
                 <p class="alinea">L’équipe est actuellement composée de quatre personnes :
                 <ul>
-                    <li>Gilles FRANCOIS : CTO.</li>
+                    <li>Gilles FRANCOIS : directeur technique.</li>
                     <li>Aina RANDRIANARIJAONA : assistant technique.</li>
                     <li>Nicolas Capeyron : ingénieur système.</li>
-                    <li>Alicia SACI : stagiaire</li>
+                    <li>Alicia SACI : Développeuse Web stagiare.</li>
                 </ul>
                 </p><br/>
                 <p class="alinea">Parmi les différentes missions prises en charge par le service :
                 <ul>
                     <li>
-                        Conception, réalisation et maintenance des multiples sites internet du groupe tel que <a href="https://www.sofoot.com">sofoot.com</a>, <a href="https://www.society-magazine.fr">society-magazine.fr</a>, <a href="https://www.sovage.tv">sovage.tv</a>, <a href="allso.tv">allso.tv</a href="https://www.vietnam-label.com">, <a>vietnam-label.com</a> ou encore <a href="https://www.so-lonely.fr">so-lonely.fr</a>.</li>
+                        Conception, réalisation et maintenance des multiples sites internet du groupe tel que <a href="https://www.sofoot.com">sofoot.com</a>, <a href="https://www.society-magazine.fr">society-magazine.fr</a>, <a href="https://www.sovage.tv">sovage.tv</a>, <a href="https://www.allso.tv">allso.tv, <a href="https://www.vietnam-label.com">vietnam-label.com</a> ou encore <a href="https://www.so-lonely.fr">so-lonely.fr</a>.</li>
                     <li>Mise en place de plusieurs outils interne à l’entreprise tel que SOGEST, qui est le système de gestion des employés de l'entreprise ou encore "The Office" pour la gestion des bureaux.</li>
 
                     <li>Gestion des incidents et assistance technique.</li>

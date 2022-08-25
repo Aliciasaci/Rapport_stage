@@ -14,15 +14,24 @@
     <?php include_once("header.php") ?>
     <main>
         <div id="main-content">
-            <section>
-                <h1 class="big-title">Annexes</h1>
-            </section>
-            <div>
-                <a href="index.php" class="pagination-section"><span>Début</span><img id="next" src="images/right.png" rel="next"></a>
-            </div>
+            <h1 class="big-title">Annexes</h1>
+            <div class="annexes-content">
+                <h2>Annexe 1</h2>
+                <p>Exemple de tâche</p>
+                <img src="images/tache.png" width="100%" ; />
+            </div><br /><br /><br />
+            <div class="annexes-content">
+                <h2>Annexe 2</h2>
+                <img src="images/ldap_browser.png" width="100%" />
+            </div><br /><br /><br />
+            <div class="annexes-content">
+                <h2>Annexe 3</h2>
+                <p>Hosts File Editor est un outil qui permet de facilement modifier le fichier <a href="https://fr.wikipedia.org/wiki/Hosts">"hosts"</a> sur windows. On peut ajouter, supprimer ou modifier des noms de domaines. Il permet également de les désactiver en décochant les cases à droite.</p>
+                <img src="images/host_file_editor.png" width="100%">
+            </div><br /><br /><br />
         </div>
     </main>
-    <?php include_once("footer.php") ?>
+    <!-- <?php include_once("footer.php") ?> -->
 </body>
 
 </html>
