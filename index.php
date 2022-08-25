@@ -8,7 +8,7 @@
     <link href="style/style.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
-    <title>Alicia Saci</title>
+    <title>Accueil</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
                 <hr />
                 <h1 class="big-title">1. Introduction</h1>
                 <p class="alinea">
-                    Dans le cadre de ma licence professionnelle CIASIE (Conception-Intégration d’Applications et Services Web pour l’entreprise), J’ai eu l’opportunité d’effectuer mon stage de fin d’études au sein du groupe SOPRESS, où j’ai rejoint l’équipe Dev/WEB et IT en tant que développeuse web pour une durée de 5 mois.</p>
+                    Dans le cadre de ma licence professionnelle CIASIE (Conception-Intégration d’Applications et Services Web pour l’entreprise), J’ai eu l’opportunité d’effectuer mon stage de fin d’études au sein du groupe SOPRESS, où j’ai rejoint l’équipe "Dev/WEB et IT" en tant que développeuse web pour une durée de 5 mois.</p>
 
                 <br/><p class="alinea">
                     À travers ce rapport, je vais pouvoir détailler mon expérience vécue au sein du groupe SOPRESS, les missions auxquelles j’ai participé en tant que développeuse web, les outils et méthodes que j’ai pu utilisé ainsi que les différentes manières de travailler au sein d’une équipe de développeurs dans un contexte d'entreprise.
@@ -43,8 +43,8 @@
                 <ul>
                     <li>La première partie est réservée à la présentation globale de l’entreprise qui m’a accueillie, son histoire ainsi que son domaine d’activité. Puis, de l’équipe que j’ai pu rejoindre.</li>
                     <li>La deuxième partie abordera notre méthodologie de travail au sein de l'équipe, l'étude de l'existant ainsi que le détail des missions sur lesquelles je suis intervenu.</li>
-                    <li>La troisième partie sera sur les apports de mon stage et les différences avec la formation.</li>
-                    <li>La quatrième partie pour conclure ce rapport.</li>
+                    <li>La troisième concernera les apports de mon stage et les différences avec la formation.</li>
+                    <li>La quatrième partie conclura ce rapport.</li>
                     <li>Et enfin une cinquième partie « Annexes » qui contiendra des illustrations et autres documents pertinents.</li>
                 </ul>
                 </p>
