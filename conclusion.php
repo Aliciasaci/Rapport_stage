@@ -15,7 +15,7 @@
     <main>
         <div id="main-content">
             <section>
-                <h1 class="big-title">Conclusion</h1>
+                <h1 class="big-title">5. Conclusion</h1>
                 <p class="alinea">Ce stage a été très enrichissant pour moi car il m'a permis de découvrir dans le détail le secteur du DEV/web, ses acteurs, contraintes… et il m'a permis de participer concrètement à ses enjeux au travers de missions variées.</p><br />
 
                 <p class="alinea">En plus des très bonnes conditions de travail et de l'accueil bienveillant de tout le personnel, mon encadreur a été très présent et très formateur durant toute ma période de stage.</p><br />
