@@ -152,6 +152,7 @@
                         <li>Et enfin, j'ai cloné les fichiers de configuration en les adaptant à mon nouvel environnement.</li>
                     </ol><br />
                     <p class="alinea">Cette opération a été répété autant de fois que j'ai eu de projet la nécessitant.</p><br />
+                    <p class="alinea def">L'hébergement virtuel (Vhost) est une façon qu'ont les serveurs web de procéder afin de pouvoir accueillir plus d'un nom de domaine par instance, possiblement à la même adresse IP, ce qui permet de lancer plusieurs sites simultanément.</p>
                     <br />
                     <b>La configuration du Vhost utilisé pour faire fonctionner le site "https://www.society-magazine.fr" en local</b>
                     <div class="figure">
@@ -198,7 +199,7 @@
                     </p>
                 </div>
                 <div class="projet">
-                    <h3 class="projet-title"><u>3.3.2  Mise en place d'un annuaire LDAP(Lightweight Directory Access Protocol)</u></h3>
+                    <h3 class="projet-title"><u>3.3.2 Mise en place d'un annuaire LDAP(Lightweight Directory Access Protocol)</u></h3>
                     <p class="alinea">L'une des missions les plus intéressantes que j'ai pu faire a été d'installer et de gérer un <a href="https://www.ionos.fr/digitalguide/serveur/know-how/ldap/">annuaire LDAP</a>, le but étant de mettre en place une <a href="https://www.okta.com/fr/blog/2021/02/single-sign-on-sso/">authentification SSO</a> pour l'un de nos outils de communication, <a href="https://mattermost.com">Mattermost</a>. Il suffirait ensuite d'avoir un compte SOGEST et de s'y connecter pour accéder à son instance Mattermost.</p>
 
                     <p class="alinea">Avant de pouvoir configurer le serveur LDAP et de créer l'annuaire, il est important de comprendre la technologie derrière et l'intérêt de l'utiliser dans notre cas.<br /><br />
@@ -303,7 +304,8 @@
                         </p><br />
                     </div>
                     <b class="title-etape-mission">Automatisation de l'import/export des données</b><br />
-                    <p class="alinea">Une fois nos données importées, il a fallu automatiser le processus, puisqu'à la moindre modification d'information par un utilisateur, il faudrait que ses informations soient mises à jour dans l'annuaire également. L'idée était d'exécuter le script d'import/export depuis un <b><a href="https://fr.wikipedia.org/wiki/Cron">cron</a></b> qui s'exécuterait à chaque fois qu'un utilisateur modifie ses informations.</p><br /><br />
+                    <p class="alinea">Une fois nos données importées, il a fallu automatiser le processus, puisqu'à la moindre modification d'information par un utilisateur, il faudrait que ses informations soient mises à jour dans l'annuaire également. L'idée était d'exécuter le script d'import/export depuis un <b><a href="https://fr.wikipedia.org/wiki/Cron">cron</a></b> qui s'exécuterait à chaque fois qu'un utilisateur modifie ses informations.</p><br />
+                    <p class="alinea def">Un cron est un programme qui permet d’exécuter automatiquement des scripts, commandes et logiciels selon des horaires fixes et à des dates précises. On peut par exemple, le programmer pour qu'il fasse la mise à jour des données d'un site toutes les heures ainsi libérer l'administrateur humain de la répétitivité de cette tâche.</p><br /><br />
 
                     <b class="title-etape-mission">La suite du projet</b><br />
                     <p class="alinea">L'implémentation de cette technologie avec Mattermost étant devenue payante, il n'est plus intéresssant pour nous d'y avoir recours. Cependant, celle-ci sera toujours utile pour d'éventuelles futures utilisations.</p>
