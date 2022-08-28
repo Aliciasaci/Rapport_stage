@@ -29,7 +29,7 @@
         <br /><br />
         <div id="main-content">
                 <section class="middle-section">
-                    <div class="third-section" style="margin-bottom: 30vh">
+                    <div class="third-section" style="margin-bottom: 25vh">
                         <h1 class="big-title">Remerciements</h1>
                         <p class="alinea">
                             Je tiens en premier lieu à remercier chaleureusement mon tuteur de stage Gilles FRANCOIS, ainsi qu'Aina RANDRIANARIJAONA pour m'avoir acceuilie au sein de l'équipe et m'avoir fait confiance pour la réalisation des projets.</p>
