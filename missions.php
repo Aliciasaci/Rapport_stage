@@ -43,7 +43,7 @@
                 <div class="third-section">
                     <h2>3.1.2 Cadre des missions</h2>
                     <p class="alinea">
-                        Le sujet de mon stage a porté sur plusieurs missions émanant d'un besoin évolutif du métier. En effet, elles ont au fur et à mesure été crées selon les demandes des employées.<br /></p>
+                        Le sujet de mon stage a porté sur plusieurs missions émanant d'un besoin évolutif du métier. En effet, elles ont au fur et à mesure été crées selon les demandes des employés.<br /></p>
                     <br />
                     <p class="alinea">Lorsqu'une nouvelle tâche émerge, nous tenons une réunion pour en discuter et nous mettre d'accord sur la façon de procéder ainsi que sur les technologies à utiliser. Souvent, je travaille sur des projets déjà existants qui nécessitent une mise en contexte pour me familiariser avec l'existant.<br /></p>
 
@@ -76,9 +76,12 @@
                     </div>
                     <div class="appli">
                         <h3>3.2.2.1 API SOGEST :</h3>
-                        <p class="alinea">C'est une API exposée par l’outil “SOGEST” offrant des services aux applis web représentées dans le schéma. Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
+                        <p class="alinea">C'est une API(1) exposée par l’outil “SOGEST” offrant des services aux applis web représentées dans le schéma. Les différents outils sont développés indépendamment pour former un écosystème complet de gestion interne.<br />
                             <b class="technos">Technologies employées :</b> L'API est entièrement codé en <a href="https://www.php.net/">PHP 7</a> et utilise une base de données <a href="https://mariadb.org">MariaDB</a>.<br />
-                        </p>
+                        </p><br />
+                        <p class="alinea def"> (1) API (Application Programming Interface) : Il s’agit d'une interface logicielle permettant à des applications de communiquer entre
+                            elles. Les APIs sont appelées par les applications à travers des requêtes vers des URIs(2) afin d’obtenir des ressource dans un certain format.</p><br />
+                        <p class="alinea def">(2) URI (Uniform Resource Identifier) : Il s'agit d'une chaine de caractères utilisée pour identifier une ressources sur un réseau. Une API peut consister à développer des URI explicites vers les ressources sur un service web. Par exemple, une requête vers une uri «https://sogest.sopress.net/magazines/» permetterait de récupérer les données des magazines. L'écriture des URIs est propre à chaque API.</p>
                     </div>
                     <div class="appli">
                         <h3>3.2.2.2 SOGEST : </h3>
@@ -147,12 +150,12 @@
                         Afin de pouvoir apporter des modifications et maintenir les sites, il a fallu, dans un premier temps les installer localement.
                         <li>J’ai commencé par cloner les répertoires des différents sites depuis Gitlab. </li>
                         <li>Je me suis ensuite connecté aux bases de données en production en utilisant un outil d'administration de base de données <a href="https://www.heidisql.com/">"HeidiSQL"</a>, pour cloner celle-ci en local. </li>
-                        <li>J’ai créé un <a href="https://httpd.apache.org/docs/2.2/fr/vhosts/">vhost(virtual host)</a> pour chacun des sites afin de maintenir une gestion séparée des noms. Chaque Vhost contient la version PHP utilisée par le site, si celle-ci est différente de la version par défaut du serveur.</li>
+                        <li>J’ai créé un <a href="https://httpd.apache.org/docs/2.2/fr/vhosts/"> vhost(virtual host)</a>(3) pour chacun des sites afin de maintenir une gestion séparée des noms. Chaque Vhost contient la version PHP utilisée par le site, si celle-ci est différente de la version par défaut du serveur.</li>
                         <li>J'ai ensuite rajouté le nom de domaine des sites au fichier "hosts" de mon système d'exploitation.</li>
                         <li>Et enfin, j'ai cloné les fichiers de configuration en les adaptant à mon nouvel environnement.</li>
                     </ol><br />
                     <p class="alinea">Cette opération a été répété autant de fois que j'ai eu de projet la nécessitant.</p><br />
-                    <p class="alinea def">L'hébergement virtuel (Vhost) est une façon qu'ont les serveurs web de procéder afin de pouvoir accueillir plus d'un nom de domaine par instance, possiblement à la même adresse IP, ce qui permet de lancer plusieurs sites simultanément.</p>
+                    <p class="alinea def">(3) Vhost (l'hébergement virtuel) : Il s'agit d'une manière qu'ont les serveurs web de procéder afin de pouvoir accueillir plus d'un nom de domaine par instance, possiblement à la même adresse IP, ce qui permet de lancer plusieurs sites simultanément.</p>
                     <br />
                     <b>La configuration du Vhost utilisé pour faire fonctionner le site "https://www.society-magazine.fr" en local</b>
                     <div class="figure">
@@ -200,15 +203,16 @@
                 </div>
                 <div class="projet">
                     <h3 class="projet-title"><u>3.3.2 Mise en place d'un annuaire LDAP(Lightweight Directory Access Protocol)</u></h3>
-                    <p class="alinea">L'une des missions les plus intéressantes que j'ai pu faire a été d'installer et de gérer un <a href="https://www.ionos.fr/digitalguide/serveur/know-how/ldap/">annuaire LDAP</a>, le but étant de mettre en place une <a href="https://www.okta.com/fr/blog/2021/02/single-sign-on-sso/">authentification SSO</a> pour l'un de nos outils de communication, <a href="https://mattermost.com">Mattermost</a>. Il suffirait ensuite d'avoir un compte SOGEST et de s'y connecter pour accéder à son instance Mattermost.</p>
+                    <p class="alinea">L'une des missions les plus intéressantes que j'ai pu faire a été d'installer et de gérer un <a href="https://www.ionos.fr/digitalguide/serveur/know-how/ldap/">annuaire LDAP</a>, le but étant de mettre en place une <a href="https://www.okta.com/fr/blog/2021/02/single-sign-on-sso/"> authentification SSO</a>(4) pour l'un de nos outils de communication, <a href="https://mattermost.com">Mattermost</a>. Il suffirait ensuite d'avoir un compte SOGEST et de s'y connecter pour accéder à son instance Mattermost.</p><br />
 
+                    <p class="alinea def">(4) SSO (single sign-on) : Il s'agit une méthode permettant à l'utilisateur d'accéder à plusieurs applications ou sites web en utilisant une seule authentification ce qui permet de reternir un seul nom d'utilisateur et mot de passe au lieu de plusieurs. Parmi les SSO les plus populaires, on retrouve celui de Google avec lequel il est possible de se connecter à plusieurs applications.</p><br />
                     <p class="alinea">Avant de pouvoir configurer le serveur LDAP et de créer l'annuaire, il est important de comprendre la technologie derrière et l'intérêt de l'utiliser dans notre cas.<br /><br />
                     <p>
                         <b class="title-etape-mission">Définition du protocole LDAP «Lightweight Directory Access Protocol» :</b><br />
-                    <p class="alinea def">C'est <a href="https://fr.wikipedia.org/wiki/Protocole_réseau">un protocole réseau</a> permettant d'avoir accès au services d’annuaires distribués et centralisés ainsi que de les modifier. LDAP est la version légère du protocole DAP, qui s'avère être trop complexe pour la gestion d'annuaires volumineux. Les annuaires de ce genre sont généralement utilisés par les entreprises à grande quantité de données afin de faire des accès plus rapides. Dans ce contexte on parle de serveur LDAP.</p><br /><br />
+                    <p class="alinea">Il s'agit <a href="https://fr.wikipedia.org/wiki/Protocole_réseau">un protocole réseau</a> permettant d'avoir accès au services d’annuaires distribués et centralisés ainsi que de les modifier. LDAP est la version légère du protocole DAP, qui s'avère être trop complexe pour la gestion d'annuaires volumineux. Les annuaires de ce genre sont généralement utilisés par les entreprises à grande quantité de données afin de faire des accès plus rapides. Dans ce contexte on parle de serveur LDAP.</p><br /><br />
 
                     <b class="title-etape-mission">Définition d'un annuaire LDAP</b><br />
-                    <p class="alinea def">
+                    <p class="alinea">
                         Un annuaire LDAP est une <ax href="https://fr.wikipedia.org/wiki/Base_de_données_relationnelle">base de données relationnelle</ax> qui va contenir des informations sur des personnes, des groupes, machines etc. Ils sont couramment employés pour stocker des données d’authentification, des données d'utilisateurs (mot de passe, pseudonyme, e-mail, téléphone, etc.) ou d'objets (localisation, marque, modèle, etc.). D'autres applications (exemple : Mattermost) peuvent utiliser ce service pour valider les identifiants de connexion.
                     </p><br /><br />
 
@@ -304,8 +308,8 @@
                         </p><br />
                     </div>
                     <b class="title-etape-mission">Automatisation de l'import/export des données</b><br />
-                    <p class="alinea">Une fois nos données importées, il a fallu automatiser le processus, puisqu'à la moindre modification d'information par un utilisateur, il faudrait que ses informations soient mises à jour dans l'annuaire également. L'idée était d'exécuter le script d'import/export depuis un <b><a href="https://fr.wikipedia.org/wiki/Cron">cron</a></b> qui s'exécuterait à chaque fois qu'un utilisateur modifie ses informations.</p><br />
-                    <p class="alinea def">Un cron est un programme qui permet d’exécuter automatiquement des scripts, commandes et logiciels selon des horaires fixes et à des dates précises. On peut par exemple, le programmer pour qu'il fasse la mise à jour des données d'un site toutes les heures ainsi libérer l'administrateur humain de la répétitivité de cette tâche.</p><br /><br />
+                    <p class="alinea">Une fois nos données importées, il a fallu automatiser le processus, puisqu'à la moindre modification d'information par un utilisateur, il faudrait que ses informations soient mises à jour dans l'annuaire également. L'idée était d'exécuter le script d'import/export depuis un <a href="https://fr.wikipedia.org/wiki/Cron">cron</a>(5) qui s'exécuterait à chaque fois qu'un utilisateur modifie ses informations.</p><br />
+                    <p class="alinea def">(5) Un cron est un programme qui permet d’exécuter automatiquement des scripts, commandes et logiciels selon des horaires fixes et à des dates précises. On peut par exemple, le programmer pour qu'il fasse la mise à jour des données d'un site toutes les heures ainsi libérer l'administrateur humain de la répétitivité de cette tâche.</p><br /><br />
 
                     <b class="title-etape-mission">La suite du projet</b><br />
                     <p class="alinea">L'implémentation de cette technologie avec Mattermost étant devenue payante, il n'est plus intéresssant pour nous d'y avoir recours. Cependant, celle-ci sera toujours utile pour d'éventuelles futures utilisations.</p>
@@ -325,10 +329,11 @@
 
                     <b class="title-etape-mission">Technologies utilisées</b>
                     <ul>
-                        <li><a href="https://fr.wikipedia.org/wiki/Plugin">plugin</a> <a href="https://codecanyon.net/item/newspaper-flipbook-jquery/13953512">Jquery flipbook</a> : un plugin qui permet de diffuser un pdf en utilisant la <a href="https://www.techno-science.net/definition/1470.html#:~:text=En%20informatique%2C%20une%20bibliothèque%20ou,sans%20avoir%20à%20les%20réécrire.">librairie</a> PDF.js.</li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Plugin">plugin(6)</a> <a href="https://codecanyon.net/item/newspaper-flipbook-jquery/13953512">Jquery flipbook</a> : un plugin qui permet de diffuser un pdf en utilisant la <a href="https://www.techno-science.net/definition/1470.html#:~:text=En%20informatique%2C%20une%20bibliothèque%20ou,sans%20avoir%20à%20les%20réécrire.">librairie</a> PDF.js.</li>
                         <li>PHP 8, HTML5, CSS3, JQuery.</li>
                         <li><a href="https://ellisonleao.github.io/sharer.js/">Sharer.js</a>: librairie JavaScript qui permet de créer des boutons de partage sur les réseaux sociaux.</li>
                     </ul><br />
+                    <p class="alinea def">(6) Les plugins sont un ensemble de fichiers informatiques et de petits programmes complémentaires qui ajoutent des fonctions à tout type d'applications (navigateurs web, applications web etc). l’installation du plugin ajoute de nouvelles fonctions au logiciel existant sans avoir besoin de réécrire le programme. </p><br/>
                     <b class="title-etape-mission">Avantage à utiliser un plugin </b>
                     <ol>
                         <li>Implémenter simplement les fonctionnalités dont on a besoin sans avoir recours à d'autres librairies ou à les coder nous-mêmes.</li>
@@ -340,7 +345,8 @@
                     <br />
                     <p class="alinea">Après avoir créé l'environnement local adéquat (Vhost, téléchargement du plugin..), j'ai commencé par adapter le code de la liseuse en intégrant le plugin et en apportant les modifications de design adéquates comme mettre les couleurs de la liseuse aux couleur de la maif.</p>
                     <br />
-                    <p class="alinea">J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés comme le zoom qui était insuffisant. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer en utilisant une API, le PDF en images stockées sur S3, et qui étaient ensuite diffusées.
+                    <p class="alinea">J'ai ensuite livré une première version à mon tuteur en lui exposant les points pouvant être améliorés ou corrigés comme le zoom qui était insuffisant. Il a pris la relève sur le projet pour effectuer une modification qui a consisté à transformer en
+                        utilisant une API, le PDF en images stockées sur S3, et qui étaient ensuite diffusées.
                         Cela a permis d'avoir un zoom plus efficace.</p><br />
                     <p class="alinea">Afin d'automatiser la génération du rendu, plusieurs autres modifications ont été apportées, on a fini par avoir le processur représenté ci-dessous («Figure 4») :<br />
                         <br />
@@ -423,18 +429,18 @@
                 <div class="projet">
                     <h3 class="projet-title"><u>3.3.5 SOGOOD Landing page</u></h3>
                     <p class="alinea">
-                        L'équipe du magazine SOGOOD a formulé une demande pour la création d'une landing page vers laquelle leurs clients seront redirigés afin de recevoir un exemplaire d'un de leurs numéros.</p><br />
-                    <p class="alinea def">Une landing page ou page de renvoie est une page Web publicitaire vers laquelle renvoie un hyperlien, à la suite d'un clic de l'internaute sur une publicité en ligne ou dans un courriel commercial.</p><br />
+                        L'équipe du magazine SOGOOD a formulé une demande pour la création d'une landing page(7) vers laquelle leurs clients seront redirigés afin de recevoir un exemplaire d'un de leurs numéros.</p><br />
+                    <p class="alinea def"> (7) Une landing page ou page de renvoie est une page Web publicitaire vers laquelle renvoie un hyperlien, à la suite d'un clic de l'internaute sur une publicité en ligne ou dans un courriel commercial.</p><br />
 
                     <p class="alinea">L'objectif étant de reproduire une maquette préalablement fournie, en une page web avec des liens dynamiques permettant de renseigner son e-mail pour recevoir un numéro gratuit par mail, ainsi que de s'inscrire à la newsletter du magazine.
                         La demande incluait aussi de faire varier le logo ainsi que le texte de la landing page selon les différents partenaires du magazine.</p><br />
 
 
-                    <p class="alinea">Après avoir reçu la maquette ainsi que les fichiers (logo, images et texte) de chaque partenaire, j'ai commencé par reproduire le visuel de la page avec du SASS/CSS3 et du HTML5. J'ai ensuite créé un fichier de configuration dans lequel j'ai listé, dans un tableau, l'ensemble des partenaires avec leurs textes, logos ainsi qu'un slug qui sera renseigné en paramètre d'URL pour chacun.
+                    <p class="alinea">Après avoir reçu la maquette ainsi que les fichiers (logo, images et texte) de chaque partenaire, j'ai commencé par reproduire le visuel de la page avec du SASS/CSS3 et du HTML5. J'ai ensuite créé un fichier de configuration dans lequel j'ai listé, dans un tableau, l'ensemble des partenaires avec leurs textes, logos ainsi qu'un slug(identifiant texte unique) qui sera renseigné en paramètre d'URL pour chacun.
                         Il a ensuite suffi de récupérer le slug du partenaire depuis L'URL par laquelle le client est arrivé pour faire varier le visuel de la page selon les partenaires.</p><br />
 
-                    <p class="alinea">Pour la partie dynamique, il a fallu écrire un script php permettant de récupérer les adresses mails des utilisateurs et en utilisant <a href="https://supabase.com">supabase</a>, les stocker en base de données.</p><br />
-                    <p class="alinea def">Supabase est un ensemble de services d'hébergement <a href="https://fr.wikipedia.org/wiki/Open_source">open source</a> qui inclut une base de données <a href="https://www.postgresql.org">PostgreSQL</a>, l'authentification, le stockage de fichiers et une API générée automatiquement.</p><br />
+                    <p class="alinea">Pour la partie dynamique, il a fallu écrire un script php permettant de récupérer les adresses mails des utilisateurs et en utilisant <a href="https://supabase.com">supabase(8)</a>, les stocker en base de données.</p><br />
+                    <p class="alinea def">(8) Supabase est un ensemble de services d'hébergement <a href="https://fr.wikipedia.org/wiki/Open_source">open source</a> qui inclut une base de données <a href="https://www.postgresql.org">PostgreSQL</a>, l'authentification, le stockage de fichiers et une API générée automatiquement.</p><br />
                     <p class="alinea">On peut constater dans la figure n°10 la variation du logo et du texte selon la variation de l'URL. Ainsi, si par exemple, un utilisateur vient depuis une publicité de vélib, il sera redérigé vers la page qui correpond à "vélib".</p>
                     <div class="figure">
                         <img src="images/velib.png" width="100%" />

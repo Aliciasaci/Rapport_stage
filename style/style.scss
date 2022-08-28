@@ -113,7 +113,7 @@ main {
         margin: auto;
         padding-top: 30px;
         img {
-            border: 2px solid rgb(190, 187, 187);
+            border: 1px solid rgb(0, 0, 0);
             margin: 15px;
         }
     }
@@ -309,17 +309,18 @@ a {
         text-align: center;
     }
     img {
-        border: none !important;
+        // border: none !important;
     }
 }
 
-.def{
+.def {
     background-color: rgb(230, 230, 230);
     width: fit-content;
     font-size: 17px;
     border-radius: 5px;
-    padding : 1em;
+    padding: 1em;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@330&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Cormorant+Garamond:wght@600;700&family=Lora:wght@500&family=Old+Standard+TT&family=Poppins&family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans:wght@300&family=Cormorant+Garamond:wght@300;600&family=Lora:wght@500&family=Old+Standard+TT&family=Pacifico&family=Poppins&family=Roboto+Mono:wght@500&family=Roboto:wght@300;400&family=Space+Mono&display=swap");
